@@ -8,7 +8,7 @@
   </div>
 </div>
 
-# Overview
+## Overview
 - Description: `"Slows enemies from entering your base."`
 - They have the size of 1x1 in-game cells.
 - Requires 5 Wood and 5 Stone to place.

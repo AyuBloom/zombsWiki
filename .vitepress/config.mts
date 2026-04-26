@@ -119,15 +119,16 @@ export default defineConfig({
           {
             text: "Active Bugs",
             items: [
-              { text: "Disappearing Resources", link: "/bugs/active/rss_go_poof" },
+              {
+                text: "Disappearing Resources",
+                link: "/bugs/active/rss_go_poof",
+              },
             ],
             collapsed: true,
           },
           {
             text: "Inactive / Old Bugs",
-            items: [
-              { text: "Tower Heal", link: "/bugs/inactive/tower_heal" },
-            ],
+            items: [{ text: "Tower Heal", link: "/bugs/inactive/tower_heal" }],
             collapsed: true,
           },
         ],
