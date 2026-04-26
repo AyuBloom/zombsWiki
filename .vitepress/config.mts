@@ -54,7 +54,23 @@ export default defineConfig({
             items: [
               {
                 text: "ui",
-                items: [{ text: "ui", link: "/engine/main/ui/ui" }],
+                items: [
+                  { text: "ui", link: "/engine/main/ui/ui" },
+                  {
+                    text: "UI Components",
+                    items: [
+                      {
+                        text: "UiComponent",
+                        link: "/engine/main/ui/components/UiComponent",
+                      },
+                      {
+                        text: "UiChat",
+                        link: "/engine/main/ui/components/UiChat",
+                      },
+                    ],
+                    collapsed: true,
+                  },
+                ],
                 collapsed: true,
               },
               { text: "world", link: "/engine/main/world" },

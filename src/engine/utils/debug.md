@@ -4,7 +4,7 @@ The `debug` utility provides a fixed on-screen display for monitoring real-time 
 
 ## `Debug` <Badge type="tip" text="public" />
 
-Bounded to `game` as `game.debug`. Alias: `DebugType`
+Bounded to `game` as `game.debug`. Alias: `game.debugType`
 
 ### Properties
 

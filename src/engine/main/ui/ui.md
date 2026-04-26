@@ -4,7 +4,7 @@
 
 ## `Ui` <Badge type="tip" text="public" />
 
-Bounded to `game` as `game.ui`. Extends `EventEmitter`, alias: `UiType`.
+Bounded to `game` as `game.ui`. Extends `EventEmitter`, alias: `game.uiType`.
 
 The `Ui` class initializes the HUD structure, appends it to the DOM, and manages the lifecycle of all HUD components. It also serves as the primary event bus for UI-related updates.
 

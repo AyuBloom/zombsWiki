@@ -41,7 +41,7 @@ descriptionParagraph
 
 ## `ClassName`
 
-descriptionParagraph
+Extends `ClassName`. <!-- if applicable -->
 
 ### Properties
 <!-- ... -->
@@ -49,7 +49,12 @@ descriptionParagraph
 ### Methods
 <!-- ... -->
 
-<!-- more parts can be added here, or inbetween the two above -->
+<!-- 
+    more parts can be added here, or inbetween the two above:
+    - "Getters & Setters" - only add this if there are too many getters and setters
+    - "Emitters", "Event Handlers" - only add this if the class has many functions that emit internal game engine events / are event handlers for engine events
+    - etc...
+-->
 
 ```
 

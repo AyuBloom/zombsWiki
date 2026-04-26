@@ -4,7 +4,7 @@ The `Metrics` class is responsible for collecting and reporting performance data
 
 ## `Metrics` <Badge type="tip" text="public" />
 
-Bounded to `game` as `game.metrics`. Alias: `MetricsType`
+Bounded to `game` as `game.metrics`. Alias: `game.metricsType`
 
 ### Properties
 

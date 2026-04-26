@@ -4,7 +4,7 @@ The `InputPacketScheduler` class manages the timing and delivery of input packet
 
 ## `InputPacketScheduler` <Badge type="tip" text="public" />
 
-Bounded to `game` as `game.inputPacketScheduler`. Alias: `InputPacketSchedulerType`
+Bounded to `game` as `game.inputPacketScheduler`. Alias: `game.inputPacketSchedulerType`
 
 ### Properties
 

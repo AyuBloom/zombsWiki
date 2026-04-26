@@ -4,7 +4,7 @@ The `InputManager` class is responsible for handling raw DOM input events (keybo
 
 ## `InputManager` <Badge type="tip" text="public" />
 
-Bounded to `game` as `game.inputManager`. Extends `EventEmitter`, alias: `InputManagerType`
+Bounded to `game` as `game.inputManager`. Extends `EventEmitter`, alias: `game.inputManagerType`
 
 ### Properties
 

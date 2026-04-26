@@ -1,6 +1,6 @@
 # `network`
 
-The `network` module handles all communication between the client and the server. It includes low-level socket management, binary encoding/decoding via ByteBuffer and a novel anti-bot mechanism.
+The `network` module handles all communication between the client and the server. It includes low-level socket management, binary encoding/decoding via `ByteBuffer` and a novel anti-bot mechanism.
 
 ## `NetworkAdapter` <Badge type="danger" text="private" />
 
@@ -22,7 +22,7 @@ Sends a `PACKET_ENTER_WORLD` packet.
 ```ts
 function sendEnterWorld2(): void
 ```
-Sends a `PACKET_ENTER_WORLD2` packet. This packet is part of the anti-bot mechanism and in reality is a 17-byte long packet.
+Sends a `PACKET_ENTER_WORLD2` packet. No data is passed to this function.
 
 #### `sendInput()`
 ```ts
@@ -98,7 +98,7 @@ Registers a raw packet handler using the `PacketId`.
 
 ## BinNetworkAdapter <Badge type="tip" text="public" />
 
-Bounded to `game` as `game.network`. Extends `NetworkAdapter`, alias: `NetworkType`
+Bounded to `game` as `game.network`. Extends `NetworkAdapter`, alias: `game.networkType`
 
 ### Properties
 
@@ -173,6 +173,19 @@ Calculates the latency when a ping response is received.
 
 The `BinCodec` class handles the serialization and deserialization of game data into a compact binary format using `ByteBuffer`.
 
+### Properties
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| `attributeMaps` | `Record<number, ATTRIBUTE_MAP_ENTRY[]>` | Maps entity type IDs to their attribute definitions. Populated during `decodeEnterWorldResponse`. |
+| `entityTypeNames` | `Record<number, string>` | Maps entity type IDs to their string names. Populated during `decodeEnterWorldResponse`. |
+| `rpcMaps` | `RPC_MAP_ENTRY[]` | Array of all registered RPC definitions, indexed by RPC index. Populated during `decodeEnterWorldResponse`. |
+| `rpcMapsByName` | `Record<string, RPC_MAP_ENTRY>` | Maps RPC names to their definitions. Populated during `decodeEnterWorldResponse`. |
+| `sortedUidsByType` | `Record<number, number[]>` | Tracks sorted entity UIDs per entity type for delta encoding. Updated during entity updates. |
+| `removedEntities` | `Record<number, number>` | Tracks entities removed in the current tick. Cleared each `decodeEntityUpdate` call. |
+| `absentEntitiesFlags` | `number[]` | Reusable buffer for bitflags indicating which entities are absent in the current update. |
+| `updatedEntityFlags` | `number[]` | Reusable buffer for bitflags indicating which attributes were updated for an entity. |
+
 ### Methods
 
 #### `encode()`
@@ -233,7 +246,7 @@ Decodes the occasional blend packet, which calls `decodeBlendInternal` internall
 ```ts
 function decodeBlendInternal(buffer: ByteBuffer): object
 ```
-Solves the PoW challenge that is part of the anti-bot mechanism of the game. The output of this function contains a PoW answer that is 64-byte long.
+Solves the PoW challenge that is part of the anti-bot mechanism of the game. The output of this function contains a PoW answer that is 64-byte long. See [`MakeBlendField`](/mbf/overview) for more info.
 
 #### `decodeRpcObject()`
 ```ts
@@ -249,7 +262,7 @@ Decodes an RPC response, handling both single objects and arrays of objects.
 
 #### `encodeBlend()`
 ```ts
-function encodeBlend(buffer: ByteBuffer, item: object): void
+function encodeBlend(buffer: ByteBuffer, item: {extra: Uint8Array}): void
 ```
 Encodes a blend packet.
 
@@ -257,13 +270,13 @@ Encodes a blend packet.
 ```ts
 function encodeEnterWorld2(buffer: ByteBuffer): void
 ```
-Encodes the secondary world entry packet.
+Encodes the secondary world entry packet. This packet is part of the anti-bot mechanism and in reality is a 17-byte long packet. See [`MakeBlendField`](/mbf/overview) for more info.
 
 #### `encodeEnterWorld()`
 ```ts
-function encodeEnterWorld(buffer: ByteBuffer, item: object): void
+function encodeEnterWorld(buffer: ByteBuffer, item: {displayName: string, extra: Uint8Array}): void
 ```
-Encodes the primary world entry packet with display name and extra data.
+Encodes the primary world entry packet. 
 
 #### `encodeInput()`
 ```ts
@@ -273,7 +286,7 @@ Encodes player input as a JSON string.
 
 #### `encodePing()`
 ```ts
-function encodePing(buffer: ByteBuffer, item: object): void
+function encodePing(buffer: ByteBuffer): void
 ```
 Encodes a ping packet.
 
@@ -327,3 +340,130 @@ Encodes a ping packet.
 | `String` | `3` |
 | `Uint64` | `4` |
 | `Int64` | `5` |
+
+## Data Interfaces
+
+These are not present in the source code, but are inferred from the packets sent by the server.
+
+### Packet Data
+
+#### `ENTER_WORLD_DATA`
+
+```ts
+interface ENTER_WORLD_DATA {
+    allowed: boolean,
+    uid: string,
+    startingTick: number,
+    tickRate: number,
+    effectiveTickRate: number,
+    players: number,
+    maxPlayers: number,
+    chatChannel: number,
+    effectiveDisplayName: string,
+    x1: number,
+    y1: number,
+    x2: number,
+    y2: number,
+    opcode: number
+}
+```
+
+::: info
+`ENTER_WORLD_DATA` also populates `BinCodec`'s internal `attributeMaps`, `entityTypeNames`, `sortedUidsByType`, and `rpcMaps` / `rpcMapsByName` tables. These are not returned directly but are used by subsequent `decodeEntityUpdate` and `decodeRpc` calls.
+:::
+
+#### `ENTITY_UPDATE_DATA`
+
+```ts
+interface ENTITY_UPDATE_DATA {
+    opcode: number,
+    tick: number,
+    entities: Record<string, ENTITY_DATA | true>,
+    byteSize: number
+}
+```
+
+::: tip
+When an entity is present in the update but has no changed attributes, it is stored as `true` instead of a full `ENTITY_DATA` object. This signals that the entity still exists but can reuse its previous tick data.
+:::
+
+#### `ENTITY_DATA`
+
+The shape of this object is dynamic as its keys are determined by the entity's `attributeMap` received during `ENTER_WORLD_DATA`. All entities include a `uid` field; the remaining fields depend on the entity type.
+
+```ts
+interface ENTITY_DATA {
+    uid: number,
+    [attributeName: string]: number | string | Vector2 | Vector2[] | number[]
+}
+```
+
+#### `ATTRIBUTE_MAP_ENTRY`
+
+Internal structure populated during `decodeEnterWorldResponse`. One entry per attribute on an entity type.
+
+```ts
+interface ATTRIBUTE_MAP_ENTRY {
+    name: string,
+    type: e_AttributeType
+}
+```
+
+#### `PING_DATA`
+
+```ts
+interface PING_DATA {
+    opcode: number
+}
+```
+
+::: info
+The ping response carries no payload as it is an empty object. The `opcode` field is added by the top-level `decode()` method.
+:::
+
+#### `RPC_DATA`
+
+```ts
+interface RPC_DATA {
+    opcode: number,
+    name: string,
+    response: Record<string, any> | Record<string, any>[]
+}
+```
+
+::: info
+If the RPC is defined as an array type (`isArray`), `response` will be an array of objects. Otherwise it will be a single object. The shape of each response object is determined by the RPC's `parameters` from the RPC map.
+:::
+
+#### `RPC_MAP_ENTRY`
+
+Internal structure populated during `decodeEnterWorldResponse`. One entry per registered RPC.
+
+```ts
+interface RPC_MAP_ENTRY {
+    name: string,
+    parameters: RPC_PARAMETER_ENTRY[],
+    isArray: boolean,
+    index: number
+}
+```
+
+#### `RPC_PARAMETER_ENTRY`
+
+```ts
+interface RPC_PARAMETER_ENTRY {
+    name: string,
+    type: e_ParameterType
+}
+```
+
+### Special Data Types
+
+#### `Vector2`
+
+```ts
+interface Vector2 {
+    x: number,
+    y: number
+}
+```

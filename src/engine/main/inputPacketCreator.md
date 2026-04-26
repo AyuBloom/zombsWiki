@@ -4,7 +4,7 @@ The `InputPacketCreator` class handles the conversion of user input events (keyb
 
 ## `InputPacketCreator` <Badge type="tip" text="public" />
 
-Bounded to `game` as `game.inputPacketCreator`. Alias: `InputPacketCreatorType`
+Bounded to `game` as `game.inputPacketCreator`. Alias: `game.inputPacketCreatorType`
 
 ### Properties
 

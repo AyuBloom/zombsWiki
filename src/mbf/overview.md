@@ -1,4 +1,4 @@
-# `MakeBlendField`
+# `MakeBlendField` Overview
 
 ::: warning
 Many parts of `MakeBlendField` remain a mystery, so this part of the documentation is (largely) incomplete.
