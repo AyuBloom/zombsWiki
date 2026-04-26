@@ -55,6 +55,9 @@ src/
 ├── engine
 │   ├── main
 │   │   ├── ui
+│   │   │   ├── components
+│   │   │   │   ├── UiChat.md
+│   │   │   │   └── UiComponent.md
 │   │   │   └── ui.md
 │   │   ├── inputManager.md
 │   │   ├── inputPacketCreator.md
