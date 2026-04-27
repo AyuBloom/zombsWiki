@@ -89,6 +89,8 @@ src/
 ├── intro
 │   └── introduction.md
 ├── mbf
+│   ├── error_1.png
+│   ├── mbf.jpg
 │   └── overview.md
 ├── misc
 │   └── records.md
