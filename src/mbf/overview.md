@@ -12,7 +12,7 @@ The core function `zombs_wasm.wasm` exposes is called `_MakeBlendField`. From no
 
 ![mbf](./mbf.jpg)
 
-When the client receives an opcode 5(`preEnterWorld`)/10(`blend`) packet, it has to decode the packet with `game.network.codec` and send back the required data in opcode 4(`enterWorld`)/10 and 6(`enterWorld2`, opcode 5 only) packets. If the client fails to submit data that passes validation within the given time, the client will not be able to enter the server/disconnects from the server.
+When the client receives an opcode 5(`PRE_ENTER_WORLD`)/10(`BLEND`) packet, it has to decode the packet with `game.network.codec` and send back the required data in opcode 4(`ENTER_WORLD`)/10 and 6(`ENTER_WORLD_2`, opcode 5 only) packets. If the client fails to submit data that passes validation within the given time, the client will not be able to enter the server/disconnects from the server.
 
 ## Challenge
 
