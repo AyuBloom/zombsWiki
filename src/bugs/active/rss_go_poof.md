@@ -21,7 +21,7 @@ On 26th April, a discord user named Shadow sent a screenshot showing him sitting
   </div>
 </div>
 
-A full server scan showed than a tree and a rock is completely gone. A normal map contains 400 trees, 400 rocks, and 25 neutral camps, but here it wasn't the case.
+A full server scan showed that a tree and a rock is completely gone. A normal map contains 400 trees, 400 rocks, and 25 neutral camps, but here it wasn't the case.
 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">

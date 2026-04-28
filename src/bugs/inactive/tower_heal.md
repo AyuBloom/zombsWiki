@@ -15,3 +15,28 @@ If you sent an RPC for the `HealTowersSpell` but with a different tier, there wo
 The reason the tower heal bug worked was because of the low level language that the game is made in. The data type that was meant to be in the tier is capped at 8, therefore anything in that limit works normally and anything over that breaches other parts of the server. If the tier was in a list of specific numbers, the leakage would affect other things like cost, radius, any many others. A tier being too high would cause total failure in the server.
 
 Credits: [Apex](https://www.youtube.com/@Apex-ti1dm)
+
+## Examples
+
+### Tier 9 
+<div style="text-align:center;">
+  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
+    <img src="/asset/bugs/6.1_t9_heal.png" style="width:400px; display:block; margin:0 auto;">
+    <div>Tier 9 heal spell.</div>
+  </div>
+</div>
+
+### Tier 1033
+<div style="text-align:center;">
+  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
+    <img src="/asset/bugs/6.2_t1033_heal.png" style="width:400px; display:block; margin:0 auto;">
+    <div>Tier 1033 heal spell.<br>Notice how towers appear to not have health.</div>
+  </div>
+</div>
+
+## Changelog
+
+### May 7, 2019 - Minor Update
+```
+---> Fix healing spell invulnerability bug <---
+```
