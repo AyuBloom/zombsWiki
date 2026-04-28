@@ -9,12 +9,16 @@ const SRC_DIR = path.resolve(__dirname, "../src");
 const PUBLIC_DIR = path.resolve(SRC_DIR, "public");
 const README_PATH = path.resolve(__dirname, "../README.md");
 
-function generateTree(dir, depth = 0, prefix = "") {
+const IGNORED_PATHS = [
+  path.resolve(PUBLIC_DIR, "asset/image"),
+];
+
+function generateTree(dir, ignorePaths = [], depth = 0, prefix = "") {
   const items = fs
     .readdirSync(dir, { withFileTypes: true })
     .filter((item) => {
       const fullPath = path.join(dir, item.name);
-      return fullPath !== PUBLIC_DIR && item.name !== ".DS_Store";
+      return !ignorePaths.includes(fullPath) && item.name !== ".DS_Store";
     })
     .sort((a, b) => {
       // Directories first, then files alphabetically
@@ -31,29 +35,33 @@ function generateTree(dir, depth = 0, prefix = "") {
 
     if (item.isDirectory()) {
       const newPrefix = prefix + (isLast ? "    " : "│   ");
-      output += generateTree(path.join(dir, item.name), depth + 1, newPrefix);
+      output += generateTree(path.join(dir, item.name), ignorePaths, depth + 1, newPrefix);
     }
   });
   return output;
 }
 
-try {
-  const treeStructure = "src/\n" + generateTree(SRC_DIR);
-  let readme = fs.readFileSync(README_PATH, "utf-8");
-
-  // Find the Project structure section and its following code block
-  // This regex targets the first code block after "## Website layout"
-  const regex = /(### Website layout[\s\S]*?```)[\s\S]*?(```)/;
-
-  if (regex.test(readme)) {
-    readme = readme.replace(regex, `$1\n${treeStructure}$2`);
-    fs.writeFileSync(README_PATH, readme);
-    console.log("Successfully updated README.md with project structure.");
-  } else {
-    console.error(
-      'Could not find the "## Project structure" section with a code block in README.md',
-    );
+function replaceCodeBlock(readme, sectionHeading, content) {
+  const regex = new RegExp(
+    `(${sectionHeading}[\\s\\S]*?\`\`\`)[\\s\\S]*?(\`\`\`)`,
+  );
+  if (!regex.test(readme)) {
+    console.error(`Could not find "${sectionHeading}" section with a code block in README.md`);
+    return readme;
   }
+  return readme.replace(regex, `$1\n${content}$2`);
+}
+
+try {
+  const layoutTree = "src/\n" + generateTree(SRC_DIR, [PUBLIC_DIR]);
+  const assetsTree = "src/public/\n" + generateTree(PUBLIC_DIR, IGNORED_PATHS);
+
+  let readme = fs.readFileSync(README_PATH, "utf-8");
+  readme = replaceCodeBlock(readme, "### Website layout", layoutTree);
+  readme = replaceCodeBlock(readme, "### Website assets", assetsTree);
+
+  fs.writeFileSync(README_PATH, readme);
+  console.log("Successfully updated README.md with project structure.");
 } catch (error) {
   console.error("Error generating structure:", error);
   process.exit(1);

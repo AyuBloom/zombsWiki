@@ -1,6 +1,16 @@
 # zombs.io Wiki
 Welcome to the zombs.io Wiki repository! Here are some things you should know before contributing to the project.
 
+## Important Notes
+
+### Credits
+- Giving credits for others **must** be done if the content is not made by yourself.
+- Noting yourself as the writer for your pages is recommended (but not a requirement).
+- Writer / Credits notes should be at the end of a page.
+
+### Using AI agents
+Usage of AI agents to write documentation is permitted (and in fact, encouraged to speed up writing). This project provides an `AGENTS.md` to help your AI agents write more accurately without / with minor modifications afterwards.
+
 ## Contribution Guide
 
 ### Prerequisites
@@ -38,8 +48,57 @@ Commit your edits to your fork, then go to your fork on GitHub and open a new pu
 #### 6) Done!
 
 ### Writing tips
-- Add badges to indicate classes being "public" or "private", if possible (use `type: tip` for public, `type: danger` for private).
+- Add badges to indicate classes being "public" or "private" while documenting the engine, if possible (use `type: tip` for public, `type: danger` for private).
 - Keep the formatting consistent (check `AGENTS.md` for a more systematic format guideline).
+
+#### Markdown extensions
+Here are some markdown extensions that you can use to make your pages look even more perfect.
+
+##### Tables
+
+```md
+| Head1 | Head2 | ... |
+| :--- | :--- | :--- |
+| data1 | data2 | ... |
+| ... | ... | ... |
+```
+
+##### Containers
+You may want to use these containers when addressing a property in detail, etc.
+
+```md
+::: info
+This is an info box.
+:::
+
+::: tip
+This is a tip.
+:::
+
+::: warning
+This is a warning.
+:::
+
+::: danger
+This is a dangerous warning.
+:::
+
+::: details
+This is a details block.
+:::
+```
+
+##### Badges
+You may want to use these badges when necessary.
+
+```md
+
+### Title <Badge type="info" text="info" />
+### Title <Badge type="tip" text="tip" />
+### Title <Badge type="warning" text="warning" />
+### Title <Badge type="danger" text="danger" />
+
+```
 
 ## Project structure
 
@@ -54,16 +113,19 @@ src/
 │   └── overview.md
 ├── engine
 │   ├── main
+│   │   ├── input
+│   │   │   ├── inputManager.md
+│   │   │   ├── inputPacketCreator.md
+│   │   │   └── inputPacketScheduler.md
+│   │   ├── renderer
+│   │   │   ├── entities
+│   │   │   └── renderer.md
 │   │   ├── ui
 │   │   │   ├── components
 │   │   │   │   ├── UiChat.md
 │   │   │   │   └── UiComponent.md
 │   │   │   └── ui.md
-│   │   ├── inputManager.md
-│   │   ├── inputPacketCreator.md
-│   │   ├── inputPacketScheduler.md
 │   │   ├── network.md
-│   │   ├── renderer.md
 │   │   └── world.md
 │   ├── utils
 │   │   ├── assetManager.md
@@ -71,7 +133,8 @@ src/
 │   │   ├── metrics.md
 │   │   ├── platform.md
 │   │   └── util.md
-│   └── overview.md
+│   ├── overview.md
+│   └── schema.md
 ├── game
 │   └── buildings
 │       ├── arrow_tower.md
@@ -89,21 +152,36 @@ src/
 ├── intro
 │   └── introduction.md
 ├── mbf
-│   ├── error_1.png
-│   ├── mbf.jpg
 │   └── overview.md
 ├── misc
 │   └── records.md
 └── index.md
 ```
 
-## Other notes 
+### Website assets
 
-### Using AI agents
-Usage of AI agents to write documentation is permitted (and in fact, encouraged to speed up writing). This project provides an `AGENTS.md` to help your AI agents write more accurately without / with minor modifications afterwards.
-
-### Credits
-
-- Giving credits for others must be done if the content is not made by yourself.
-- Noting yourself as the writer for your pages is recommended (but not a requirement).
-Writer / Credits notes should be at the end of a page.
+```
+src/public/
+├── asset
+│   ├── bugs
+│   │   ├── 1.1_rock.png
+│   │   └── 1.2_spotinfo.png
+│   ├── engine
+│   │   ├── buildings.json
+│   │   ├── entities.json
+│   │   ├── game.png
+│   │   ├── items.json
+│   │   └── spells.json
+│   ├── game
+│   │   └── building-bar.png
+│   ├── intro
+│   │   ├── homepage.png
+│   │   ├── party1.png
+│   │   ├── party2.png
+│   │   └── ui.png
+│   └── mbf
+│       ├── error_1.png
+│       └── mbf.jpg
+├── logo.svg
+└── robots.txt
+```
