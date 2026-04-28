@@ -2,7 +2,7 @@
 
 ::: warning
 
-Many parts of `zombs_wasm.wasm` are heavily obfuscated, so this part of the documentation is only provides an outline of the algorithm. You'll have to figure out the actual code and its behavior during operation by yourself.
+Many parts of `zombs_wasm.wasm` are heavily obfuscated, so this part of the documentation only provides an outline of the algorithm. You'll have to figure out the actual code and its behavior during operation by yourself.
 
 :::
 
@@ -16,17 +16,17 @@ Zombs.io employs an original method to validate players via [Proof of Work](http
 
 The main algorithm of the PoW process is written in C++ and compiled into `zombs_wasm.wasm` with Emscripten. Reversing is very difficult due to the low-level nature of the [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly) (WASM) language it uses.  
 
-The core function `zombs_wasm.wasm` exposes is called `_MakeBlendField`. From now on, for convenience, `_MakeBlendField` will simply be referred to as MBF, and `PACKET_PRE_ENTER_WORLD`, `PACKET_ENTER_WORLD`, `PACKET_ENTER_WORLD2` and `PACKET_BLEND` will be accordingly referred to opcode `5`, `4`, `6` and `10`.
+The core function `zombs_wasm.wasm` exposes is called `_MakeBlendField`. From now on, for convenience, `_MakeBlendField` will be referred to as MBF, and `PACKET_PRE_ENTER_WORLD`, `PACKET_ENTER_WORLD`, `PACKET_ENTER_WORLD2` and `PACKET_BLEND` will be accordingly referred to as opcode `5`, `4`, `6` and `10`.
 
 ## Summary
 
 ![mbf](./mbf.jpg)
 
-When the client receives opcode `5` / `10`, it has to decode the packet with `BinCodec` and send back the required data with opcode `4` and `6`. If the client fails to submit data that passes validation in the given time, the client will not be able to enter the server and therefore is forcefully disconnected from the server.
+When the client receives opcode `5` / `10`, it has to decode the packet with `BinCodec` and send back the required data with opcode `4` and `6`. If the client fails to submit data that passes validation in the given time, the client will not be able to enter the server and therefore will be forcefully disconnected from the server.
 
 ## Challenge
 
-An opcode `5` / `10` packet contains a 132-byte message, which can be represented by an `Uint8Array`, such as this one shown below:
+An opcode `5` / `10` packet contains a 132-byte message, which can be represented by a `Uint8Array`, such as this one shown below:
 
 ```js
 [139,165,21,124,237,21,234,88,128,192,29,175,28,15,118,27,23,73,18,225,109,252,205,195,45,213,46,51,246,67,218,224,19,28,197,74,97,235,236,131,205,163,61,41,148,171,164,228,104,163,187,238,91,157,27,116,176,245,245,185,89,203,170,255,85,195,243,88,38,230,46,252,7,25,12,191,170,12,159,145,147,193,3,135,145,178,215,57,46,252,35,65,226,130,39,146,41,4,18,27,4,34,201,232,195,133,20,68,19,42,42,74,168,255,4,181,85,189,86,121,144,210,90,82,224,238,5,8,107,176,123,245]
@@ -38,7 +38,7 @@ The first byte of the first 64-byte segment is used to determine the logic branc
 
 ::: info
 
-As of early 2025, after a few hours into the connection, opcode `10` packets may reach difficulty 19 or higher, while pool size is increased to 512 megabytes (theoretical limit is near 2048 megabytes), significantly increasing the cost of maintaining longer connections.
+As of early 2025, after a few hours into the connection, opcode `10` packets may reach difficulty 19 or higher, while the pool size is increased to 512 megabytes (the theoretical limit is near 2048 megabytes), significantly increasing the cost of maintaining longer connections.
 
 :::
 
@@ -70,11 +70,7 @@ The steps are described below (every array is a 0-indexed byte array):
 3. Set `random_buffer[10/11/12/13]` to `random_buffer[0/40/51/4] + random_buffer[23/25/50/45] + uid[0/1/2/3]` (`uid` is the player's uid expressed in a 32-bit integer) and `random_buffer[14/15/16/17]` to `random_buffer[41/22/35/39] ^ blend_field[0/1/2/3]`.
 4. Hash the payload to generate a digest and validate it to confirm if it matches the criteria. The criteria are given by the following statement:
 
-::: info
-
-If the difficulty is `N`, then for every integer `i` in `[0, N)`, there is `(digest[i >> 3] << (i & 7)) & 128 == 0`.
-
-:::
+> If the difficulty is `N`, then for every integer `i` in `[0, N)`, there is `(digest[i >> 3] << (i & 7)) & 128 == 0`.
 
 5. If the digest meets the criteria, "mask" `random_buffer` by setting `random_buffer[i]` to `random_buffer[i] ^ mask[i % 20]` for every integer `i` in `[0, 64)`; otherwise repeat step 1. The masked array is the result sent by the client in the opcode 5/10 packet, such as this one shown below:
 
