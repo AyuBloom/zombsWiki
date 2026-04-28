@@ -126,7 +126,7 @@ export default defineConfig({
         ],
       },
       {
-        text: "MakeBlendField",
+        text: "_MakeBlendField",
         items: [{ text: "Overview", link: "/mbf/overview" }],
       },
       {
