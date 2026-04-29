@@ -112,6 +112,7 @@ src/
 │   ├── inactive
 │   │   ├── blank_wave.md
 │   │   ├── carl_healing.md
+│   │   ├── skill_point.md
 │   │   ├── tower_buff.md
 │   │   ├── tower_heal.md
 │   │   ├── tower_nerf.md
@@ -169,47 +170,64 @@ src/
 src/public/
 ├── asset
 │   ├── bugs
-│   │   ├── 1.1_rock.png
-│   │   ├── 1.2_spotinfo.png
-│   │   ├── 2.1_weird_spawn.png
-│   │   ├── 2.2_weird_spawn_again.png
-│   │   ├── 3.1_no_zombs.png
-│   │   ├── 4.1_tower_buff_proj.png
-│   │   ├── 4.2_buffed_env.png
-│   │   ├── 4.3_buffed_corner.png
-│   │   ├── 4.4_newbie.png
-│   │   ├── 4.5_woodybuff.png
-│   │   ├── 4.6_deathscore.png
-│   │   ├── 4.7_erokscore.png
-│   │   ├── 4.8_lowspw.png
-│   │   ├── 4.9_deathwave.png
-│   │   ├── 5.1_healing_carl.png
-│   │   ├── 5.2_healing_carl.png
-│   │   ├── 6.1_t9_heal.png
-│   │   ├── 6.2_t1033_heal.png
-│   │   ├── 7.1_undead_pile.png
-│   │   ├── 7.2_boss.png
-│   │   ├── 7.3_4_colours.png
-│   │   ├── 7.4_graph1.png
-│   │   ├── 7.5_graph2.png
-│   │   ├── 7.6_zombies.png
-│   │   └── 7.7_nohp.png
+│   │   ├── active
+│   │   │   ├── odd_zombie_spawn
+│   │   │   │   ├── weird_spawn_again.png
+│   │   │   │   └── weird_spawn.png
+│   │   │   └── rss_go_poof
+│   │   │       ├── rock.png
+│   │   │       └── spotinfo.png
+│   │   └── inactive
+│   │       ├── blank_wave
+│   │       │   └── no_zombs.png
+│   │       ├── carl_healing
+│   │       │   ├── healing_carl_2.png
+│   │       │   └── healing_carl.png
+│   │       ├── skill_point
+│   │       │   ├── jeremy_1.png
+│   │       │   └── jeremy_2.png
+│   │       ├── tower_buff
+│   │       │   ├── buffed_corner.png
+│   │       │   ├── buffed_env.png
+│   │       │   ├── deathscore.png
+│   │       │   ├── deathwave.png
+│   │       │   ├── erokscore.png
+│   │       │   ├── lowspw.png
+│   │       │   ├── newbie.png
+│   │       │   ├── tower_buff_proj.png
+│   │       │   └── woodybuff.png
+│   │       ├── tower_heal
+│   │       │   ├── t1033_heal.png
+│   │       │   └── t9_heal.png
+│   │       └── undying_zombs
+│   │           ├── 4_colours.png
+│   │           ├── boss.png
+│   │           ├── graph1.png
+│   │           ├── graph2.png
+│   │           ├── nohp.png
+│   │           ├── undead_pile.png
+│   │           └── zombies.png
 │   ├── engine
-│   │   ├── buildings.json
-│   │   ├── entities.json
-│   │   ├── game.png
-│   │   ├── items.json
-│   │   └── spells.json
+│   │   ├── overview
+│   │   │   └── game.png
+│   │   └── schema
+│   │       ├── buildings.json
+│   │       ├── entities.json
+│   │       ├── items.json
+│   │       └── spells.json
 │   ├── game
-│   │   └── building-bar.png
+│   │   └── buildings
+│   │       └── building_bar.png
 │   ├── intro
-│   │   ├── homepage.png
-│   │   ├── party1.png
-│   │   ├── party2.png
-│   │   └── ui.png
+│   │   └── introduction
+│   │       ├── homepage.png
+│   │       ├── party1.png
+│   │       ├── party2.png
+│   │       └── ui.png
 │   └── mbf
-│       ├── error_1.png
-│       └── mbf.jpg
+│       └── overview
+│           ├── error_1.png
+│           └── mbf.jpg
 ├── logo.svg
 └── robots.txt
 ```
