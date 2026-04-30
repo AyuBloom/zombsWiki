@@ -139,6 +139,7 @@ src/
 │   │   ├── metrics.md
 │   │   ├── platform.md
 │   │   └── util.md
+│   ├── game.md
 │   ├── overview.md
 │   └── schema.md
 ├── game
@@ -210,11 +211,14 @@ src/public/
 │   ├── engine
 │   │   ├── overview
 │   │   │   └── game.png
-│   │   └── schema
-│   │       ├── buildings.json
-│   │       ├── entities.json
-│   │       ├── items.json
-│   │       └── spells.json
+│   │   ├── schema
+│   │   │   ├── buildings.json
+│   │   │   ├── entities.json
+│   │   │   ├── items.json
+│   │   │   └── spells.json
+│   │   └── utils
+│   │       └── assetManager
+│   │           └── files.json
 │   ├── game
 │   │   └── buildings
 │   │       └── building_bar.png
