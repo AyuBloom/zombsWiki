@@ -1,0 +1,711 @@
+[
+  {
+    "name": "Shutdown",
+    "parameters": [
+      {
+        "name": "reason",
+        "type": 3
+      },
+      {
+        "name": "shutdownUnix",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 0
+  },
+  {
+    "name": "ReceiveChatMessage",
+    "parameters": [
+      {
+        "name": "displayName",
+        "type": 3
+      },
+      {
+        "name": "channel",
+        "type": 3
+      },
+      {
+        "name": "message",
+        "type": 3
+      },
+      {
+        "name": "uid",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 1
+  },
+  {
+    "name": "SendChatMessage",
+    "parameters": [
+      {
+        "name": "channel",
+        "type": 3
+      },
+      {
+        "name": "message",
+        "type": 3
+      }
+    ],
+    "isArray": false,
+    "index": 2
+  },
+  {
+    "name": "Metrics",
+    "parameters": [
+      {
+        "name": "minFps",
+        "type": 2
+      },
+      {
+        "name": "maxFps",
+        "type": 2
+      },
+      {
+        "name": "currentFps",
+        "type": 2
+      },
+      {
+        "name": "averageFps",
+        "type": 2
+      },
+      {
+        "name": "framesRendered",
+        "type": 2
+      },
+      {
+        "name": "framesInterpolated",
+        "type": 2
+      },
+      {
+        "name": "framesExtrapolated",
+        "type": 2
+      },
+      {
+        "name": "allocatedNetworkEntities",
+        "type": 2
+      },
+      {
+        "name": "currentClientLag",
+        "type": 2
+      },
+      {
+        "name": "minClientLag",
+        "type": 2
+      },
+      {
+        "name": "maxClientLag",
+        "type": 2
+      },
+      {
+        "name": "currentPing",
+        "type": 2
+      },
+      {
+        "name": "minPing",
+        "type": 2
+      },
+      {
+        "name": "maxPing",
+        "type": 2
+      },
+      {
+        "name": "averagePing",
+        "type": 2
+      },
+      {
+        "name": "longFrames",
+        "type": 2
+      },
+      {
+        "name": "stutters",
+        "type": 2
+      },
+      {
+        "name": "group",
+        "type": 0
+      },
+      {
+        "name": "isMobile",
+        "type": 0
+      },
+      {
+        "name": "timeResets",
+        "type": 2
+      },
+      {
+        "name": "maxExtrapolationTime",
+        "type": 2
+      },
+      {
+        "name": "extrapolationIncidents",
+        "type": 2
+      },
+      {
+        "name": "totalExtrapolationTime",
+        "type": 2
+      },
+      {
+        "name": "differenceInClientTime",
+        "type": 2
+      }
+    ],
+    "isArray": false,
+    "index": 3
+  },
+  {
+    "name": "DayCycle",
+    "parameters": [
+      {
+        "name": "cycleStartTick",
+        "type": 0
+      },
+      {
+        "name": "nightEndTick",
+        "type": 0
+      },
+      {
+        "name": "dayEndTick",
+        "type": 0
+      },
+      {
+        "name": "isDay",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 4
+  },
+  {
+    "name": "MakeBuilding",
+    "parameters": [
+      {
+        "name": "x",
+        "type": 1
+      },
+      {
+        "name": "y",
+        "type": 1
+      },
+      {
+        "name": "type",
+        "type": 3
+      },
+      {
+        "name": "yaw",
+        "type": 1
+      }
+    ],
+    "isArray": false,
+    "index": 5
+  },
+  {
+    "name": "BuildingShopPrices",
+    "parameters": [
+      {
+        "name": "json",
+        "type": 3
+      }
+    ],
+    "isArray": false,
+    "index": 6
+  },
+  {
+    "name": "ItemShopPrices",
+    "parameters": [
+      {
+        "name": "json",
+        "type": 3
+      },
+      {
+        "name": "json",
+        "type": 3
+      }
+    ],
+    "isArray": false,
+    "index": 7
+  },
+  {
+    "name": "LocalBuilding",
+    "parameters": [
+      {
+        "name": "x",
+        "type": 1
+      },
+      {
+        "name": "y",
+        "type": 1
+      },
+      {
+        "name": "type",
+        "type": 3
+      },
+      {
+        "name": "dead",
+        "type": 0
+      },
+      {
+        "name": "uid",
+        "type": 0
+      },
+      {
+        "name": "tier",
+        "type": 0
+      }
+    ],
+    "isArray": true,
+    "index": 8
+  },
+  {
+    "name": "Dead",
+    "parameters": [
+      {
+        "name": "stashDied",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 9
+  },
+  {
+    "name": "Admin",
+    "parameters": [
+      {
+        "name": "password",
+        "type": 3
+      },
+      {
+        "name": "command",
+        "type": 3
+      }
+    ],
+    "isArray": false,
+    "index": 10
+  },
+  {
+    "name": "UpgradeBuilding",
+    "parameters": [
+      {
+        "name": "uid",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 11
+  },
+  {
+    "name": "DeleteBuilding",
+    "parameters": [
+      {
+        "name": "uid",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 12
+  },
+  {
+    "name": "BuyItem",
+    "parameters": [
+      {
+        "name": "itemName",
+        "type": 3
+      },
+      {
+        "name": "tier",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 13
+  },
+  {
+    "name": "SetItem",
+    "parameters": [
+      {
+        "name": "itemName",
+        "type": 3
+      },
+      {
+        "name": "tier",
+        "type": 0
+      },
+      {
+        "name": "stacks",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 14
+  },
+  {
+    "name": "EquipItem",
+    "parameters": [
+      {
+        "name": "itemName",
+        "type": 3
+      },
+      {
+        "name": "tier",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 15
+  },
+  {
+    "name": "SetOpenParty",
+    "parameters": [
+      {
+        "name": "isOpen",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 16
+  },
+  {
+    "name": "SetPartyName",
+    "parameters": [
+      {
+        "name": "partyName",
+        "type": 3
+      }
+    ],
+    "isArray": false,
+    "index": 17
+  },
+  {
+    "name": "SetPartyMemberCanSell",
+    "parameters": [
+      {
+        "name": "uid",
+        "type": 0
+      },
+      {
+        "name": "canSell",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 18
+  },
+  {
+    "name": "JoinParty",
+    "parameters": [
+      {
+        "name": "partyId",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 19
+  },
+  {
+    "name": "JoinPartyByShareKey",
+    "parameters": [
+      {
+        "name": "partyShareKey",
+        "type": 3
+      }
+    ],
+    "isArray": false,
+    "index": 20
+  },
+  {
+    "name": "PartyApplicant",
+    "parameters": [
+      {
+        "name": "displayName",
+        "type": 3
+      },
+      {
+        "name": "applicantUid",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 21
+  },
+  {
+    "name": "PartyApplicantDecide",
+    "parameters": [
+      {
+        "name": "applicantUid",
+        "type": 0
+      },
+      {
+        "name": "accepted",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 22
+  },
+  {
+    "name": "PartyApplicantDenied",
+    "parameters": [],
+    "isArray": false,
+    "index": 23
+  },
+  {
+    "name": "PartyApplicantExpired",
+    "parameters": [
+      {
+        "name": "applicantUid",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 24
+  },
+  {
+    "name": "PartyShareKey",
+    "parameters": [
+      {
+        "name": "partyShareKey",
+        "type": 3
+      }
+    ],
+    "isArray": false,
+    "index": 25
+  },
+  {
+    "name": "PartyInfo",
+    "parameters": [
+      {
+        "name": "playerUid",
+        "type": 0
+      },
+      {
+        "name": "displayName",
+        "type": 3
+      },
+      {
+        "name": "isLeader",
+        "type": 0
+      },
+      {
+        "name": "canSell",
+        "type": 0
+      }
+    ],
+    "isArray": true,
+    "index": 26
+  },
+  {
+    "name": "AddParty",
+    "parameters": [
+      {
+        "name": "partyId",
+        "type": 0
+      },
+      {
+        "name": "partyName",
+        "type": 3
+      },
+      {
+        "name": "isOpen",
+        "type": 0
+      },
+      {
+        "name": "memberCount",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 27
+  },
+  {
+    "name": "RemoveParty",
+    "parameters": [
+      {
+        "name": "partyId",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 28
+  },
+  {
+    "name": "Leaderboard",
+    "parameters": [
+      {
+        "name": "name",
+        "type": 3
+      },
+      {
+        "name": "uid",
+        "type": 0
+      },
+      {
+        "name": "rank",
+        "type": 0
+      },
+      {
+        "name": "score",
+        "type": 4
+      },
+      {
+        "name": "wave",
+        "type": 0
+      }
+    ],
+    "isArray": true,
+    "index": 29
+  },
+  {
+    "name": "Failure",
+    "parameters": [
+      {
+        "name": "category",
+        "type": 3
+      },
+      {
+        "name": "reason",
+        "type": 3
+      },
+      {
+        "name": "x",
+        "type": 0
+      },
+      {
+        "name": "y",
+        "type": 0
+      },
+      {
+        "name": "type",
+        "type": 3
+      }
+    ],
+    "isArray": false,
+    "index": 30
+  },
+  {
+    "name": "RecallPet",
+    "parameters": [],
+    "isArray": false,
+    "index": 31
+  },
+  {
+    "name": "LeaveParty",
+    "parameters": [],
+    "isArray": false,
+    "index": 32
+  },
+  {
+    "name": "KickParty",
+    "parameters": [
+      {
+        "name": "uid",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 33
+  },
+  {
+    "name": "AddDepositToHarvester",
+    "parameters": [
+      {
+        "name": "uid",
+        "type": 0
+      },
+      {
+        "name": "deposit",
+        "type": 2
+      }
+    ],
+    "isArray": false,
+    "index": 34
+  },
+  {
+    "name": "CollectHarvester",
+    "parameters": [
+      {
+        "name": "uid",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 35
+  },
+  {
+    "name": "CastSpell",
+    "parameters": [
+      {
+        "name": "spell",
+        "type": 3
+      },
+      {
+        "name": "x",
+        "type": 1
+      },
+      {
+        "name": "y",
+        "type": 1
+      },
+      {
+        "name": "tier",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 36
+  },
+  {
+    "name": "CastSpellResponse",
+    "parameters": [
+      {
+        "name": "spell",
+        "type": 3
+      },
+      {
+        "name": "cooldown",
+        "type": 0
+      },
+      {
+        "name": "cooldownStartTick",
+        "type": 0
+      }
+    ],
+    "isArray": false,
+    "index": 37
+  },
+  {
+    "name": "Spells",
+    "parameters": [
+      {
+        "name": "json",
+        "type": 3
+      }
+    ],
+    "isArray": false,
+    "index": 38
+  },
+  {
+    "name": "SetPartyList",
+    "parameters": [
+      {
+        "name": "partyId",
+        "type": 0
+      },
+      {
+        "name": "partyName",
+        "type": 3
+      },
+      {
+        "name": "isOpen",
+        "type": 0
+      },
+      {
+        "name": "memberCount",
+        "type": 0
+      }
+    ],
+    "isArray": true,
+    "index": 39
+  }
+]

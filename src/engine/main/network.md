@@ -346,7 +346,7 @@ Encodes a ping packet.
 
 These are not present in the source code, but are inferred from the packets sent by the server.
 
-### Packet Data
+### Packet Interfaces
 
 #### `ENTER_WORLD_DATA`
 
@@ -431,6 +431,7 @@ interface RPC_DATA {
     response: Record<string, any> | Record<string, any>[]
 }
 ```
+A complete RPC map can be found [here](/asset/engine/main/network/rpcMaps.json).
 
 ::: info
 If the RPC is defined as an array type (`isArray`), `response` will be an array of objects. Otherwise it will be a single object. The shape of each response object is determined by the RPC's `parameters` from the RPC map.
@@ -468,3 +469,36 @@ interface Vector2 {
     y: number
 }
 ```
+
+## `attributeMaps`, `entityTypeNames` and `rpcMaps`
+
+These variables are defined directly by server data. Here are the current values for each.
+
+### `attributeMaps`
+
+A complete attribute map can be found [here](/asset/engine/main/network/attributeMaps.json).
+
+### `entityTypeNames`
+
+| ID | Entity Type |
+| :--- | :--- |
+| `667546015` | `Pet` |
+| `742594995` | `GoldMine` |
+| `1059671174` | `Zombie` |
+| `1372600389` | `Stone` |
+| `1496910567` | `Neutral` |
+| `1566069472` | `PlayerObject` |
+| `1672634632` | `NeutralCamp` |
+| `1816895259` | `GameProjectile` |
+| `2092990061` | `Trap` |
+| `2093252446` | `Tree` |
+| `2347737811` | `GamePlayer` |
+| `2402467733` | `GoldStash` |
+| `2462472648` | `Spell` |
+| `2464630638` | `Door` |
+| `2899981078` | `Harvester` |
+| `2969697641` | `Tower` |
+
+### `rpcMaps`
+
+There are a total of 40 RPCs in the game for both server and client RPCs. A complete RPC map can be found [here](/asset/engine/main/network/rpcMaps.json).

@@ -1,0 +1,1142 @@
+{
+  "667546015": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "tier",
+      "type": 1
+    },
+    {
+      "name": "partyId",
+      "type": 1
+    },
+    {
+      "name": "lastPetDamage",
+      "type": 3
+    },
+    {
+      "name": "lastPetDamageTick",
+      "type": 1
+    },
+    {
+      "name": "lastPetDamageTarget",
+      "type": 1
+    },
+    {
+      "name": "firingTick",
+      "type": 1
+    },
+    {
+      "name": "experience",
+      "type": 1
+    },
+    {
+      "name": "stoneGain",
+      "type": 3
+    },
+    {
+      "name": "woodGain",
+      "type": 3
+    },
+    {
+      "name": "stoneGainTick",
+      "type": 1
+    },
+    {
+      "name": "woodGainTick",
+      "type": 1
+    }
+  ],
+  "742594995": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "tier",
+      "type": 1
+    },
+    {
+      "name": "partyId",
+      "type": 1
+    }
+  ],
+  "1059671174": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "firingTick",
+      "type": 1
+    },
+    {
+      "name": "lastDamagedTick",
+      "type": 1
+    }
+  ],
+  "1372600389": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "hits",
+      "type": 8
+    }
+  ],
+  "1496910567": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "firingTick",
+      "type": 1
+    }
+  ],
+  "1566069472": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "tier",
+      "type": 1
+    },
+    {
+      "name": "partyId",
+      "type": 1
+    }
+  ],
+  "1672634632": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    }
+  ],
+  "1816895259": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    }
+  ],
+  "2092990061": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "tier",
+      "type": 1
+    },
+    {
+      "name": "partyId",
+      "type": 1
+    }
+  ],
+  "2093252446": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "hits",
+      "type": 8
+    }
+  ],
+  "2347737811": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "name",
+      "type": 4
+    },
+    {
+      "name": "score",
+      "type": 13
+    },
+    {
+      "name": "baseSpeed",
+      "type": 3
+    },
+    {
+      "name": "msBetweenFires",
+      "type": 3
+    },
+    {
+      "name": "aimingYaw",
+      "type": 2
+    },
+    {
+      "name": "weaponName",
+      "type": 4
+    },
+    {
+      "name": "weaponTier",
+      "type": 1
+    },
+    {
+      "name": "firingTick",
+      "type": 1
+    },
+    {
+      "name": "startChargingTick",
+      "type": 1
+    },
+    {
+      "name": "stone",
+      "type": 15
+    },
+    {
+      "name": "wood",
+      "type": 15
+    },
+    {
+      "name": "gold",
+      "type": 15
+    },
+    {
+      "name": "token",
+      "type": 15
+    },
+    {
+      "name": "wave",
+      "type": 1
+    },
+    {
+      "name": "partyId",
+      "type": 1
+    },
+    {
+      "name": "zombieShieldHealth",
+      "type": 3
+    },
+    {
+      "name": "zombieShieldMaxHealth",
+      "type": 3
+    },
+    {
+      "name": "isPaused",
+      "type": 1
+    },
+    {
+      "name": "isInvulnerable",
+      "type": 1
+    },
+    {
+      "name": "lastPetDamage",
+      "type": 3
+    },
+    {
+      "name": "lastPetDamageTick",
+      "type": 1
+    },
+    {
+      "name": "lastPetDamageTarget",
+      "type": 1
+    },
+    {
+      "name": "lastDamage",
+      "type": 3
+    },
+    {
+      "name": "lastDamageTick",
+      "type": 1
+    },
+    {
+      "name": "lastDamageTarget",
+      "type": 1
+    },
+    {
+      "name": "hatName",
+      "type": 4
+    },
+    {
+      "name": "petUid",
+      "type": 1
+    },
+    {
+      "name": "isBuildingWalking",
+      "type": 10
+    }
+  ],
+  "2402467733": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "tier",
+      "type": 1
+    },
+    {
+      "name": "partyId",
+      "type": 1
+    }
+  ],
+  "2462472648": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "tier",
+      "type": 1
+    }
+  ],
+  "2464630638": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "tier",
+      "type": 1
+    },
+    {
+      "name": "partyId",
+      "type": 1
+    }
+  ],
+  "2899981078": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "tier",
+      "type": 1
+    },
+    {
+      "name": "partyId",
+      "type": 1
+    },
+    {
+      "name": "harvestMax",
+      "type": 1
+    },
+    {
+      "name": "stone",
+      "type": 1
+    },
+    {
+      "name": "wood",
+      "type": 1
+    },
+    {
+      "name": "firingTick",
+      "type": 1
+    },
+    {
+      "name": "deposit",
+      "type": 3
+    },
+    {
+      "name": "depositMax",
+      "type": 3
+    },
+    {
+      "name": "lastHarvestedBy",
+      "type": 4
+    }
+  ],
+  "2969697641": [
+    {
+      "name": "position",
+      "type": 5
+    },
+    {
+      "name": "yaw",
+      "type": 2
+    },
+    {
+      "name": "health",
+      "type": 3
+    },
+    {
+      "name": "maxHealth",
+      "type": 3
+    },
+    {
+      "name": "damage",
+      "type": 3
+    },
+    {
+      "name": "height",
+      "type": 3
+    },
+    {
+      "name": "width",
+      "type": 3
+    },
+    {
+      "name": "collisionRadius",
+      "type": 1
+    },
+    {
+      "name": "model",
+      "type": 4
+    },
+    {
+      "name": "entityClass",
+      "type": 4
+    },
+    {
+      "name": "dead",
+      "type": 1
+    },
+    {
+      "name": "timeDead",
+      "type": 3
+    },
+    {
+      "name": "slowed",
+      "type": 1
+    },
+    {
+      "name": "tier",
+      "type": 1
+    },
+    {
+      "name": "partyId",
+      "type": 1
+    },
+    {
+      "name": "towerYaw",
+      "type": 3
+    },
+    {
+      "name": "firingTick",
+      "type": 1
+    },
+    {
+      "name": "healingTick",
+      "type": 1
+    }
+  ]
+}
