@@ -18,4 +18,4 @@ jobs:
           pnpm exec prettier . --write
       - uses: autofix-ci/action@v1
         with:
-          commit-message: "CI: apply Prettier"
+          commit-message: "chore: apply Prettier [skip CI]"
