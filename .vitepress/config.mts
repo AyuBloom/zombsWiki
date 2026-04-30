@@ -81,6 +81,18 @@ export default defineConfig({
                 text: "renderer",
                 items: [
                   { text: "renderer", link: "/engine/main/renderer/renderer" },
+                  { text: "EntityGrid", link: "/engine/main/renderer/EntityGrid" },
+                  {
+                    text: "Entity Types", items: [
+                      { text: "Entity", link: "/engine/main/renderer/entity_types/Entity" },
+                      { text: "NetworkEntity", link: "/engine/main/renderer/entity_types/NetworkEntity" },
+                      { text: "ModelEntity", link: "/engine/main/renderer/entity_types/ModelEntity" },
+                      { text: "GroundEntity", link: "/engine/main/renderer/entity_types/GroundEntity" },
+                      { text: "SpriteEntity", link: "/engine/main/renderer/entity_types/SpriteEntity" },
+                      { text: "DrawEntity", link: "/engine/main/renderer/entity_types/DrawEntity" },
+                      { text: "TextEntity", link: "/engine/main/renderer/entity_types/TextEntity" },
+                    ], collapsed: true
+                  }
                 ],
                 collapsed: true,
               },
