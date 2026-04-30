@@ -107,12 +107,13 @@ You may want to use these badges when necessary.
 src/
 ├── bugs
 │   ├── active
+│   │   ├── minor_bugs.md
 │   │   ├── odd_zombie_spawn.md
 │   │   └── rss_go_poof.md
 │   ├── inactive
 │   │   ├── blank_wave.md
 │   │   ├── carl_healing.md
-│   │   ├── skill_point.md
+│   │   ├── minor_bugs.md
 │   │   ├── tower_buff.md
 │   │   ├── tower_heal.md
 │   │   ├── tower_nerf.md
@@ -142,6 +143,10 @@ src/
 │   ├── game.md
 │   ├── overview.md
 │   └── schema.md
+├── exploit
+│   └── inactive
+│       ├── pet_olympics.md
+│       └── skill_point.md
 ├── game
 │   └── buildings
 │       ├── arrow_tower.md
@@ -184,9 +189,8 @@ src/public/
 │   │       ├── carl_healing
 │   │       │   ├── healing_carl_2.png
 │   │       │   └── healing_carl.png
-│   │       ├── skill_point
-│   │       │   ├── jeremy_1.png
-│   │       │   └── jeremy_2.png
+│   │       ├── minor_bugs
+│   │       │   └── harvester_overflow.png
 │   │       ├── tower_buff
 │   │       │   ├── buffed_corner.png
 │   │       │   ├── buffed_env.png
@@ -219,6 +223,11 @@ src/public/
 │   │   └── utils
 │   │       └── assetManager
 │   │           └── files.json
+│   ├── exploit
+│   │   └── inactive
+│   │       └── skill_point
+│   │           ├── jeremy_1.png
+│   │           └── jeremy_2.png
 │   ├── game
 │   │   └── buildings
 │   │       └── building_bar.png
