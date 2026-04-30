@@ -222,6 +222,10 @@ src/public/
 │   │           ├── undead_pile.png
 │   │           └── zombies.png
 │   ├── engine
+│   │   ├── main
+│   │   │   └── network
+│   │   │       ├── attributeMaps.json
+│   │   │       └── rpcMaps.json
 │   │   ├── overview
 │   │   │   └── game.png
 │   │   ├── schema
