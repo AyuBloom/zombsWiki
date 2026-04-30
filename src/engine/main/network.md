@@ -26,9 +26,9 @@ Sends a `PACKET_ENTER_WORLD2` packet. No data is passed to this function.
 
 #### `sendInput()`
 ```ts
-function sendInput(data: object): void
+function sendInput(data: Record<string, number>): void
 ```
-Sends a `PACKET_INPUT` packet containing player input.
+Sends a `PACKET_INPUT` packet containing player inputs. See [`inputPacketCreator`](/engine/main/input/inputPacketCreator) for a list of possible input data.
 
 #### `sendPing()`
 ```ts
@@ -38,13 +38,13 @@ Sends a `PACKET_PING` packet.
 
 #### `sendRpc()`
 ```ts
-function sendRpc(data: object): void
+function sendRpc(data: CLIENT_RPC_DATA): void
 ```
-Sends a `PACKET_RPC` packet.
+Sends a `PACKET_RPC` packet. 
 
 #### `addEnterWorldHandler()`
 ```ts
-function addEnterWorldHandler(callback: Function): void
+function addEnterWorldHandler(callback: (data: ENTER_WORLD_DATA) => void): void
 ```
 Registers a handler for `PACKET_ENTER_WORLD` responses.
 
@@ -56,19 +56,19 @@ Registers a handler for `PACKET_PRE_ENTER_WORLD` responses.
 
 #### `addEntityUpdateHandler()`
 ```ts
-function addEntityUpdateHandler(callback: Function): void
+function addEntityUpdateHandler(callback: (data: ENTITY_UPDATE_DATA) => void): void
 ```
 Registers a handler for `PACKET_ENTITY_UPDATE` packets.
 
 #### `addPingHandler()`
 ```ts
-function addPingHandler(callback: Function): void
+function addPingHandler(callback: (data: PING_DATA) => void): void
 ```
 Registers a handler for `PACKET_PING` packets.
 
 #### `addRpcHandler()`
 ```ts
-function addRpcHandler(name: string, callback: Function): void
+function addRpcHandler(name: string, callback: (data: SERVER_RPC_DATA) => void): void
 ```
 Registers a handler for a specific RPC response by name.
 
@@ -425,16 +425,26 @@ The ping response carries no payload as it is an empty object. The `opcode` fiel
 #### `RPC_DATA`
 
 ```ts
-interface RPC_DATA {
+interface SERVER_RPC_DATA {
     opcode: number,
     name: string,
     response: Record<string, any> | Record<string, any>[]
 }
 ```
-A complete RPC map can be found [here](/asset/engine/main/network/rpcMaps.json).
 
 ::: info
-If the RPC is defined as an array type (`isArray`), `response` will be an array of objects. Otherwise it will be a single object. The shape of each response object is determined by the RPC's `parameters` from the RPC map.
+If the RPC is defined as an array type (`isArray`), `response` will be an array of objects. Otherwise it will be a single object.
+:::
+
+```ts
+interface CLIENT_RPC_DATA {
+    name: string,
+    [parameter: string]: string | number
+}
+```
+
+::: tip
+The shape of each RPC is determined by the RPC's `parameters` from `rpcMaps`. If the RPC is client-side, `parameters` will be injected directly into the RPC object. If it is a server-side RPC, `parameters` will be inside of `response`.
 :::
 
 #### `RPC_MAP_ENTRY`
@@ -459,7 +469,7 @@ interface RPC_PARAMETER_ENTRY {
 }
 ```
 
-### Special Data Types
+### Special Data Interfaces
 
 #### `Vector2`
 

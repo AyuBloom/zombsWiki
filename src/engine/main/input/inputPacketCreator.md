@@ -78,7 +78,7 @@ function distanceToCenter(x: number, y: number): number
 ```
 Calculates the distance from the screen center to the specified `(x, y)` coordinates.
 
-## Input Packets
+## Input Data
 
 The following fields are sent to `InputPacketSchduler` via `scheduler.scheduleInput()`. Each packet contains one or more of these properties representing the player's current input state.
 
@@ -96,10 +96,10 @@ The following fields are sent to `InputPacketSchduler` via `scheduler.scheduleIn
 
 | Field | Type | Description |
 | :--- | :--- | :--- |
-| `mouseDown` | `number` | Sent when the left mouse button is pressed. Contains the current yaw angle. Includes `worldX`, `worldY`, and `distance`. |
-| `mouseUp` | `number` | Sent as `1` when the left mouse button is released. Includes `worldX`, `worldY`, and `distance`. |
-| `mouseMoved` | `number` | Sent when the mouse moves (subject to `sendMouseMoveChance`). Contains the current yaw angle. Includes `worldX`, `worldY`, and `distance`. |
-| `mouseMovedWhileDown` | `number` | Sent when the mouse moves while the left button is held. Contains the current yaw angle. Includes `worldX`, `worldY`, and `distance`. |
+| `mouseDown` | `number` | Sent when the left mouse button is pressed. Contains the current yaw angle. Must also includes `worldX`, `worldY`, and `distance` in other fields. |
+| `mouseUp` | `number` | Sent as `1` when the left mouse button is released. Must also includes `worldX`, `worldY`, and `distance` in other fields. |
+| `mouseMoved` | `number` | Sent when the mouse moves (subject to `sendMouseMoveChance`). Contains the current yaw angle. Must also includes `worldX`, `worldY`, and `distance` in other fields. |
+| `mouseMovedWhileDown` | `number` | Sent when the mouse moves while the left button is held. Contains the current yaw angle. Must also includes `worldX`, `worldY`, and `distance` in other fields. |
 | `worldX` | `number` | The X-coordinate of the mouse in the world. |
 | `worldY` | `number` | The Y-coordinate of the mouse in the world. |
 | `distance` | `number` | The distance from the mouse to the center of the screen. |
