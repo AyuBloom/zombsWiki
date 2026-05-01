@@ -30,7 +30,7 @@ MBF first appeared with this update, along with a WASM module to solve the new v
 
 > The way entering servers works has changed. Before:
 > 1. You send a "PACKET_ENTER_WORLD" message (opcode 4) containing your name
-> 2. Server receives, checks data, then sends you a "PACKET_ENTER_WORLD" message (opcode 4) message allowing you in
+> 2. The server receives, checks data, then sends you a "PACKET_ENTER_WORLD" message (opcode 4), allowing you in
 
 Explains a community member, [Apex](https://www.youtube.com/@Apex-ti1dm), about how entering the game works before MBF.
 
@@ -45,7 +45,7 @@ MBF was upgraded with this update, introducing opcode `6` to the validation proc
 
 ::: info
 
-There was a 25 use limit for the WASM module and a memory leak issue with it around this period, but it is unknown when the limit was removed or when the memory leak issue was fixed.
+There was a 25-use limit for the WASM module and a memory leak issue with it around this period, but it is unknown when the limit was removed or when the memory leak issue was fixed.
 
 :::
 
@@ -60,7 +60,7 @@ This update introduces opcode `10`.
 
 ![mbf](/asset/mbf/overview/mbf.jpg)
 
-When the client receives an opcode `5` / `10` packet, it has to decode it with `BinCodec` and send back the required data. For opcode `5`, the data will be sent along opcode `4` and `6` packets, while for opcode `10`, a separate opcode `10` packet will be sent. If the client fails to submit data that passes validation in the given time, the client will not be able to enter the server and therefore will be forcefully disconnected from the server.
+When the client receives an opcode `5` / `10` packet, it has to decode it with `BinCodec` and send back the required data. For opcode `5`, the data will be sent along opcode `4` and `6` packets, while for opcode `10`, a separate opcode `10` packet will be sent. If the client fails to submit data that passes validation within the given time, the client will not be able to enter the server and therefore will be forcefully disconnected from the server.
 
 ## Challenge
 
