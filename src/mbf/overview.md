@@ -21,7 +21,7 @@ The core function `zombs_wasm.wasm` exposes is called `_MakeBlendField`. From no
 ## History
 
 ### April 24, 2021 - Minor Update
-```md{3}
+```md{2}
 - Fix towers slowing down after some time due to floating point loss of precision
 - Add a challenge / response system to help cut down on bot connections
 - Harden game servers a bit against DoS attacks
@@ -32,7 +32,7 @@ MBF first appeared with this update, along with a WASM module to solve the new v
 > 1. You send a "PACKET_ENTER_WORLD" message (opcode 4) containing your name
 > 2. Server receives, checks data, then sends you a "PACKET_ENTER_WORLD" message (opcode 4) message allowing you in
 
-Explains a community member, [Apex](https://www.youtube.com/@Apex-ti1dm).
+Explains a community member, [Apex](https://www.youtube.com/@Apex-ti1dm), about how entering the game works before MBF.
 
 ### November 13, 2021 - Minor Update
 ```md{4}
