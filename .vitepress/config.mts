@@ -75,16 +75,27 @@ export default defineConfig({
                 ],
                 collapsed: true,
               },
-              { text: "world", link: "/engine/main/world" },
+              {
+                text: "world",
+                items: [
+                  { text: "world", link: "/engine/main/world/world" },
+                  {
+                    text: "entityGrid",
+                    link: "/engine/main/world/entityGrid",
+                  },
+                  {
+                    text: "localPlayer",
+                    link: "/engine/main/world/localPlayer",
+                  },
+                  { text: "replicator", link: "/engine/main/world/replicator" },
+                ],
+                collapsed: true,
+              },
               { text: "network", link: "/engine/main/network" },
               {
                 text: "renderer",
                 items: [
                   { text: "renderer", link: "/engine/main/renderer/renderer" },
-                  {
-                    text: "EntityGrid",
-                    link: "/engine/main/renderer/EntityGrid",
-                  },
                   {
                     text: "Entity Types",
                     items: [
