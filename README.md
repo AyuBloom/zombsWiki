@@ -170,12 +170,15 @@ src/
 │   │   │   ├── replicator.md
 │   │   │   └── world.md
 │   │   └── network.md
+│   ├── quirks
+│   │   └── dc_triggers.md
 │   ├── utils
 │   │   ├── assetManager.md
 │   │   ├── debug.md
 │   │   ├── metrics.md
 │   │   ├── platform.md
 │   │   └── util.md
+│   ├── data_interfaces.md
 │   ├── game.md
 │   ├── overview.md
 │   └── schema.md
