@@ -43,7 +43,6 @@ export default defineConfig({
         text: "Introduction",
         items: [
           { text: "Welcome", link: "/" },
-          { text: "What is zombs.io?", link: "/intro/introduction" },
         ],
       },
       {
@@ -263,23 +262,33 @@ export default defineConfig({
             ],
             collapsed: true,
           },
-          {
-            text: "Quirks",
-            items: [
-              {
-                text: "Disconnection Triggers",
-                link: "/engine/quirks/dc_triggers",
-              },
-            ],
-            collapsed: true,
-          },
           { text: "Schemas", link: "/engine/schema" },
           { text: "Data Interfaces", link: "/engine/data_interfaces" }
         ],
       },
       {
+        text: "_MakeBlendField",
+        items: [{ text: "Overview", link: "/mbf/overview" }],
+      },
+      {
+        text: "Scripting",
+        items: [
+          {
+            text: "Fundamentals",
+            items: [
+              {
+                text: "Disconnection Triggers",
+                link: "/scripting/fundamentals/dc_triggers",
+              },
+            ],
+            collapsed: true,
+          },
+        ],
+      },
+      {
         text: "Game",
         items: [
+          { text: "Introduction", link: "/game/introduction" },
           {
             text: "Buildings",
             items: [
@@ -299,10 +308,6 @@ export default defineConfig({
             collapsed: true,
           },
         ],
-      },
-      {
-        text: "_MakeBlendField",
-        items: [{ text: "Overview", link: "/mbf/overview" }],
       },
       {
         text: "Bugs",
@@ -356,6 +361,7 @@ export default defineConfig({
       {
         text: "Exploits",
         items: [
+          { text: "Overview", link: "/exploit/overview" },
           { text: "Active Exploits", items: [], collapsed: true },
           {
             text: "Inactive / Patched Exploits",

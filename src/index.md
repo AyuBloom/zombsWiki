@@ -1,7 +1,19 @@
 # Welcome
 
-Welcome to the [zombs.io](https://zombs.io/) Wiki! Here lies all of the documentation about zombs.io, a 2D multiplayer survival game, from its engine to its quirks.
+Welcome to the [zombs.io](https://zombs.io/) Wiki! Here lies documentation about everything related to zombs.io, a 2D multiplayer survival game.
 
-## `robots.txt`
+## I'm here for the technical details.
+
+Check out the [Engine](/engine/overview) category for in-depth documentation about the game engine, down to each component. Related categories include [Scripting](/scripts/overview) (scripting guides and best practices) and [`_MakeBlendField`](/mbf/overview) (an advanced anti-bot validation system).
+
+### `robots.txt`
 
 Want to use this to enhance your AI Agent's ability to understand zombs.io's engine? This website provides a [robots.txt](/robots.txt) file that permits AIs to scrape and use.
+
+## I want to learn more about the game itself.
+
+The [Game](/game/introduction) category is for you - it has an introduction to the game, and details buildings in depth. Topics like [Bugs](/bugs/overview) and [Exploits](/exploits/overview) are also covered on the website.
+
+<br />
+
+*With that said, happy reading!*

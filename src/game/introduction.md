@@ -1,4 +1,4 @@
-# What is zombs.io?
+# Introduction
 
 ::: warning
 This section of the documentation is incomplete.
