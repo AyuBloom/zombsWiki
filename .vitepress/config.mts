@@ -278,7 +278,7 @@ export default defineConfig({
             items: [
               {
                 text: "Disconnection Triggers",
-                link: "/scripting/fundamentals/dc_triggers",
+                link: "/scripts/fundamentals/dc_triggers",
               },
             ],
             collapsed: true,
