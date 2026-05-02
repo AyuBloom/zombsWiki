@@ -203,7 +203,8 @@ src/
 ├── mbf
 │   └── overview.md
 ├── misc
-│   └── records.md
+│   ├── records.md
+│   └── terms.md
 ├── scripts
 │   └── fundamentals
 │       └── dc_triggers.md
