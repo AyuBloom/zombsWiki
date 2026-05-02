@@ -41,9 +41,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "Introduction",
-        items: [
-          { text: "Welcome", link: "/" },
-        ],
+        items: [{ text: "Welcome", link: "/" }],
       },
       {
         text: "Engine",
@@ -263,7 +261,7 @@ export default defineConfig({
             collapsed: true,
           },
           { text: "Schemas", link: "/engine/schema" },
-          { text: "Data Interfaces", link: "/engine/data_interfaces" }
+          { text: "Data Interfaces", link: "/engine/data_interfaces" },
         ],
       },
       {
