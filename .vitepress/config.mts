@@ -263,7 +263,18 @@ export default defineConfig({
             ],
             collapsed: true,
           },
+          {
+            text: "Quirks",
+            items: [
+              {
+                text: "Disconnection Triggers",
+                link: "/engine/quirks/dc_triggers",
+              },
+            ],
+            collapsed: true,
+          },
           { text: "Schemas", link: "/engine/schema" },
+          { text: "Data Interfaces", link: "/engine/data_interfaces" }
         ],
       },
       {

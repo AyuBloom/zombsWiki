@@ -1,6 +1,6 @@
 # `renderer`
 
-The `Renderer` module is responsible for all rendering using PIXI.js. It manages the render loop, the scene graph layer hierarchy, camera tracking, coordinate transformations, and viewport scaling.
+The `renderer` component is responsible for all rendering using PIXI.js. It manages the render loop, the scene graph layer hierarchy, camera tracking, coordinate transformations, and viewport scaling.
 
 ## `Renderer` <Badge type="tip" text="public" />
 
@@ -232,7 +232,7 @@ The `forceCanvas` localStorage flag is set automatically when `options.platform`
 
 ## Data Interfaces
 
-#### VIEWPORT
+#### `VIEWPORT`
 
 ```ts
 interface VIEWPORT {

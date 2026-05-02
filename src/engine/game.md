@@ -203,7 +203,7 @@ Calls the parent `Game.run()` implementation. Is called when the website loads.
 
 ## Data Interfaces
 
-#### GAME_OPTIONS
+#### `GAME_OPTIONS`
 
 ```ts
 interface GAME_OPTIONS {
@@ -213,7 +213,7 @@ interface GAME_OPTIONS {
 }
 ```
 
-#### SERVER_DATA
+#### `SERVER_DATA`
 
 ```ts
 interface SERVER_DATA = {

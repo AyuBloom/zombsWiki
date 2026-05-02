@@ -1,6 +1,6 @@
 # `network`
 
-The `network` module handles all communication between the client and the server. It includes low-level socket management, binary encoding/decoding via `ByteBuffer` and a novel anti-bot mechanism.
+The `network` component handles all communication between the client and the server. It includes low-level socket management, binary encoding/decoding via `ByteBuffer` and a novel anti-bot mechanism.
 
 ## `NetworkAdapter` <Badge type="danger" text="private" />
 
@@ -469,7 +469,7 @@ interface RPC_PARAMETER_ENTRY {
 }
 ```
 
-### Special Data Interfaces
+### Attribute Interfaces
 
 #### `Vector2`
 
@@ -482,11 +482,11 @@ interface Vector2 {
 
 ## `attributeMaps`, `entityTypeNames` and `rpcMaps`
 
-These variables are defined directly by server data. Here are the current values for each.
+These variables are defined directly by server data (`PACKET_ENTER_WORLD`) and stored as variables in `BinCodec`.
 
 ### `attributeMaps`
 
-A complete attribute map can be found [here](/asset/engine/main/network/attributeMaps.json).
+`attributeMaps` defines all of the attributes that can be present on an entity and the type they are encoded as. A complete attribute map can be found [here](/asset/engine/main/network/attributeMaps.json).
 
 ### `entityTypeNames`
 

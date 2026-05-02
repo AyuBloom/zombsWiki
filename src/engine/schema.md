@@ -2,7 +2,9 @@
 
 There are hard-coded schemas for buildings, spells, entities and items in the client.
 
-## Buildings
+## Client-defined Schemas
+
+### Buildings
 
 | ID | name | description | key | modelName | gridWidth | gridHeight | tiers | built | limit | disabled |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -18,7 +20,9 @@ There are hard-coded schemas for buildings, spells, entities and items in the cl
 | `Harvester` | Resource Harvester | Harvests resources automatically, fuelled by gold. | 0 | HarvesterModel | 2 | 2 | 1 | 0 | 2 | true |
 | `GoldStash` | Gold Stash | Establishes your base and holds your gold. | - | GoldStashModel | 2 | 2 | 1 | 0 | 1 | false |
 
-## Entities
+Raw schema: [buildings.json](/asset/engine/schema/buildings.json)
+
+### Entities
 
 | ID | model | gridSize.width | gridSize.height | args |
 | :--- | :--- | :--- | :--- | :--- |
@@ -56,7 +60,9 @@ There are hard-coded schemas for buildings, spells, entities and items in the cl
 | `NeutralTier1` | NeutralModel | - | - | - |
 | `PathNode` | PathNodeModel | - | - | - |
 
-## Items
+Raw schema: [entities.json](/asset/engine/schema/entities.json)
+
+### Items
 
 ::: info
 
@@ -83,7 +89,13 @@ You cannot equip `Invulnurable` or `Pause` as an utility, even though they are l
 | `Pause` | Timeout | Utility | Prevents zombies from spawning for one cycle. | 1 | false | true | false |
 | `Invulnerable` | Invulnerable | Utility | You are temporarily immune to damage. | 1 | false | true | false |
 
-## Spells
+Raw schema: [items.json](/asset/engine/schema/items.json)
+
+### Spells
+
+| ID | name | tiers |
+| :--- | :--- | :--- |
+| `HealTowersSpell` | Heal Towers | 1 |
 
 ::: info
 
@@ -91,10 +103,10 @@ Even though `Pause` / Timeout is a spell in the game, it is listed under Items, 
 
 :::
 
-| ID | name | tiers |
-| :--- | :--- | :--- |
-| `HealTowersSpell` | Heal Towers | 1 |
+Raw schema: [spells.json](/asset/engine/schema/spells.json)
 
-## Raw Schema
+## Server-served Schemas
 
-You can find the raw schema for [buildings](/asset/engine/schema/buildings.json), [entities](/asset/engine/schema/entities.json), [items](/asset/engine/schema/items.json) and [spells](/asset/engine/schema/spells.json) by clicking on the highlights.
+### `attributeMaps`, `entityTypeNames` and `rpcMaps`
+
+<!--@include: ./main/network.md{484,514}-->

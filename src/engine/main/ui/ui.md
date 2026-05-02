@@ -1,6 +1,6 @@
 # `ui`
 
-`ui` is the central manager for the game's HUD. It orchestrates multiple components, handles user input (keyboard/mouse) and synchronizes game state (inventory, buildings, parties).
+The `ui` component is the central manager for the game's HUD. It orchestrates multiple components, handles user input (keyboard/mouse) and synchronizes game state (inventory, buildings, parties).
 
 ## `Ui` <Badge type="tip" text="public" />
 

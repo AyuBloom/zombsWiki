@@ -10,7 +10,7 @@ Bounded to `game` as `game.assetManager`. Alias: `game.assetManagerType`
 
 #### `load`
 ```ts
-function load(files: Array<ASSETS>, callback?: boolean): void
+function load(files: Array<{ name: string, url: string }>, callback?: Function): void
 ```
 Loads all files from an array by names. Is called once every time the game is loaded with every model names to preload assets.
 
@@ -25,12 +25,3 @@ Parameter `files` has the data structure as shown in [Data Interfaces](#data-int
 function loadModel(modelName: string, args?: object): void
 ```
 Loads a model from preloaded assets.
-
-## Data Interfaces
-
-```ts
-interface ASSETS {
-    name: string
-    url: string
-}
-```

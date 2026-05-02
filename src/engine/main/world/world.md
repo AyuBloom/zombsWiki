@@ -1,7 +1,6 @@
-<!-- headers are case-sensitive -->
-# `World`
+# `world`
 
-The `World` class is responsible for managing the game world state, including all networked entities, the local player, and the replication system. It handles entity creation, updates, and removal through object pooling, and synchronizes world state with the renderer each tick.
+The `world` component is responsible for managing the game world state, including all networked entities, the local player, and the replication system. It handles entity creation, updates, and removal through object pooling, and synchronizes world state with the renderer each tick.
 
 ## `World` <Badge type="tip" text="public" />
 
