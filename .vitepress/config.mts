@@ -381,7 +381,10 @@ export default defineConfig({
       },
       {
         text: "Miscellaneous",
-        items: [{ text: "World Records", link: "/misc/records" }],
+        items: [
+          { text: "World Records", link: "/misc/records" },
+          { text: "Common Terms", link: "/misc/terms" },
+        ],
       },
     ],
 
