@@ -109,4 +109,4 @@ Raw schema: [spells.json](/asset/engine/schema/spells.json)
 
 ### `attributeMaps`, `entityTypeNames` and `rpcMaps`
 
-<!--@include: ./main/network.md{484,514}-->
+<!--@include: ./main/network.md{485,516}-->
