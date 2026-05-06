@@ -14,6 +14,10 @@ Want to use this to enhance your AI Agent's ability to understand zombs.io's eng
 
 The [Game](/game/introduction) category is for you - it has an introduction to the game, and details buildings in depth. Topics like [Bugs](/bugs/overview) and [Exploits](/exploits/overview) are also covered on the website.
 
+## I would love to contribute.
+
+Contributions are highly appreciated! If you have any suggestions for new ideas / articles, head over to the [zombs.io Wiki Discord server](https://discord.gg/Wm7khMgzUe) for related discussions. For contributions, please go to the [GitHub repository](https://github.com/AyuBloom/zombsWiki/), which also details the whole contributing process.
+
 <br />
 
 *With that said, happy reading!*
