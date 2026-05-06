@@ -2,7 +2,7 @@
 name: Article Idea
 about: Suggest an idea to write an article about in the wiki
 title: "[Request]"
-labels: ''
+labels: documentation
 assignees: ''
 
 ---
