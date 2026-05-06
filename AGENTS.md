@@ -15,8 +15,10 @@ zombsWiki/
 │   │   ├── custom.css            # Custom CSS styles for VitePress
 │   │   └── index.ts              # Theme configuration for VitePress
 │   └── config.mts            # General configuration for VitePress
+├── scripts
+│   └── generate-structure.mjs    # GitHub CI script to generate the project's strcture on commit in zombsWiki/README.md
 └── src/                  # All the .md files on the website, presented as routes
-    ├── .../                  # .md files on routes
+    ├── .../                  # .md files en-route
     ├── index.md              # Homepage of the website
     └── public/               # Entry point of all public 
         └── assets/               # Entry point of all assets 
