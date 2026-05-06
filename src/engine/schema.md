@@ -107,6 +107,4 @@ Raw schema: [spells.json](/asset/engine/schema/spells.json)
 
 ## Server-served Schemas
 
-### `attributeMaps`, `entityTypeNames` and `rpcMaps`
-
 <!--@include: ./main/network.md{485,516}-->
