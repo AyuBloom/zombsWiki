@@ -17,7 +17,7 @@
 
 ## Stats
 | Tier | Image | Wood | Stone | Gold | Max HP | Time before regen | HP/s | Slowing amount | Slowing time |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 | 1 | <img src="/asset/image/entity/slow-trap/slow-trap-t1-base.svg" width="36" height="36" style="margin:auto;"> | 5 | 5 | - | 150 | 10s | 2 | 40% | 2.5s |
 | 2 | <img src="/asset/image/entity/slow-trap/slow-trap-t2-base.svg" width="36" height="36" style="margin:auto;"> | 25 | 20 | 100 | 200 | 10s | 5 | 45% | 2.5s |
 | 3 | <img src="/asset/image/entity/slow-trap/slow-trap-t3-base.svg" width="36" height="36" style="margin:auto;"> | 30 | 30 | 200 | 400 | 10s | 10 | 50% | 2.5s |
@@ -26,3 +26,11 @@
 | 6 | <img src="/asset/image/entity/slow-trap/slow-trap-t6-base.svg" width="36" height="36" style="margin:auto;"> | 70 | 80 | 800 | 1600 | 10s | 80 | 65% | 3.25s | 
 | 7 | <img src="/asset/image/entity/slow-trap/slow-trap-t7-base.svg" width="36" height="36" style="margin:auto;"> | 300 | 300 | 1000 | 2200 | 10s | 110 | 70% | 3.5s |
 | 8 | <img src="/asset/image/entity/slow-trap/slow-trap-t8-base.svg" width="36" height="36" style="margin:auto;"> | 800 | 800 | 1500 | 3000 | 10s | 150 | 70% | 4.0s |
+
+## Changelog
+
+### June 1, 2017 - Minor Update
+```md{1}
+- New Tower Unit - SLOW TRAPS. Place these strategically around your base to slow incoming zombies!
+- Quality of Life - when weapon is equipped, you now cannot accidentally select a tower
+```

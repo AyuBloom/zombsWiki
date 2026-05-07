@@ -18,7 +18,7 @@
 
 ## Stats
 | Tier | Image | Wood | Stone | Gold | Max HP | Time before regen | HP/s |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | <img src="/asset/image/entity/door/door-t1-base.svg" width="36" height="36" style="margin:auto;"> | 5 | 5 | - | 150 | 10s | 5 |
 | 2 | <img src="/asset/image/entity/door/door-t2-base.svg" width="36" height="36" style="margin:auto;"> | 5 | 5 | 10 | 200 | 10s | 7 |
 | 3 | <img src="/asset/image/entity/door/door-t3-base.svg" width="36" height="36" style="margin:auto;"> | - | - | 50 | 300 | 10s | 12 |

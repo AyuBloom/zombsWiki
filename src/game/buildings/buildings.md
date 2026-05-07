@@ -1,6 +1,5 @@
 # Buildings overview
-
-Buildings are structures that can be constructed by players, close to their Gold Stash. These buildings require a specific amount of resources to place them. Buildings can be destroyed by enemy entities, such as other players, demons, bosses and zombies.
+**Buildings** are structures that can be constructed by players, close to their Gold Stash. These buildings require a specific amount of resources to place them. Buildings can be destroyed by enemy entities, such as other players, demons, bosses and zombies.
 
 The buildings can be found on the building bar at the bottom of the screen. You can select one of the 11 buildings clicking on them or using the hotkeys `0` - `9`, then click on an empty cell close to your Gold Stash to place it. 
 
