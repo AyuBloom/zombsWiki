@@ -78,7 +78,10 @@ export default defineConfig({
                   {
                     text: "world",
                     items: [
-                      { text: "world", link: "/architecture/engine/main/world/world" },
+                      {
+                        text: "world",
+                        link: "/architecture/engine/main/world/world",
+                      },
                       {
                         text: "entityGrid",
                         link: "/architecture/engine/main/world/entityGrid",
@@ -87,15 +90,24 @@ export default defineConfig({
                         text: "localPlayer",
                         link: "/architecture/engine/main/world/localPlayer",
                       },
-                      { text: "replicator", link: "/architecture/engine/main/world/replicator" },
+                      {
+                        text: "replicator",
+                        link: "/architecture/engine/main/world/replicator",
+                      },
                     ],
                     collapsed: true,
                   },
-                  { text: "network", link: "/architecture/engine/main/network" },
+                  {
+                    text: "network",
+                    link: "/architecture/engine/main/network",
+                  },
                   {
                     text: "renderer",
                     items: [
-                      { text: "renderer", link: "/architecture/engine/main/renderer/renderer" },
+                      {
+                        text: "renderer",
+                        link: "/architecture/engine/main/renderer/renderer",
+                      },
                       {
                         text: "Entity Types",
                         items: [
@@ -255,19 +267,36 @@ export default defineConfig({
               {
                 text: "Utility Components",
                 items: [
-                  { text: "assetManager", link: "/architecture/engine/utils/assetManager" },
+                  {
+                    text: "assetManager",
+                    link: "/architecture/engine/utils/assetManager",
+                  },
                   { text: "debug", link: "/architecture/engine/utils/debug" },
-                  { text: "metrics", link: "/architecture/engine/utils/metrics" },
-                  { text: "platform", link: "/architecture/engine/utils/platform" },
+                  {
+                    text: "metrics",
+                    link: "/architecture/engine/utils/metrics",
+                  },
+                  {
+                    text: "platform",
+                    link: "/architecture/engine/utils/platform",
+                  },
                   { text: "util", link: "/architecture/engine/utils/util" },
                 ],
                 collapsed: true,
               },
               { text: "Schemas", link: "/architecture/engine/schema" },
-              { text: "Data Interfaces", link: "/architecture/engine/data_interfaces" },
+              {
+                text: "Data Interfaces",
+                link: "/architecture/engine/data_interfaces",
+              },
               {
                 text: "_MakeBlendField",
-                items: [{ text: "Overview", link: "/architecture/engine/mbf/overview" }],
+                items: [
+                  {
+                    text: "Overview",
+                    link: "/architecture/engine/mbf/overview",
+                  },
+                ],
                 collapsed: true,
               },
             ],
@@ -314,7 +343,8 @@ export default defineConfig({
         ],
       },
       {
-        text: "Gameplay", items: [
+        text: "Gameplay",
+        items: [
           {
             text: "Game",
             items: [
@@ -322,22 +352,55 @@ export default defineConfig({
               {
                 text: "Buildings",
                 items: [
-                  { text: "Overview", link: "/gameplay/game/buildings/buildings.md" },
+                  {
+                    text: "Overview",
+                    link: "/gameplay/game/buildings/buildings.md",
+                  },
                   { text: "Wall", link: "/gameplay/game/buildings/wall.md" },
                   { text: "Door", link: "/gameplay/game/buildings/door.md" },
-                  { text: "Trap", link: "/gameplay/game/buildings/slow_trap.md" },
-                  { text: "Arrow Tower", link: "/gameplay/game/buildings/arrow_tower.md" },
-                  { text: "Cannon Tower", link: "/gameplay/game/buildings/cannon_tower.md" },
-                  { text: "Melee Tower", link: "/gameplay/game/buildings/melee_tower.md" },
-                  { text: "Bomb Tower", link: "/gameplay/game/buildings/bomb_tower.md" },
-                  { text: "Mage Tower", link: "/gameplay/game/buildings/mage_tower.md" },
-                  { text: "Harvester", link: "/gameplay/game/buildings/harvester.md" },
-                  { text: "Gold Mine", link: "/gameplay/game/buildings/gold_mine.md" },
-                  { text: "Gold Stash", link: "/gameplay/game/buildings/gold_stash.md" },
+                  {
+                    text: "Trap",
+                    link: "/gameplay/game/buildings/slow_trap.md",
+                  },
+                  {
+                    text: "Arrow Tower",
+                    link: "/gameplay/game/buildings/arrow_tower.md",
+                  },
+                  {
+                    text: "Cannon Tower",
+                    link: "/gameplay/game/buildings/cannon_tower.md",
+                  },
+                  {
+                    text: "Melee Tower",
+                    link: "/gameplay/game/buildings/melee_tower.md",
+                  },
+                  {
+                    text: "Bomb Tower",
+                    link: "/gameplay/game/buildings/bomb_tower.md",
+                  },
+                  {
+                    text: "Mage Tower",
+                    link: "/gameplay/game/buildings/mage_tower.md",
+                  },
+                  {
+                    text: "Harvester",
+                    link: "/gameplay/game/buildings/harvester.md",
+                  },
+                  {
+                    text: "Gold Mine",
+                    link: "/gameplay/game/buildings/gold_mine.md",
+                  },
+                  {
+                    text: "Gold Stash",
+                    link: "/gameplay/game/buildings/gold_stash.md",
+                  },
                 ],
                 collapsed: true,
               },
-              { text: "Zombie Patterns", link: "/gameplay/game/zombie_patterns" },
+              {
+                text: "Zombie Patterns",
+                link: "/gameplay/game/zombie_patterns",
+              },
             ],
             collapsed: true,
           },
@@ -366,7 +429,10 @@ export default defineConfig({
               {
                 text: "Inactive / Old Bugs",
                 items: [
-                  { text: "Tower Heal", link: "/gameplay/bugs/inactive/tower_heal.md" },
+                  {
+                    text: "Tower Heal",
+                    link: "/gameplay/bugs/inactive/tower_heal.md",
+                  },
                   {
                     text: "Wave 14 - No zombies",
                     link: "/gameplay/bugs/inactive/blank_wave.md",
@@ -375,8 +441,14 @@ export default defineConfig({
                     text: "C.A.R.L. Healing",
                     link: "/gameplay/bugs/inactive/carl_healing.md",
                   },
-                  { text: "Tower Buff", link: "/gameplay/bugs/inactive/tower_buff.md" },
-                  { text: "Tower Nerf", link: "/gameplay/bugs/inactive/tower_nerf.md" },
+                  {
+                    text: "Tower Buff",
+                    link: "/gameplay/bugs/inactive/tower_buff.md",
+                  },
+                  {
+                    text: "Tower Nerf",
+                    link: "/gameplay/bugs/inactive/tower_nerf.md",
+                  },
                   {
                     text: "Undying Zombies",
                     link: "/gameplay/bugs/inactive/undying_zombs.md",
