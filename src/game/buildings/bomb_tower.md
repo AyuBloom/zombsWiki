@@ -1,5 +1,5 @@
 # Bomb Tower
-Bomb Tower is a type of Tower. This tower doesn't deal any knock back to the zombies, but they deal AOE damage within a pretty large radius. Bomb Tower has a pretty large radius, being useful to damage the zombies and players before they reach your base.
+**Bomb Tower** is a type of Tower. This tower doesn't deal any knock back to the zombies, but they deal AOE damage within a pretty large radius. Bomb Tower has a pretty large radius, being useful to damage the zombies and players before they reach your base.
 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
@@ -24,3 +24,25 @@ Bomb Tower is a type of Tower. This tower doesn't deal any knock back to the zom
 | 6 |  | 120 | 120 | 2,000 | 1,600 | 10 s | 80 | 620 | 11 | 10 | 750 | 1,000 ms | 25 | 250 px | 10 px | 1,000 px | 1.11/s |
 | 7 |  | 300 | 300 | 8,000 | 2,200 | 10 s | 110 | 1,300 | 12 | 10 | 850 | 1,000 ms | 26 | 250 px | 10 px | 1,000 px | 1.11/s |
 | 8 |  | 800 | 800 | 35,000 | 3,600 | 10 s | 150 | 1,700 | 12 | 10 | 1,000 | 1,000 ms | 27 | 250 px | 10 px | 1000 px | 1.18/s |
+
+## Changelog
+### December 11, 2023 - Minor Update
+```md{3}
+- Magic towers now fire 4 projectiles at max tier
+- Local bans are now cleared every hour (global bans still clear monthly)
+- Bomb tower and melee tower received a buff
+```
+
+### November 20, 2021 - Minor Update
+```md{5}
+- Decrease spear damage to buildings from [3, 3.5, 4, 4.5, 5, 5.5, 5.5] to [0.75, 1.50, 2.25, 3, 3.75, 4.5, 5.25]
+- Increase spear gold costs from [100, 400, 3000, 5000, 25000, 35000, 90000] to [1400, 2800, 5600, 11200, 22500, 45000, 90000]
+- Cannon tower damage to players increased from [5, 5, 5, 5, 5, 5, 6, 8] to [5, 5, 6, 6, 7, 7, 8, 8]
+- Arrow tower damage to players increased from [5, 5, 5, 5, 5, 5, 6, 6] to [5, 5, 6, 6, 7, 7, 8, 8]
+- Bomb tower damage to players increased from [10, 10, 10, 10, 10, 10, 10, 10] to [9, 9, 10, 10, 11, 11, 12, 12]
+- Magic tower damage to players increased from [5, 5, 5, 5, 5, 5, 5, 5] to [5, 5, 5, 6, 6, 6, 7, 7]
+- Melee tower damage to players increased from [5, 5, 5, 5, 5, 5, 6, 6] to [5, 6, 7, 8, 9, 10, 11, 12]
+- Increase distance between bases slightly because bomb towers can reach into other players bases
+- Disallow damage to player objects if no gold stash is owned
+- Minor security fixes
+```

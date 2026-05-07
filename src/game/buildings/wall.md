@@ -18,10 +18,8 @@ Compared to its counterpart - Doors - Walls have more health, but do not start t
 - You can place 250 walls (per party member, 1000 total).
 
 ## Stats
-
-
 | Tier | Image | Wood | Stone | Gold | Max HP | Time before regen | HP/s |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | <img src="/asset/image/entity/wall/wall-t1-base.svg" width="36" height="36" style="margin:auto;"> | 2 | - | - | 150 | 10s | 5 |
 | 2 | <img src="/asset/image/entity/wall/wall-t2-base.svg" width="36" height="36" style="margin:auto;"> | - | 2| 5 | 200 | 10s | 7 |
 | 3 | <img src="/asset/image/entity/wall/wall-t3-base.svg" width="36" height="36" style="margin:auto;"> | - | - | 30 | 300 | 10s | 12 |
