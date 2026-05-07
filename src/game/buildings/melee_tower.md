@@ -29,6 +29,22 @@
 | 7 |  | 300 | 300 | 8000 | 4000 | 5s | 280 | 2200 | 11 | 6 | 850 | 110 | 4.0/s | 30 |
 | 8 |  | 800 | 800 | 35000 | 9000 | 5s | 500 | 3500 | 12 | 6 | 1000 | 110 | 5.0/s | 30 |
 
+## Trivia
+
+The `melee-tower-t1-middle.svg` is the only asset that contains the original brown colour
+
+<div style="text-align:center;">
+  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
+    <img src="/asset/image/entity/melee-tower/melee-tower-t1-middle.svg" style="width:150px; display:block; margin:0 auto;">
+    <div>Different brown colour.</div>
+  </div>
+</div>
+<div style="text-align:center;">
+  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
+    <img src="/asset/image/entity/melee-tower/melee-tower-t1-base.svg" style="width:150px; display:block; margin:0 auto;">
+    <div>The base & other buildings have the new brown colour.</div>
+  </div>
+</div>
 
 ## Changelog
 

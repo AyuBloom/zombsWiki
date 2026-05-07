@@ -26,6 +26,22 @@
 | 7 |  | 300 | 300 | 8000 | 2200 | 10s | 110 | 400 | 8 | 6 | 850 | 1300ms | 120 | 10 | 900 | 4.0/s |
 | 8 |  | 800 | 800 | 35000 | 3600 | 10s | 150 | 500 | 8 | 6 | 1000 | 1300ms | 140 | 10 | 1000 | 4.0/s |
 
+## Trivia
+The UI Arrow Tower icon uses the wrong `arrow-head` colour.
+
+<div style="text-align:center;">
+  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
+    <img src="/asset/image/ui/entities/entities-arrow-tower.svg" style="width:150; display:block; margin:0 auto;">
+    <div>Wrong `arrow-head` colour</div>
+  </div>
+</div>
+
+<div style="text-align:center;">
+  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
+    <img src="/asset/image/entity/arrow-tower/arrow-tower-t1-head.svg" style="width:150; display:block; margin:0 auto;">
+    <div>Correct colour</div>
+  </div>
+</div>
 
 ## Changelog
 ### November 20, 2021 - Minor Update
