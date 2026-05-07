@@ -287,6 +287,7 @@ export default defineConfig({
         text: "Game",
         items: [
           { text: "Introduction", link: "/game/introduction" },
+          { text: "Changelog", link: "/game/changelog.md" },
           {
             text: "Buildings",
             items: [
