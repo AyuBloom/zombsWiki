@@ -17,7 +17,7 @@
 
 ## Stats
 | Tier | Image | Wood | Stone | Gold | Max HP | Time before regen | HP/s | Slowing amount | Slowing time |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 | 1 | <img src="/asset/image/entity/slow-trap/slow-trap-t1-base.svg" width="36" height="36" style="margin:auto;"> | 5 | 5 | - | 150 | 10s | 2 | 40% | 2.5s |
 | 2 | <img src="/asset/image/entity/slow-trap/slow-trap-t2-base.svg" width="36" height="36" style="margin:auto;"> | 25 | 20 | 100 | 200 | 10s | 5 | 45% | 2.5s |
 | 3 | <img src="/asset/image/entity/slow-trap/slow-trap-t3-base.svg" width="36" height="36" style="margin:auto;"> | 30 | 30 | 200 | 400 | 10s | 10 | 50% | 2.5s |

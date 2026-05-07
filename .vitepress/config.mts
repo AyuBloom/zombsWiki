@@ -12,10 +12,7 @@ export default defineConfig({
   head: [
     ["link", { rel: "icon", href: "/zombsWiki/logo.svg" }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
-    [
-      "link",
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
-    ],
+    ["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
     [
       "link",
       {
@@ -299,8 +296,8 @@ export default defineConfig({
               { text: "Melee Tower", link: "/game/buildings/melee_tower.md" },
               { text: "Bomb Tower", link: "/game/buildings/bomb_tower.md" },
               { text: "Mage Tower", link: "/game/buildings/mage_tower.md" },
-              { text: "Gold Mine", link: "/game/buildings/gold_mine.md" },
               { text: "Harvester", link: "/game/buildings/harvester.md" },
+              { text: "Gold Mine", link: "/game/buildings/gold_mine.md" },
               { text: "Gold Stash", link: "/game/buildings/gold_stash.md" },
             ],
             collapsed: true,

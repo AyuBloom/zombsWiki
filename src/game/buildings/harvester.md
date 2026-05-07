@@ -1,0 +1,30 @@
+# Harvester
+Resource Harvester is a type of building. It doesn't attack or defend the base, but it is used to harvest resources, such as wood and stone for the player. It must be placed next to a tree or rock, or both of them to be able to collect resources. It needs gold as fuel to start the harvesting process. You can collect the resources either by using the in game hud, or simply hit it with your pickaxe/spear.
+
+<div style="text-align:center;">
+  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
+    <img src="/asset/image/ui/entities/entities-harvester.svg" style="width:192px; display:block; margin:0 auto;">
+    <div>Tier 1 Harvester</div>
+  </div>
+</div>
+
+## Overview
+- Description: `"Harvests resources automatically, fuelled by gold. Hit with a pickaxe to collect."`
+- They can be rotated with R.
+- They have the size of 2x2 in-game cells.
+- Requires 5 Wood and 5 Stone to place.
+- You can place 2 harvesters (per party member, 8 total).
+- It takes 10 refill button clicks to fully load the harvester with gold fuel.
+
+
+## Stats
+| Tier | Image | Cost<hr>Wood | Cost<hr>Stone | Cost<hr>Gold | Deposit<hr>Cost per Minute | Deposit<hr>Max Deposit| Health<hr>Max HP | Health<hr>Time before HP regeneration | Health<hr>HP/s | Harvest<hr>Ammount collected | Harvest<hr>Interval | Harvest<hr>Range | Harvest<hr>Max capacity | Others<hr>Max Yaw Deviation |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 |  | 5 | 5 | - | 200 | 1600 | 150 | 10s | 2 | 3.75 | 1.5s | 300 | 800 | 70 |
+| 2 |  | 25 | 20 | 100 | 300 | 2400 | 200 | 10s | 5 | 6.975 | 1.4s | 300 | 1600 | 70 |
+| 3 |  | 30 | 30 | 200 | 350 | 2800 | 400 | 10s | 10 | 6.825 | 1.3s | 300 | 2400 | 70 |
+| 4 |  | 40 | 40 | 600 | 500 | 4000 | 800 | 10s | 20 | 10.8 | 1.2s | 300 | 3200 | 70 |
+| 5 |  | 50 | 60 | 1200 | 600 | 4800 | 1200 | 10s | 40 | 12.375 | 1.1s | 300 | 4000 | 70 |
+| 6 |  | 70 | 80 | 2000 | 700 | 4800 | 1600 | 10s | 80 | 15 | 1.0s | 300 | 4800 | 70 |
+| 7 |  | 300 | 300 | 8000 | 1200 | 9600 | 2200 | 10s | 110 | 20.25 | 0.9s | 300 | 5600 | 70 |
+| 8 |  | 600 | 600 | 10000 | 1400 | 12000 | 2800 | 10s | 130 | 24 | 0.8s | 300 | 7200 | 70 |
