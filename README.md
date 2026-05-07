@@ -276,8 +276,7 @@ src/public/
 │   │           └── jeremy_2.png
 │   ├── game
 │   │   └── buildings
-│   │       ├── building_bar.png
-│   │       └── mage.png
+│   │       └── building_bar.png
 │   ├── intro
 │   │   └── introduction
 │   │       ├── homepage.png
