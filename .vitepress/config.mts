@@ -284,11 +284,6 @@ export default defineConfig({
                 ],
                 collapsed: true,
               },
-              { text: "Schemas", link: "/architecture/engine/schema" },
-              {
-                text: "Data Interfaces",
-                link: "/architecture/engine/data_interfaces",
-              },
               {
                 text: "_MakeBlendField",
                 items: [
@@ -298,6 +293,11 @@ export default defineConfig({
                   },
                 ],
                 collapsed: true,
+              },
+              { text: "Schemas", link: "/architecture/engine/schema" },
+              {
+                text: "Data Interfaces",
+                link: "/architecture/engine/data_interfaces",
               },
             ],
             collapsed: true,
@@ -312,11 +312,11 @@ export default defineConfig({
                 items: [
                   {
                     text: "Skill Points",
-                    link: "/architecture/exploit/inactive/skill_point.md",
+                    link: "/architecture/exploit/inactive/skill_point",
                   },
                   {
                     text: "Speed Pets",
-                    link: "/architecture/exploit/inactive/pet_olympics.md",
+                    link: "/architecture/exploit/inactive/pet_olympics",
                   },
                 ],
                 collapsed: true,
@@ -329,56 +329,55 @@ export default defineConfig({
       {
         text: "Gameplay",
         items: [
-          { text: "Introduction", link: "/game/introduction" },
-          { text: "Changelog", link: "/game/changelog.md" },
           {
             text: "Game",
             items: [
               { text: "Introduction", link: "/gameplay/game/introduction" },
+              { text: "Changelog", link: "/gameplay/game/changelog" },
               {
                 text: "Buildings",
                 items: [
                   {
                     text: "Overview",
-                    link: "/gameplay/game/buildings/buildings.md",
+                    link: "/gameplay/game/buildings/buildings",
                   },
-                  { text: "Wall", link: "/gameplay/game/buildings/wall.md" },
-                  { text: "Door", link: "/gameplay/game/buildings/door.md" },
+                  { text: "Wall", link: "/gameplay/game/buildings/wall" },
+                  { text: "Door", link: "/gameplay/game/buildings/door" },
                   {
                     text: "Trap",
-                    link: "/gameplay/game/buildings/slow_trap.md",
+                    link: "/gameplay/game/buildings/slow_trap",
                   },
                   {
                     text: "Arrow Tower",
-                    link: "/gameplay/game/buildings/arrow_tower.md",
+                    link: "/gameplay/game/buildings/arrow_tower",
                   },
                   {
                     text: "Cannon Tower",
-                    link: "/gameplay/game/buildings/cannon_tower.md",
+                    link: "/gameplay/game/buildings/cannon_tower",
                   },
                   {
                     text: "Melee Tower",
-                    link: "/gameplay/game/buildings/melee_tower.md",
+                    link: "/gameplay/game/buildings/melee_tower",
                   },
                   {
                     text: "Bomb Tower",
-                    link: "/gameplay/game/buildings/bomb_tower.md",
+                    link: "/gameplay/game/buildings/bomb_tower",
                   },
                   {
                     text: "Mage Tower",
-                    link: "/gameplay/game/buildings/mage_tower.md",
+                    link: "/gameplay/game/buildings/mage_tower",
                   },
                   {
                     text: "Harvester",
-                    link: "/gameplay/game/buildings/harvester.md",
+                    link: "/gameplay/game/buildings/harvester",
                   },
                   {
                     text: "Gold Mine",
-                    link: "/gameplay/game/buildings/gold_mine.md",
+                    link: "/gameplay/game/buildings/gold_mine",
                   },
                   {
                     text: "Gold Stash",
-                    link: "/gameplay/game/buildings/gold_stash.md",
+                    link: "/gameplay/game/buildings/gold_stash",
                   },
                 ],
                 collapsed: true,
@@ -403,11 +402,11 @@ export default defineConfig({
                   },
                   {
                     text: "Odd Zombie Spawning",
-                    link: "/gameplay/bugs/active/odd_zombie_spawn.md",
+                    link: "/gameplay/bugs/active/odd_zombie_spawn",
                   },
                   {
                     text: "Minor Bugs",
-                    link: "/gameplay/bugs/active/minor_bugs.md",
+                    link: "/gameplay/bugs/active/minor_bugs",
                   },
                 ],
                 collapsed: true,
@@ -417,31 +416,31 @@ export default defineConfig({
                 items: [
                   {
                     text: "Tower Heal",
-                    link: "/gameplay/bugs/inactive/tower_heal.md",
+                    link: "/gameplay/bugs/inactive/tower_heal",
                   },
                   {
                     text: "Wave 14 - No zombies",
-                    link: "/gameplay/bugs/inactive/blank_wave.md",
+                    link: "/gameplay/bugs/inactive/blank_wave",
                   },
                   {
                     text: "C.A.R.L. Healing",
-                    link: "/gameplay/bugs/inactive/carl_healing.md",
+                    link: "/gameplay/bugs/inactive/carl_healing",
                   },
                   {
                     text: "Tower Buff",
-                    link: "/gameplay/bugs/inactive/tower_buff.md",
+                    link: "/gameplay/bugs/inactive/tower_buff",
                   },
                   {
                     text: "Tower Nerf",
-                    link: "/gameplay/bugs/inactive/tower_nerf.md",
+                    link: "/gameplay/bugs/inactive/tower_nerf",
                   },
                   {
                     text: "Undying Zombies",
-                    link: "/gameplay/bugs/inactive/undying_zombs.md",
+                    link: "/gameplay/bugs/inactive/undying_zombs",
                   },
                   {
                     text: "Minor Bugs",
-                    link: "/gameplay/bugs/inactive/minor_bugs.md",
+                    link: "/gameplay/bugs/inactive/minor_bugs",
                   },
                 ],
                 collapsed: true,
