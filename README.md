@@ -214,8 +214,11 @@ src/
 │   ├── records.md
 │   └── terms.md
 ├── scripts
-│   └── fundamentals
-│       └── dc_triggers.md
+│   ├── fundamentals
+│   │   └── dc_triggers.md
+│   └── popular_scripts
+│       ├── overview.md
+│       └── xera.md
 └── index.md
 ```
 
@@ -291,10 +294,14 @@ src/public/
 │   │       ├── party1.png
 │   │       ├── party2.png
 │   │       └── ui.png
-│   └── mbf
-│       └── overview
-│           ├── error_1.png
-│           └── mbf.jpg
+│   ├── mbf
+│   │   └── overview
+│   │       ├── error_1.png
+│   │       └── mbf.jpg
+│   └── scripts
+│       └── popular_scripts
+│           └── xera
+│               └── intro.png
 ├── logo.svg
 └── robots.txt
 ```
