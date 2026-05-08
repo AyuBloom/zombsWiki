@@ -13,7 +13,7 @@ Unknown.
 A Discord user named LOLOL sent an image showing a Zombie that spawned INSIDE his base, on a bunch of doors.
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/active/odd_zombie_spawn/weird_spawn.png" style="width:400px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/active/odd_zombie_spawn/weird_spawn.png" style="width:400px; display:block; margin:0 auto;">
     <div>Orange Zombie inside an X base.</div>
   </div>
 </div>
@@ -25,7 +25,7 @@ When Xperience wanted to play and record his base, he caught on camera a couple 
 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/active/odd_zombie_spawn/weird_spawn_again.png" style="width:400px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/active/odd_zombie_spawn/weird_spawn_again.png" style="width:400px; display:block; margin:0 auto;">
     <div>Yellow Zombies inside an env base.</div>
   </div>
 </div>

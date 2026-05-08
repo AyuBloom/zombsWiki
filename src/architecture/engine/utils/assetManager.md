@@ -16,7 +16,7 @@ Loads all files from an array by names. Is called once every time the game is lo
 
 ::: info
 
-Parameter `files` has the data structure as shown in [Data Interfaces](#data-interfaces). You can see the current parameter [here](/asset/engine/utils/assetManager/files.json).
+Parameter `files` has the data structure as shown in [Data Interfaces](#data-interfaces). You can see the current parameter [here](/asset/architecture/engine/utils/assetManager/files.json).
 
 :::
 

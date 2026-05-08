@@ -2,7 +2,7 @@
 
 The game client exposes a global `game` variable that can be accessed through the console or via Tampermonkey / Greasemonkey user scripts. From now on, for convenience, Tampermonkey / Greasemonkey user scripts will simply be referred to as scripts.
 
-![Game variable](/asset/engine/overview/game.png)
+![Game variable](/asset/architecture/engine/overview/game.png)
 
 There are 3 types of things inside the `game` object:
 - Game components: All of the components that make the client work.

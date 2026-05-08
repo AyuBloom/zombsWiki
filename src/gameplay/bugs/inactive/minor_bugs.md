@@ -12,7 +12,7 @@ Back when the Harvester was first introduced, there was no limit to how many res
 
 A screenshot from a video made by iX demonstrates the bug:
 
-![An overflowing harvester, appearing with a yellow bar longer than expected](/asset/bugs/inactive/minor_bugs/harvester_overflow.png)
+![An overflowing harvester, appearing with a yellow bar longer than expected](/asset/gameplay/bugs/inactive/minor_bugs/harvester_overflow.png)
 
 ### Changelog
 

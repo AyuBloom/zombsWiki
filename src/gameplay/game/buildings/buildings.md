@@ -5,7 +5,7 @@ The buildings can be found on the building bar at the bottom of the screen. You 
 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/game/buildings/building_bar.png" alt="Image" style="width:500px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/game/buildings/building_bar.png" alt="Image" style="width:500px; display:block; margin:0 auto;">
     <div>The in-game building bar</div>
   </div>
 </div>

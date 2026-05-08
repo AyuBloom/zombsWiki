@@ -11,7 +11,7 @@ Unknown. Probably an overlook in the code.
 ## Example
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/inactive/blank_wave/no_zombs.png" style="width:400px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/inactive/blank_wave/no_zombs.png" style="width:400px; display:block; margin:0 auto;">
     <div>Xperience having no zombie spawn at wave 14.</div>
   </div>
 </div>

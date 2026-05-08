@@ -63,7 +63,7 @@ Mages require 100 gold to place.
 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/game/buildings/mage.png" alt="Image" style="width:500px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/game/buildings/mage.png" alt="Image" style="width:500px; display:block; margin:0 auto;">
     <div>Mage needing 100 gold.</div>
   </div>
 </div>

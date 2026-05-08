@@ -20,7 +20,7 @@ There are hard-coded schemas for buildings, spells, entities and items in the cl
 | `Harvester` | Resource Harvester | Harvests resources automatically, fuelled by gold. | 0 | HarvesterModel | 2 | 2 | 1 | 0 | 2 | true |
 | `GoldStash` | Gold Stash | Establishes your base and holds your gold. | - | GoldStashModel | 2 | 2 | 1 | 0 | 1 | false |
 
-Raw schema: [buildings.json](/asset/engine/schema/buildings.json)
+Raw schema: [buildings.json](/asset/architecture/engine/schema/buildings.json)
 
 ### Entities
 
@@ -60,7 +60,7 @@ Raw schema: [buildings.json](/asset/engine/schema/buildings.json)
 | `NeutralTier1` | NeutralModel | - | - | - |
 | `PathNode` | PathNodeModel | - | - | - |
 
-Raw schema: [entities.json](/asset/engine/schema/entities.json)
+Raw schema: [entities.json](/asset/architecture/engine/schema/entities.json)
 
 ### Items
 
@@ -89,7 +89,7 @@ You cannot equip `Invulnurable` or `Pause` as an utility, even though they are l
 | `Pause` | Timeout | Utility | Prevents zombies from spawning for one cycle. | 1 | false | true | false |
 | `Invulnerable` | Invulnerable | Utility | You are temporarily immune to damage. | 1 | false | true | false |
 
-Raw schema: [items.json](/asset/engine/schema/items.json)
+Raw schema: [items.json](/asset/architecture/engine/schema/items.json)
 
 ### Spells
 
@@ -103,7 +103,7 @@ Even though `Pause` / Timeout is a spell in the game, it is listed under Items, 
 
 :::
 
-Raw schema: [spells.json](/asset/engine/schema/spells.json)
+Raw schema: [spells.json](/asset/architecture/engine/schema/spells.json)
 
 ## Server-served Schemas
 

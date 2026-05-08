@@ -488,7 +488,7 @@ These variables are defined directly by server data (`PACKET_ENTER_WORLD`) and s
 
 #### `attributeMaps`
 
-`attributeMaps` defines all of the attributes that can be present on an entity and the type they are encoded as. A complete attribute map can be found [here](/asset/engine/main/network/attributeMaps.json).
+`attributeMaps` defines all of the attributes that can be present on an entity and the type they are encoded as. A complete attribute map can be found [here](/asset/architecture/engine/main/network/attributeMaps.json).
 
 #### `entityTypeNames`
 
@@ -513,4 +513,4 @@ These variables are defined directly by server data (`PACKET_ENTER_WORLD`) and s
 
 #### `rpcMaps`
 
-There are a total of 40 RPCs in the game for both server and client RPCs. A complete RPC map can be found [here](/asset/engine/main/network/rpcMaps.json).
+There are a total of 40 RPCs in the game for both server and client RPCs. A complete RPC map can be found [here](/asset/architecture/engine/main/network/rpcMaps.json).

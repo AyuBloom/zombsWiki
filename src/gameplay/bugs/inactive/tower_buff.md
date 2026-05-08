@@ -7,7 +7,7 @@ The issue didnt affect all the servers at once, but it started to spread slowly 
 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/inactive/tower_buff/tower_buff_proj.png" style="width:200px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/inactive/tower_buff/tower_buff_proj.png" style="width:200px; display:block; margin:0 auto;">
     <div>10 projectiles per shot</div>
   </div>
 </div>
@@ -44,7 +44,7 @@ I know this isn't a tower, but still.
 ### Bugged towers in an environmental base
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/inactive/tower_buff/buffed_env.png" style="width:400px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/inactive/tower_buff/buffed_env.png" style="width:400px; display:block; margin:0 auto;">
     <div>Erik in his env base, with bugged towers.</div>
   </div>
 </div>
@@ -56,7 +56,7 @@ I know this isn't a tower, but still.
 ### Bugged towers in a corner base
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/inactive/tower_buff/buffed_corner.png" style="width:400px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/inactive/tower_buff/buffed_corner.png" style="width:400px; display:block; margin:0 auto;">
     <div>Erik in his corner base, with bugged towers.</div>
   </div>
 </div>
@@ -68,7 +68,7 @@ I know this isn't a tower, but still.
 ### New player looking at the arrow projectiles
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/inactive/tower_buff/newbie.png" style="width:400px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/inactive/tower_buff/newbie.png" style="width:400px; display:block; margin:0 auto;">
     <div>New player looking at the projectiles.</div>
   </div>
 </div>
@@ -81,7 +81,7 @@ I know this isn't a tower, but still.
 ### Woody bug
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/inactive/tower_buff/woodybuff.png" style="width:150px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/inactive/tower_buff/woodybuff.png" style="width:150px; display:block; margin:0 auto;">
     <div>Woody burst hit.</div>
   </div>
 </div>
@@ -96,7 +96,7 @@ I know this isn't a tower, but still.
 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/inactive/tower_buff/deathscore.png" style="width:400px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/inactive/tower_buff/deathscore.png" style="width:400px; display:block; margin:0 auto;">
     <div>deathrain's score base concept.</div>
   </div>
 </div>
@@ -109,7 +109,7 @@ I know this isn't a tower, but still.
 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/inactive/tower_buff/erokscore.png" style="width:400px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/inactive/tower_buff/erokscore.png" style="width:400px; display:block; margin:0 auto;">
     <div>Erik's corner score base concept using this tower buff.</div>
   </div>
 </div>
@@ -119,7 +119,7 @@ I know this isn't a tower, but still.
 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/inactive/tower_buff/lowspw.png" style="width:400px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/inactive/tower_buff/lowspw.png" style="width:400px; display:block; margin:0 auto;">
     <div>Mage based env base, by randominist & asd.</div>
   </div>
 </div>
@@ -129,7 +129,7 @@ I know this isn't a tower, but still.
 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/inactive/tower_buff/deathwave.png" style="width:400px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/inactive/tower_buff/deathwave.png" style="width:400px; display:block; margin:0 auto;">
     <div>deathrain afking in his 8000+ waves base.</div>
   </div>
 </div>

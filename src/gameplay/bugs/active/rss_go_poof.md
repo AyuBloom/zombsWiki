@@ -16,7 +16,7 @@ On 26th April, a discord user named Shadow sent a screenshot showing him sitting
 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/active/rss_go_poof/rock.png" style="width:300px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/active/rss_go_poof/rock.png" style="width:300px; display:block; margin:0 auto;">
     <div>Shadow sitting on the missing rock.</div>
   </div>
 </div>
@@ -25,7 +25,7 @@ A full server scan showed that a tree and a rock is completely gone. A normal ma
 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/active/rss_go_poof/spotinfo.png" style="width:450px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/active/rss_go_poof/spotinfo.png" style="width:450px; display:block; margin:0 auto;">
     <div>Server scan results</div>
   </div>
 </div>

@@ -466,10 +466,10 @@ export default defineConfig({
         ],
       },
       {
-        text: "Miscellaneous",
+        text: "Community",
         items: [
-          { text: "World Records", link: "/misc/records" },
-          { text: "Common Terms", link: "/misc/terms" },
+          { text: "World Records", link: "/community/records" },
+          { text: "Common Terms", link: "/community/terms" },
         ],
       },
     ],

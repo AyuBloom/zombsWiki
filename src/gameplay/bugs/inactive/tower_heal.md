@@ -21,7 +21,7 @@ Explains a community member, [Apex](https://www.youtube.com/@Apex-ti1dm).
 ### Tier 9 
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/inactive/tower_heal/t9_heal.png" style="width:400px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/inactive/tower_heal/t9_heal.png" style="width:400px; display:block; margin:0 auto;">
     <div>Tier 9 heal spell.</div>
   </div>
 </div>
@@ -29,7 +29,7 @@ Explains a community member, [Apex](https://www.youtube.com/@Apex-ti1dm).
 ### Tier 1033
 <div style="text-align:center;">
   <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/bugs/inactive/tower_heal/t1033_heal.png" style="width:400px; display:block; margin:0 auto;">
+    <img src="/asset/gameplay/bugs/inactive/tower_heal/t1033_heal.png" style="width:400px; display:block; margin:0 auto;">
     <div>Tier 1033 heal spell.<br>Notice how towers appear to not have health.</div>
   </div>
 </div>
