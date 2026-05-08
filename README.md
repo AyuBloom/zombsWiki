@@ -216,12 +216,11 @@ src/
 │   │   ├── introduction.md
 │   │   └── zombie_patterns.md
 │   └── scripts
-│       └── fundamentals
-│           └── dc_triggers.md
-├── scripts
-│   └── popular_scripts
-│       ├── overview.md
-│       └── xera.md
+│       ├── fundamentals
+│       │   └── dc_triggers.md
+│       └── popular_scripts
+│           ├── overview.md
+│           └── xera.md
 └── index.md
 ```
 
@@ -255,57 +254,57 @@ src/public/
 │   │           └── skill_point
 │   │               ├── jeremy_1.png
 │   │               └── jeremy_2.png
-│   ├── gameplay
-│   │   ├── bugs
-│   │   │   ├── active
-│   │   │   │   ├── odd_zombie_spawn
-│   │   │   │   │   ├── weird_spawn_again.png
-│   │   │   │   │   └── weird_spawn.png
-│   │   │   │   └── rss_go_poof
-│   │   │   │       ├── rock.png
-│   │   │   │       └── spotinfo.png
-│   │   │   └── inactive
-│   │   │       ├── blank_wave
-│   │   │       │   └── no_zombs.png
-│   │   │       ├── carl_healing
-│   │   │       │   ├── healing_carl_2.png
-│   │   │       │   └── healing_carl.png
-│   │   │       ├── minor_bugs
-│   │   │       │   └── harvester_overflow.png
-│   │   │       ├── tower_buff
-│   │   │       │   ├── buffed_corner.png
-│   │   │       │   ├── buffed_env.png
-│   │   │       │   ├── deathscore.png
-│   │   │       │   ├── deathwave.png
-│   │   │       │   ├── erokscore.png
-│   │   │       │   ├── lowspw.png
-│   │   │       │   ├── newbie.png
-│   │   │       │   ├── tower_buff_proj.png
-│   │   │       │   └── woodybuff.png
-│   │   │       ├── tower_heal
-│   │   │       │   ├── t1033_heal.png
-│   │   │       │   └── t9_heal.png
-│   │   │       └── undying_zombs
-│   │   │           ├── 4_colours.png
-│   │   │           ├── boss.png
-│   │   │           ├── graph1.png
-│   │   │           ├── graph2.png
-│   │   │           ├── nohp.png
-│   │   │           ├── undead_pile.png
-│   │   │           └── zombies.png
-│   │   └── game
-│   │       ├── buildings
-│   │       │   ├── building_bar.png
-│   │       │   └── mage.png
-│   │       └── introduction
-│   │           ├── homepage.png
-│   │           ├── party1.png
-│   │           ├── party2.png
-│   │           └── ui.png
-│   └── scripts
-│       └── popular_scripts
-│           └── xera
-│               └── intro.png
+│   └── gameplay
+│       ├── bugs
+│       │   ├── active
+│       │   │   ├── odd_zombie_spawn
+│       │   │   │   ├── weird_spawn_again.png
+│       │   │   │   └── weird_spawn.png
+│       │   │   └── rss_go_poof
+│       │   │       ├── rock.png
+│       │   │       └── spotinfo.png
+│       │   └── inactive
+│       │       ├── blank_wave
+│       │       │   └── no_zombs.png
+│       │       ├── carl_healing
+│       │       │   ├── healing_carl_2.png
+│       │       │   └── healing_carl.png
+│       │       ├── minor_bugs
+│       │       │   └── harvester_overflow.png
+│       │       ├── tower_buff
+│       │       │   ├── buffed_corner.png
+│       │       │   ├── buffed_env.png
+│       │       │   ├── deathscore.png
+│       │       │   ├── deathwave.png
+│       │       │   ├── erokscore.png
+│       │       │   ├── lowspw.png
+│       │       │   ├── newbie.png
+│       │       │   ├── tower_buff_proj.png
+│       │       │   └── woodybuff.png
+│       │       ├── tower_heal
+│       │       │   ├── t1033_heal.png
+│       │       │   └── t9_heal.png
+│       │       └── undying_zombs
+│       │           ├── 4_colours.png
+│       │           ├── boss.png
+│       │           ├── graph1.png
+│       │           ├── graph2.png
+│       │           ├── nohp.png
+│       │           ├── undead_pile.png
+│       │           └── zombies.png
+│       ├── game
+│       │   ├── buildings
+│       │   │   ├── building_bar.png
+│       │   │   └── mage.png
+│       │   └── introduction
+│       │       ├── homepage.png
+│       │       ├── party1.png
+│       │       ├── party2.png
+│       │       └── ui.png
+│       └── scripts
+│           └── popular_scripts
+│               └── xera
+│                   └── intro.png
 ├── logo.svg
 └── robots.txt
 ```
