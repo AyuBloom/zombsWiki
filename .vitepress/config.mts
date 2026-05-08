@@ -303,22 +303,6 @@ export default defineConfig({
             collapsed: true,
           },
           {
-            text: "Scripting",
-            items: [
-              {
-                text: "Fundamentals",
-                items: [
-                  {
-                    text: "Disconnection Triggers",
-                    link: "/architecture/scripts/fundamentals/dc_triggers",
-                  },
-                ],
-                collapsed: true,
-              },
-            ],
-            collapsed: true,
-          },
-          {
             text: "Exploits",
             items: [
               { text: "Overview", link: "/architecture/exploit/overview" },
@@ -337,14 +321,6 @@ export default defineConfig({
                 ],
                 collapsed: true,
               },
-            ],
-            collapsed: true,
-          },
-          {
-            text: "Popular Scripts",
-            items: [
-              { text: "Overview", link: "/scripts/popular_scripts/overview" },
-              { text: "Xeraphinite", link: "/scripts/popular_scripts/xera" },
             ],
             collapsed: true,
           },
@@ -467,6 +443,30 @@ export default defineConfig({
                     text: "Minor Bugs",
                     link: "/gameplay/bugs/inactive/minor_bugs.md",
                   },
+                ],
+                collapsed: true,
+              },
+            ],
+            collapsed: true,
+          },
+          {
+            text: "Scripting",
+            items: [
+              {
+                text: "Fundamentals",
+                items: [
+                  {
+                    text: "Disconnection Triggers",
+                    link: "/gameplay/scripts/fundamentals/dc_triggers",
+                  },
+                ],
+                collapsed: true,
+              },
+              {
+                text: "Popular Scripts",
+                items: [
+                  { text: "Overview", link: "/gameplay/scripts/popular_scripts/overview" },
+                  { text: "Xeraphinite", link: "/gameplay/scripts/popular_scripts/xera" },
                 ],
                 collapsed: true,
               },
