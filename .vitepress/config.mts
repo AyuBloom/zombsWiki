@@ -281,6 +281,14 @@ export default defineConfig({
             ],
             collapsed: true,
           },
+          {
+            text: "Popular Scripts",
+            items: [
+              { text: "Overview", link: "/scripts/popular_scripts/overview" },
+              { text: "Xeraphinite", link: "/scripts/popular_scripts/xera" },
+            ],
+            collapsed: true,
+          },
         ],
       },
       {
