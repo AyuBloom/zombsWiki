@@ -44,27 +44,219 @@ export default defineConfig({
         items: [{ text: "Welcome", link: "/" }],
       },
       {
-        text: "Engine",
+        text: "Architecture",
         items: [
-          { text: "Overview", link: "/engine/overview" },
-          { text: "game", link: "/engine/game" },
           {
-            text: "Main Components",
+            text: "Engine",
             items: [
+              { text: "Overview", link: "/architecture/engine/overview" },
+              { text: "game", link: "/architecture/engine/game" },
               {
-                text: "ui",
+                text: "Main Components",
                 items: [
-                  { text: "ui", link: "/engine/main/ui/ui" },
                   {
-                    text: "UI Components",
+                    text: "ui",
+                    items: [
+                      { text: "ui", link: "/architecture/engine/main/ui/ui" },
+                      {
+                        text: "UI Components",
+                        items: [
+                          {
+                            text: "UiComponent",
+                            link: "/architecture/engine/main/ui/components/UiComponent",
+                          },
+                          {
+                            text: "UiChat",
+                            link: "/architecture/engine/main/ui/components/UiChat",
+                          },
+                        ],
+                        collapsed: true,
+                      },
+                    ],
+                    collapsed: true,
+                  },
+                  {
+                    text: "world",
                     items: [
                       {
-                        text: "UiComponent",
-                        link: "/engine/main/ui/components/UiComponent",
+                        text: "world",
+                        link: "/architecture/engine/main/world/world",
                       },
                       {
-                        text: "UiChat",
-                        link: "/engine/main/ui/components/UiChat",
+                        text: "entityGrid",
+                        link: "/architecture/engine/main/world/entityGrid",
+                      },
+                      {
+                        text: "localPlayer",
+                        link: "/architecture/engine/main/world/localPlayer",
+                      },
+                      {
+                        text: "replicator",
+                        link: "/architecture/engine/main/world/replicator",
+                      },
+                    ],
+                    collapsed: true,
+                  },
+                  {
+                    text: "network",
+                    link: "/architecture/engine/main/network",
+                  },
+                  {
+                    text: "renderer",
+                    items: [
+                      {
+                        text: "renderer",
+                        link: "/architecture/engine/main/renderer/renderer",
+                      },
+                      {
+                        text: "Entity Types",
+                        items: [
+                          {
+                            text: "Entity",
+                            link: "/architecture/engine/main/renderer/entity_types/Entity",
+                          },
+                          {
+                            text: "NetworkEntity",
+                            link: "/architecture/engine/main/renderer/entity_types/NetworkEntity",
+                          },
+                          {
+                            text: "ModelEntity",
+                            link: "/architecture/engine/main/renderer/entity_types/ModelEntity",
+                          },
+                          {
+                            text: "GroundEntity",
+                            link: "/architecture/engine/main/renderer/entity_types/GroundEntity",
+                          },
+                          {
+                            text: "SpriteEntity",
+                            link: "/architecture/engine/main/renderer/entity_types/SpriteEntity",
+                          },
+                          {
+                            text: "DrawEntity",
+                            link: "/architecture/engine/main/renderer/entity_types/DrawEntity",
+                          },
+                          {
+                            text: "TextEntity",
+                            link: "/architecture/engine/main/renderer/entity_types/TextEntity",
+                          },
+                        ],
+                        collapsed: true,
+                      },
+                      {
+                        text: "Entity Models",
+                        items: [
+                          {
+                            text: "TowerModel",
+                            link: "/architecture/engine/main/renderer/entity_models/TowerModel",
+                          },
+                          {
+                            text: "WallModel",
+                            link: "/architecture/engine/main/renderer/entity_models/WallModel",
+                          },
+                          {
+                            text: "DoorModel",
+                            link: "/architecture/engine/main/renderer/entity_models/DoorModel",
+                          },
+                          {
+                            text: "SlowTrapModel",
+                            link: "/architecture/engine/main/renderer/entity_models/SlowTrapModel",
+                          },
+                          {
+                            text: "ArrowTowerModel",
+                            link: "/architecture/engine/main/renderer/entity_models/ArrowTowerModel",
+                          },
+                          {
+                            text: "CannonTowerModel",
+                            link: "/architecture/engine/main/renderer/entity_models/CannonTowerModel",
+                          },
+                          {
+                            text: "MeleeTowerModel",
+                            link: "/architecture/engine/main/renderer/entity_models/MeleeTowerModel",
+                          },
+                          {
+                            text: "BombTowerModel",
+                            link: "/architecture/engine/main/renderer/entity_models/BombTowerModel",
+                          },
+                          {
+                            text: "MageTowerModel",
+                            link: "/architecture/engine/main/renderer/entity_models/MageTowerModel",
+                          },
+                          {
+                            text: "GoldMineModel",
+                            link: "/architecture/engine/main/renderer/entity_models/GoldMineModel",
+                          },
+                          {
+                            text: "HarvesterModel",
+                            link: "/architecture/engine/main/renderer/entity_models/HarvesterModel",
+                          },
+                          {
+                            text: "GoldStashModel",
+                            link: "/architecture/engine/main/renderer/entity_models/GoldStashModel",
+                          },
+                          {
+                            text: "CharacterModel",
+                            link: "/architecture/engine/main/renderer/entity_models/CharacterModel",
+                          },
+                          {
+                            text: "PlayerModel",
+                            link: "/architecture/engine/main/renderer/entity_models/PlayerModel",
+                          },
+                          {
+                            text: "HealthBar",
+                            link: "/architecture/engine/main/renderer/entity_models/HealthBar",
+                          },
+                          {
+                            text: "ShieldBar",
+                            link: "/architecture/engine/main/renderer/entity_models/ShieldBar",
+                          },
+                          {
+                            text: "ExperienceBar",
+                            link: "/architecture/engine/main/renderer/entity_models/ExperienceBar",
+                          },
+                          {
+                            text: "ZombieModel",
+                            link: "/architecture/engine/main/renderer/entity_models/ZombieModel",
+                          },
+                          {
+                            text: "ZombieBossModel",
+                            link: "/architecture/engine/main/renderer/entity_models/ZombieBossModel",
+                          },
+                          {
+                            text: "ZombieRangedModel",
+                            link: "/architecture/engine/main/renderer/entity_models/ZombieRangedModel",
+                          },
+                          {
+                            text: "HealTowersSpellModel",
+                            link: "/architecture/engine/main/renderer/entity_models/HealTowersSpellModel",
+                          },
+                          {
+                            text: "PlacementIndicatorModel",
+                            link: "/architecture/engine/main/renderer/entity_models/PlacementIndicatorModel",
+                          },
+                          {
+                            text: "RangeIndicatorModel",
+                            link: "/architecture/engine/main/renderer/entity_models/RangeIndicatorModel",
+                          },
+                        ],
+                        collapsed: true,
+                      },
+                    ],
+                    collapsed: true,
+                  },
+                  {
+                    text: "input",
+                    items: [
+                      {
+                        text: "inputManager",
+                        link: "/architecture/engine/main/input/inputManager",
+                      },
+                      {
+                        text: "inputPacketCreator",
+                        link: "/architecture/engine/main/input/inputPacketCreator",
+                      },
+                      {
+                        text: "inputPacketScheduler",
+                        link: "/architecture/engine/main/input/inputPacketScheduler",
                       },
                     ],
                     collapsed: true,
@@ -73,175 +265,36 @@ export default defineConfig({
                 collapsed: true,
               },
               {
-                text: "world",
+                text: "Utility Components",
                 items: [
-                  { text: "world", link: "/engine/main/world/world" },
                   {
-                    text: "entityGrid",
-                    link: "/engine/main/world/entityGrid",
+                    text: "assetManager",
+                    link: "/architecture/engine/utils/assetManager",
+                  },
+                  { text: "debug", link: "/architecture/engine/utils/debug" },
+                  {
+                    text: "metrics",
+                    link: "/architecture/engine/utils/metrics",
                   },
                   {
-                    text: "localPlayer",
-                    link: "/engine/main/world/localPlayer",
+                    text: "platform",
+                    link: "/architecture/engine/utils/platform",
                   },
-                  { text: "replicator", link: "/engine/main/world/replicator" },
+                  { text: "util", link: "/architecture/engine/utils/util" },
                 ],
                 collapsed: true,
               },
-              { text: "network", link: "/engine/main/network" },
+              { text: "Schemas", link: "/architecture/engine/schema" },
               {
-                text: "renderer",
-                items: [
-                  { text: "renderer", link: "/engine/main/renderer/renderer" },
-                  {
-                    text: "Entity Types",
-                    items: [
-                      {
-                        text: "Entity",
-                        link: "/engine/main/renderer/entity_types/Entity",
-                      },
-                      {
-                        text: "NetworkEntity",
-                        link: "/engine/main/renderer/entity_types/NetworkEntity",
-                      },
-                      {
-                        text: "ModelEntity",
-                        link: "/engine/main/renderer/entity_types/ModelEntity",
-                      },
-                      {
-                        text: "GroundEntity",
-                        link: "/engine/main/renderer/entity_types/GroundEntity",
-                      },
-                      {
-                        text: "SpriteEntity",
-                        link: "/engine/main/renderer/entity_types/SpriteEntity",
-                      },
-                      {
-                        text: "DrawEntity",
-                        link: "/engine/main/renderer/entity_types/DrawEntity",
-                      },
-                      {
-                        text: "TextEntity",
-                        link: "/engine/main/renderer/entity_types/TextEntity",
-                      },
-                    ],
-                    collapsed: true,
-                  },
-                  {
-                    text: "Entity Models",
-                    items: [
-                      {
-                        text: "TowerModel",
-                        link: "/engine/main/renderer/entity_models/TowerModel",
-                      },
-                      {
-                        text: "WallModel",
-                        link: "/engine/main/renderer/entity_models/WallModel",
-                      },
-                      {
-                        text: "DoorModel",
-                        link: "/engine/main/renderer/entity_models/DoorModel",
-                      },
-                      {
-                        text: "SlowTrapModel",
-                        link: "/engine/main/renderer/entity_models/SlowTrapModel",
-                      },
-                      {
-                        text: "ArrowTowerModel",
-                        link: "/engine/main/renderer/entity_models/ArrowTowerModel",
-                      },
-                      {
-                        text: "CannonTowerModel",
-                        link: "/engine/main/renderer/entity_models/CannonTowerModel",
-                      },
-                      {
-                        text: "MeleeTowerModel",
-                        link: "/engine/main/renderer/entity_models/MeleeTowerModel",
-                      },
-                      {
-                        text: "BombTowerModel",
-                        link: "/engine/main/renderer/entity_models/BombTowerModel",
-                      },
-                      {
-                        text: "MageTowerModel",
-                        link: "/engine/main/renderer/entity_models/MageTowerModel",
-                      },
-                      {
-                        text: "GoldMineModel",
-                        link: "/engine/main/renderer/entity_models/GoldMineModel",
-                      },
-                      {
-                        text: "HarvesterModel",
-                        link: "/engine/main/renderer/entity_models/HarvesterModel",
-                      },
-                      {
-                        text: "GoldStashModel",
-                        link: "/engine/main/renderer/entity_models/GoldStashModel",
-                      },
-                      {
-                        text: "CharacterModel",
-                        link: "/engine/main/renderer/entity_models/CharacterModel",
-                      },
-                      {
-                        text: "PlayerModel",
-                        link: "/engine/main/renderer/entity_models/PlayerModel",
-                      },
-                      {
-                        text: "HealthBar",
-                        link: "/engine/main/renderer/entity_models/HealthBar",
-                      },
-                      {
-                        text: "ShieldBar",
-                        link: "/engine/main/renderer/entity_models/ShieldBar",
-                      },
-                      {
-                        text: "ExperienceBar",
-                        link: "/engine/main/renderer/entity_models/ExperienceBar",
-                      },
-                      {
-                        text: "ZombieModel",
-                        link: "/engine/main/renderer/entity_models/ZombieModel",
-                      },
-                      {
-                        text: "ZombieBossModel",
-                        link: "/engine/main/renderer/entity_models/ZombieBossModel",
-                      },
-                      {
-                        text: "ZombieRangedModel",
-                        link: "/engine/main/renderer/entity_models/ZombieRangedModel",
-                      },
-                      {
-                        text: "HealTowersSpellModel",
-                        link: "/engine/main/renderer/entity_models/HealTowersSpellModel",
-                      },
-                      {
-                        text: "PlacementIndicatorModel",
-                        link: "/engine/main/renderer/entity_models/PlacementIndicatorModel",
-                      },
-                      {
-                        text: "RangeIndicatorModel",
-                        link: "/engine/main/renderer/entity_models/RangeIndicatorModel",
-                      },
-                    ],
-                    collapsed: true,
-                  },
-                ],
-                collapsed: true,
+                text: "Data Interfaces",
+                link: "/architecture/engine/data_interfaces",
               },
               {
-                text: "input",
+                text: "_MakeBlendField",
                 items: [
                   {
-                    text: "inputManager",
-                    link: "/engine/main/input/inputManager",
-                  },
-                  {
-                    text: "inputPacketCreator",
-                    link: "/engine/main/input/inputPacketCreator",
-                  },
-                  {
-                    text: "inputPacketScheduler",
-                    link: "/engine/main/input/inputPacketScheduler",
+                    text: "Overview",
+                    link: "/architecture/engine/mbf/overview",
                   },
                 ],
                 collapsed: true,
@@ -250,33 +303,39 @@ export default defineConfig({
             collapsed: true,
           },
           {
-            text: "Utility Components",
+            text: "Scripting",
             items: [
-              { text: "assetManager", link: "/engine/utils/assetManager" },
-              { text: "debug", link: "/engine/utils/debug" },
-              { text: "metrics", link: "/engine/utils/metrics" },
-              { text: "platform", link: "/engine/utils/platform" },
-              { text: "util", link: "/engine/utils/util" },
+              {
+                text: "Fundamentals",
+                items: [
+                  {
+                    text: "Disconnection Triggers",
+                    link: "/architecture/scripts/fundamentals/dc_triggers",
+                  },
+                ],
+                collapsed: true,
+              },
             ],
             collapsed: true,
           },
-          { text: "Schemas", link: "/engine/schema" },
-          { text: "Data Interfaces", link: "/engine/data_interfaces" },
-        ],
-      },
-      {
-        text: "_MakeBlendField",
-        items: [{ text: "Overview", link: "/mbf/overview" }],
-      },
-      {
-        text: "Scripting",
-        items: [
           {
-            text: "Fundamentals",
+            text: "Exploits",
             items: [
+              { text: "Overview", link: "/architecture/exploit/overview" },
+              { text: "Active Exploits", items: [], collapsed: true },
               {
-                text: "Disconnection Triggers",
-                link: "/scripts/fundamentals/dc_triggers",
+                text: "Inactive / Patched Exploits",
+                items: [
+                  {
+                    text: "Skill Points",
+                    link: "/architecture/exploit/inactive/skill_point.md",
+                  },
+                  {
+                    text: "Speed Pets",
+                    link: "/architecture/exploit/inactive/pet_olympics.md",
+                  },
+                ],
+                collapsed: true,
               },
             ],
             collapsed: true,
@@ -292,106 +351,135 @@ export default defineConfig({
         ],
       },
       {
-        text: "Game",
+        text: "Gameplay",
         items: [
           { text: "Introduction", link: "/game/introduction" },
           { text: "Changelog", link: "/game/changelog.md" },
           {
-            text: "Buildings",
+            text: "Game",
             items: [
-              { text: "Overview", link: "/game/buildings/buildings.md" },
-              { text: "Wall", link: "/game/buildings/wall.md" },
-              { text: "Door", link: "/game/buildings/door.md" },
-              { text: "Trap", link: "/game/buildings/slow_trap.md" },
-              { text: "Arrow Tower", link: "/game/buildings/arrow_tower.md" },
-              { text: "Cannon Tower", link: "/game/buildings/cannon_tower.md" },
-              { text: "Melee Tower", link: "/game/buildings/melee_tower.md" },
-              { text: "Bomb Tower", link: "/game/buildings/bomb_tower.md" },
-              { text: "Mage Tower", link: "/game/buildings/mage_tower.md" },
-              { text: "Harvester", link: "/game/buildings/harvester.md" },
-              { text: "Gold Mine", link: "/game/buildings/gold_mine.md" },
-              { text: "Gold Stash", link: "/game/buildings/gold_stash.md" },
+              { text: "Introduction", link: "/gameplay/game/introduction" },
+              {
+                text: "Buildings",
+                items: [
+                  {
+                    text: "Overview",
+                    link: "/gameplay/game/buildings/buildings.md",
+                  },
+                  { text: "Wall", link: "/gameplay/game/buildings/wall.md" },
+                  { text: "Door", link: "/gameplay/game/buildings/door.md" },
+                  {
+                    text: "Trap",
+                    link: "/gameplay/game/buildings/slow_trap.md",
+                  },
+                  {
+                    text: "Arrow Tower",
+                    link: "/gameplay/game/buildings/arrow_tower.md",
+                  },
+                  {
+                    text: "Cannon Tower",
+                    link: "/gameplay/game/buildings/cannon_tower.md",
+                  },
+                  {
+                    text: "Melee Tower",
+                    link: "/gameplay/game/buildings/melee_tower.md",
+                  },
+                  {
+                    text: "Bomb Tower",
+                    link: "/gameplay/game/buildings/bomb_tower.md",
+                  },
+                  {
+                    text: "Mage Tower",
+                    link: "/gameplay/game/buildings/mage_tower.md",
+                  },
+                  {
+                    text: "Harvester",
+                    link: "/gameplay/game/buildings/harvester.md",
+                  },
+                  {
+                    text: "Gold Mine",
+                    link: "/gameplay/game/buildings/gold_mine.md",
+                  },
+                  {
+                    text: "Gold Stash",
+                    link: "/gameplay/game/buildings/gold_stash.md",
+                  },
+                ],
+                collapsed: true,
+              },
+              {
+                text: "Zombie Patterns",
+                link: "/gameplay/game/zombie_patterns",
+              },
             ],
             collapsed: true,
           },
-          { text: "Zombie Patterns", link: "/game/zombie_patterns" },
+          {
+            text: "Bugs",
+            items: [
+              { text: "Overview", link: "/gameplay/bugs/overview" },
+              {
+                text: "Active Bugs",
+                items: [
+                  {
+                    text: "Disappearing Resources",
+                    link: "/gameplay/bugs/active/rss_go_poof",
+                  },
+                  {
+                    text: "Odd Zombie Spawning",
+                    link: "/gameplay/bugs/active/odd_zombie_spawn.md",
+                  },
+                  {
+                    text: "Minor Bugs",
+                    link: "/gameplay/bugs/active/minor_bugs.md",
+                  },
+                ],
+                collapsed: true,
+              },
+              {
+                text: "Inactive / Old Bugs",
+                items: [
+                  {
+                    text: "Tower Heal",
+                    link: "/gameplay/bugs/inactive/tower_heal.md",
+                  },
+                  {
+                    text: "Wave 14 - No zombies",
+                    link: "/gameplay/bugs/inactive/blank_wave.md",
+                  },
+                  {
+                    text: "C.A.R.L. Healing",
+                    link: "/gameplay/bugs/inactive/carl_healing.md",
+                  },
+                  {
+                    text: "Tower Buff",
+                    link: "/gameplay/bugs/inactive/tower_buff.md",
+                  },
+                  {
+                    text: "Tower Nerf",
+                    link: "/gameplay/bugs/inactive/tower_nerf.md",
+                  },
+                  {
+                    text: "Undying Zombies",
+                    link: "/gameplay/bugs/inactive/undying_zombs.md",
+                  },
+                  {
+                    text: "Minor Bugs",
+                    link: "/gameplay/bugs/inactive/minor_bugs.md",
+                  },
+                ],
+                collapsed: true,
+              },
+            ],
+            collapsed: true,
+          },
         ],
       },
       {
-        text: "Bugs",
+        text: "Community",
         items: [
-          { text: "Overview", link: "/bugs/overview" },
-          {
-            text: "Active Bugs",
-            items: [
-              {
-                text: "Disappearing Resources",
-                link: "/bugs/active/rss_go_poof",
-              },
-              {
-                text: "Odd Zombie Spawning",
-                link: "/bugs/active/odd_zombie_spawn.md",
-              },
-              {
-                text: "Minor Bugs",
-                link: "/bugs/active/minor_bugs.md",
-              },
-            ],
-            collapsed: true,
-          },
-          {
-            text: "Inactive / Old Bugs",
-            items: [
-              { text: "Tower Heal", link: "/bugs/inactive/tower_heal.md" },
-              {
-                text: "Wave 14 - No zombies",
-                link: "/bugs/inactive/blank_wave.md",
-              },
-              {
-                text: "C.A.R.L. Healing",
-                link: "/bugs/inactive/carl_healing.md",
-              },
-              { text: "Tower Buff", link: "/bugs/inactive/tower_buff.md" },
-              { text: "Tower Nerf", link: "/bugs/inactive/tower_nerf.md" },
-              {
-                text: "Undying Zombies",
-                link: "/bugs/inactive/undying_zombs.md",
-              },
-              {
-                text: "Minor Bugs",
-                link: "/bugs/inactive/minor_bugs.md",
-              },
-            ],
-            collapsed: true,
-          },
-        ],
-      },
-      {
-        text: "Exploits",
-        items: [
-          { text: "Overview", link: "/exploit/overview" },
-          { text: "Active Exploits", items: [], collapsed: true },
-          {
-            text: "Inactive / Patched Exploits",
-            items: [
-              {
-                text: "Skill Points",
-                link: "/exploit/inactive/skill_point.md",
-              },
-              {
-                text: "Speed Pets",
-                link: "/exploit/inactive/pet_olympics.md",
-              },
-            ],
-            collapsed: true,
-          },
-        ],
-      },
-      {
-        text: "Miscellaneous",
-        items: [
-          { text: "World Records", link: "/misc/records" },
-          { text: "Common Terms", link: "/misc/terms" },
+          { text: "World Records", link: "/community/records" },
+          { text: "Common Terms", link: "/community/terms" },
         ],
       },
     ],
