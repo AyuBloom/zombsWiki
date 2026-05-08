@@ -464,8 +464,14 @@ export default defineConfig({
               {
                 text: "Popular Scripts",
                 items: [
-                  { text: "Overview", link: "/gameplay/scripts/popular_scripts/overview" },
-                  { text: "Xeraphinite", link: "/gameplay/scripts/popular_scripts/xera" },
+                  {
+                    text: "Overview",
+                    link: "/gameplay/scripts/popular_scripts/overview",
+                  },
+                  {
+                    text: "Xeraphinite",
+                    link: "/gameplay/scripts/popular_scripts/xera",
+                  },
                 ],
                 collapsed: true,
               },
