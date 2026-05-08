@@ -105,117 +105,120 @@ You may want to use these badges when necessary.
 ### Website layout
 ```
 src/
-├── bugs
-│   ├── active
-│   │   ├── minor_bugs.md
-│   │   ├── odd_zombie_spawn.md
-│   │   ├── out_the_map.md
-│   │   └── rss_go_poof.md
-│   ├── inactive
-│   │   ├── blank_wave.md
-│   │   ├── carl_healing.md
-│   │   ├── minor_bugs.md
-│   │   ├── token_healing.md
-│   │   ├── tower_buff.md
-│   │   ├── tower_heal.md
-│   │   ├── tower_nerf.md
-│   │   ├── undying_zombs.md
-│   │   └── woody_invincibility.md
-│   └── overview.md
-├── engine
-│   ├── main
-│   │   ├── input
-│   │   │   ├── inputManager.md
-│   │   │   ├── inputPacketCreator.md
-│   │   │   └── inputPacketScheduler.md
-│   │   ├── renderer
-│   │   │   ├── entity_models
-│   │   │   │   ├── ArrowTowerModel.md
-│   │   │   │   ├── BombTowerModel.md
-│   │   │   │   ├── CannonTowerModel.md
-│   │   │   │   ├── CharacterModel.md
-│   │   │   │   ├── DoorModel.md
-│   │   │   │   ├── ExperienceBar.md
-│   │   │   │   ├── GoldMineModel.md
-│   │   │   │   ├── GoldStashModel.md
-│   │   │   │   ├── HarvesterModel.md
-│   │   │   │   ├── HealthBar.md
-│   │   │   │   ├── HealTowersSpellModel.md
-│   │   │   │   ├── MageTowerModel.md
-│   │   │   │   ├── MeleeTowerModel.md
-│   │   │   │   ├── PlacementIndicatorModel.md
-│   │   │   │   ├── PlayerModel.md
-│   │   │   │   ├── RangeIndicatorModel.md
-│   │   │   │   ├── ShieldBar.md
-│   │   │   │   ├── SlowTrapModel.md
-│   │   │   │   ├── TowerModel.md
-│   │   │   │   ├── WallModel.md
-│   │   │   │   ├── ZombieBossModel.md
-│   │   │   │   ├── ZombieModel.md
-│   │   │   │   └── ZombieRangedModel.md
-│   │   │   ├── entity_types
-│   │   │   │   ├── DrawEntity.md
-│   │   │   │   ├── Entity.md
-│   │   │   │   ├── GroundEntity.md
-│   │   │   │   ├── ModelEntity.md
-│   │   │   │   ├── NetworkEntity.md
-│   │   │   │   ├── SpriteEntity.md
-│   │   │   │   └── TextEntity.md
-│   │   │   └── renderer.md
-│   │   ├── ui
-│   │   │   ├── components
-│   │   │   │   ├── UiChat.md
-│   │   │   │   └── UiComponent.md
-│   │   │   └── ui.md
-│   │   ├── world
-│   │   │   ├── entityGrid.md
-│   │   │   ├── localPlayer.md
-│   │   │   ├── replicator.md
-│   │   │   └── world.md
-│   │   └── network.md
-│   ├── utils
-│   │   ├── assetManager.md
-│   │   ├── debug.md
-│   │   ├── metrics.md
-│   │   ├── platform.md
-│   │   └── util.md
-│   ├── data_interfaces.md
-│   ├── game.md
-│   ├── overview.md
-│   └── schema.md
-├── exploit
-│   ├── inactive
-│   │   ├── pet_olympics.md
-│   │   └── skill_point.md
-│   └── overview.md
-├── game
-│   ├── buildings
-│   │   ├── arrow_tower.md
-│   │   ├── bomb_tower.md
-│   │   ├── buildings.md
-│   │   ├── cannon_tower.md
-│   │   ├── door.md
-│   │   ├── gold_mine.md
-│   │   ├── gold_stash.md
-│   │   ├── harvester.md
-│   │   ├── mage_tower.md
-│   │   ├── melee_tower.md
-│   │   ├── slow_trap.md
-│   │   └── wall.md
-│   ├── entities
-│   │   ├── entities_overview.md
-│   │   └── player.md
-│   ├── changelog.md
-│   ├── introduction.md
-│   └── zombie_patterns.md
-├── mbf
-│   └── overview.md
-├── misc
+├── architecture
+│   ├── engine
+│   │   ├── main
+│   │   │   ├── input
+│   │   │   │   ├── inputManager.md
+│   │   │   │   ├── inputPacketCreator.md
+│   │   │   │   └── inputPacketScheduler.md
+│   │   │   ├── renderer
+│   │   │   │   ├── entity_models
+│   │   │   │   │   ├── ArrowTowerModel.md
+│   │   │   │   │   ├── BombTowerModel.md
+│   │   │   │   │   ├── CannonTowerModel.md
+│   │   │   │   │   ├── CharacterModel.md
+│   │   │   │   │   ├── DoorModel.md
+│   │   │   │   │   ├── ExperienceBar.md
+│   │   │   │   │   ├── GoldMineModel.md
+│   │   │   │   │   ├── GoldStashModel.md
+│   │   │   │   │   ├── HarvesterModel.md
+│   │   │   │   │   ├── HealthBar.md
+│   │   │   │   │   ├── HealTowersSpellModel.md
+│   │   │   │   │   ├── MageTowerModel.md
+│   │   │   │   │   ├── MeleeTowerModel.md
+│   │   │   │   │   ├── PlacementIndicatorModel.md
+│   │   │   │   │   ├── PlayerModel.md
+│   │   │   │   │   ├── RangeIndicatorModel.md
+│   │   │   │   │   ├── ShieldBar.md
+│   │   │   │   │   ├── SlowTrapModel.md
+│   │   │   │   │   ├── TowerModel.md
+│   │   │   │   │   ├── WallModel.md
+│   │   │   │   │   ├── ZombieBossModel.md
+│   │   │   │   │   ├── ZombieModel.md
+│   │   │   │   │   └── ZombieRangedModel.md
+│   │   │   │   ├── entity_types
+│   │   │   │   │   ├── DrawEntity.md
+│   │   │   │   │   ├── Entity.md
+│   │   │   │   │   ├── GroundEntity.md
+│   │   │   │   │   ├── ModelEntity.md
+│   │   │   │   │   ├── NetworkEntity.md
+│   │   │   │   │   ├── SpriteEntity.md
+│   │   │   │   │   └── TextEntity.md
+│   │   │   │   └── renderer.md
+│   │   │   ├── ui
+│   │   │   │   ├── components
+│   │   │   │   │   ├── UiChat.md
+│   │   │   │   │   └── UiComponent.md
+│   │   │   │   └── ui.md
+│   │   │   ├── world
+│   │   │   │   ├── entityGrid.md
+│   │   │   │   ├── localPlayer.md
+│   │   │   │   ├── replicator.md
+│   │   │   │   └── world.md
+│   │   │   └── network.md
+│   │   ├── mbf
+│   │   │   └── overview.md
+│   │   ├── utils
+│   │   │   ├── assetManager.md
+│   │   │   ├── debug.md
+│   │   │   ├── metrics.md
+│   │   │   ├── platform.md
+│   │   │   └── util.md
+│   │   ├── data_interfaces.md
+│   │   ├── game.md
+│   │   ├── overview.md
+│   │   └── schema.md
+│   └── exploit
+│       ├── inactive
+│       │   ├── pet_olympics.md
+│       │   └── skill_point.md
+│       └── overview.md
+├── community
 │   ├── records.md
 │   └── terms.md
+├── gameplay
+│   ├── bugs
+│   │   ├── active
+│   │   │   ├── minor_bugs.md
+│   │   │   ├── odd_zombie_spawn.md
+│   │   │   ├── out_the_map.md
+│   │   │   └── rss_go_poof.md
+│   │   ├── inactive
+│   │   │   ├── blank_wave.md
+│   │   │   ├── carl_healing.md
+│   │   │   ├── minor_bugs.md
+│   │   │   ├── token_healing.md
+│   │   │   ├── tower_buff.md
+│   │   │   ├── tower_heal.md
+│   │   │   ├── tower_nerf.md
+│   │   │   ├── undying_zombs.md
+│   │   │   └── woody_invincibility.md
+│   │   └── overview.md
+│   ├── game
+│   │   ├── buildings
+│   │   │   ├── arrow_tower.md
+│   │   │   ├── bomb_tower.md
+│   │   │   ├── buildings.md
+│   │   │   ├── cannon_tower.md
+│   │   │   ├── door.md
+│   │   │   ├── gold_mine.md
+│   │   │   ├── gold_stash.md
+│   │   │   ├── harvester.md
+│   │   │   ├── mage_tower.md
+│   │   │   ├── melee_tower.md
+│   │   │   ├── slow_trap.md
+│   │   │   └── wall.md
+│   │   ├── entities
+│   │   │   ├── entities_overview.md
+│   │   │   └── player.md
+│   │   ├── changelog.md
+│   │   ├── introduction.md
+│   │   └── zombie_patterns.md
+│   └── scripts
+│       └── fundamentals
+│           └── dc_triggers.md
 ├── scripts
-│   ├── fundamentals
-│   │   └── dc_triggers.md
 │   └── popular_scripts
 │       ├── overview.md
 │       └── xera.md
@@ -227,77 +230,78 @@ src/
 ```
 src/public/
 ├── asset
-│   ├── bugs
-│   │   ├── active
-│   │   │   ├── odd_zombie_spawn
-│   │   │   │   ├── weird_spawn_again.png
-│   │   │   │   └── weird_spawn.png
-│   │   │   └── rss_go_poof
-│   │   │       ├── rock.png
-│   │   │       └── spotinfo.png
-│   │   └── inactive
-│   │       ├── blank_wave
-│   │       │   └── no_zombs.png
-│   │       ├── carl_healing
-│   │       │   ├── healing_carl_2.png
-│   │       │   └── healing_carl.png
-│   │       ├── minor_bugs
-│   │       │   └── harvester_overflow.png
-│   │       ├── tower_buff
-│   │       │   ├── buffed_corner.png
-│   │       │   ├── buffed_env.png
-│   │       │   ├── deathscore.png
-│   │       │   ├── deathwave.png
-│   │       │   ├── erokscore.png
-│   │       │   ├── lowspw.png
-│   │       │   ├── newbie.png
-│   │       │   ├── tower_buff_proj.png
-│   │       │   └── woodybuff.png
-│   │       ├── tower_heal
-│   │       │   ├── t1033_heal.png
-│   │       │   └── t9_heal.png
-│   │       └── undying_zombs
-│   │           ├── 4_colours.png
-│   │           ├── boss.png
-│   │           ├── graph1.png
-│   │           ├── graph2.png
-│   │           ├── nohp.png
-│   │           ├── undead_pile.png
-│   │           └── zombies.png
-│   ├── engine
-│   │   ├── main
-│   │   │   └── network
-│   │   │       ├── attributeMaps.json
-│   │   │       └── rpcMaps.json
-│   │   ├── overview
-│   │   │   └── game.png
-│   │   ├── schema
-│   │   │   ├── buildings.json
-│   │   │   ├── entities.json
-│   │   │   ├── items.json
-│   │   │   └── spells.json
-│   │   └── utils
-│   │       └── assetManager
-│   │           └── files.json
-│   ├── exploit
-│   │   └── inactive
-│   │       └── skill_point
-│   │           ├── jeremy_1.png
-│   │           └── jeremy_2.png
-│   ├── game
-│   │   └── buildings
-│   │       ├── building_bar.png
-│   │       └── mage.png
-│   ├── intro
-│   │   └── introduction
-│   │       ├── homepage.png
-│   │       ├── party1.png
-│   │       ├── party2.png
-│   │       └── ui.png
-│   ├── mbf
-│   │   └── overview
-│   │       ├── error_1.png
-│   │       └── mbf.jpg
+│   ├── architecture
+│   │   ├── engine
+│   │   │   ├── main
+│   │   │   │   └── network
+│   │   │   │       ├── attributeMaps.json
+│   │   │   │       └── rpcMaps.json
+│   │   │   ├── mbf
+│   │   │   │   └── overview
+│   │   │   │       ├── error_1.png
+│   │   │   │       └── mbf.jpg
+│   │   │   ├── overview
+│   │   │   │   └── game.png
+│   │   │   ├── schema
+│   │   │   │   ├── buildings.json
+│   │   │   │   ├── entities.json
+│   │   │   │   ├── items.json
+│   │   │   │   └── spells.json
+│   │   │   └── utils
+│   │   │       └── assetManager
+│   │   │           └── files.json
+│   │   └── exploit
+│   │       └── inactive
+│   │           └── skill_point
+│   │               ├── jeremy_1.png
+│   │               └── jeremy_2.png
+│   ├── gameplay
+│   │   ├── bugs
+│   │   │   ├── active
+│   │   │   │   ├── odd_zombie_spawn
+│   │   │   │   │   ├── weird_spawn_again.png
+│   │   │   │   │   └── weird_spawn.png
+│   │   │   │   └── rss_go_poof
+│   │   │   │       ├── rock.png
+│   │   │   │       └── spotinfo.png
+│   │   │   └── inactive
+│   │   │       ├── blank_wave
+│   │   │       │   └── no_zombs.png
+│   │   │       ├── carl_healing
+│   │   │       │   ├── healing_carl_2.png
+│   │   │       │   └── healing_carl.png
+│   │   │       ├── minor_bugs
+│   │   │       │   └── harvester_overflow.png
+│   │   │       ├── tower_buff
+│   │   │       │   ├── buffed_corner.png
+│   │   │       │   ├── buffed_env.png
+│   │   │       │   ├── deathscore.png
+│   │   │       │   ├── deathwave.png
+│   │   │       │   ├── erokscore.png
+│   │   │       │   ├── lowspw.png
+│   │   │       │   ├── newbie.png
+│   │   │       │   ├── tower_buff_proj.png
+│   │   │       │   └── woodybuff.png
+│   │   │       ├── tower_heal
+│   │   │       │   ├── t1033_heal.png
+│   │   │       │   └── t9_heal.png
+│   │   │       └── undying_zombs
+│   │   │           ├── 4_colours.png
+│   │   │           ├── boss.png
+│   │   │           ├── graph1.png
+│   │   │           ├── graph2.png
+│   │   │           ├── nohp.png
+│   │   │           ├── undead_pile.png
+│   │   │           └── zombies.png
+│   │   └── game
+│   │       ├── buildings
+│   │       │   ├── building_bar.png
+│   │       │   └── mage.png
+│   │       └── introduction
+│   │           ├── homepage.png
+│   │           ├── party1.png
+│   │           ├── party2.png
+│   │           └── ui.png
 │   └── scripts
 │       └── popular_scripts
 │           └── xera
