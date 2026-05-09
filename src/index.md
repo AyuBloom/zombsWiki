@@ -4,7 +4,7 @@ Welcome to the [zombs.io](https://zombs.io/) Wiki! Here lies documentation about
 
 ## I'm here for the technical details.
 
-Check out the [Engine](/engine/overview) category for in-depth documentation about the game engine, down to each component. Related categories include [Scripting](/scripts/overview) (scripting guides and best practices) and [`_MakeBlendField`](/mbf/overview) (an advanced anti-bot validation system).
+Check out the [Engine](/architecture/engine/overview) category for in-depth documentation about the game engine, down to each component. Related categories include [Scripting](/gameplay/scripts/overview) (scripting guides and best practices) and [`_MakeBlendField`](/architecture/engine/mbf/overview) (an advanced anti-bot validation system).
 
 ### `robots.txt`
 
@@ -12,7 +12,7 @@ Want to use this to enhance your AI Agent's ability to understand zombs.io's eng
 
 ## I want to learn more about the game itself.
 
-The [Game](/game/introduction) category is for you - it has an introduction to the game, and details buildings in depth. Topics like [Bugs](/bugs/overview) and [Exploits](/exploits/overview) are also covered on the website.
+The [Game](/gameplay/game/introduction) category is for you - it has an introduction to the game, and details buildings in depth. Topics like [Bugs](/gameplay/bugs/overview) and [Exploits](/architecture/exploit/overview) are also covered on the website.
 
 ## I would love to contribute.
 
