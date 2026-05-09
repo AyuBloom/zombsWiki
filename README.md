@@ -218,9 +218,10 @@ src/
 │   └── scripts
 │       ├── fundamentals
 │       │   └── dc_triggers.md
-│       └── popular_scripts
-│           ├── overview.md
-│           └── xera.md
+│       ├── popular_scripts
+│       │   ├── overview.md
+│       │   └── xera.md
+│       └── overview.md
 └── index.md
 ```
 
