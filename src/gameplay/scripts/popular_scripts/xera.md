@@ -27,7 +27,7 @@ A couple of renderer options to toggle on and off to improve performance.
 
 ### Miscellaneous
 - AHRC
-- Exact RSS counter - removes the truncation that zombs.io applies to the RSS counter
+- Exact RSS counter - removes the truncation that zombs.io applies to the resource counter
 - Random color names
 
 ## Reception

@@ -11,6 +11,7 @@ As a community, people are bound to create terms to refer to familiar concepts. 
 | HSPW | Highest Score Per Wave | The highest score earned across all waves during a session. |
 | Env | Environmental Base | A base that depends on the resources (environment) around it to survive. |
 | Stash | Gold Stash | Self-explanatory. |
+| RSS | Resource | Refers to the resources in the game (wood, stone, gold). |
 | Server ID | - | Refers to the 5 character long ID that uniquely identifies a game server. (e.g. v4002, v3001) |
 | PSK | Party Share Key | Refers to a string of characters that can be used to invite players into a party. |
 | 1P / 2P / 3P / 4P | 1 Player / 2 Players / 3 Players / 4 Players | Refers to the number of players in a party. |
