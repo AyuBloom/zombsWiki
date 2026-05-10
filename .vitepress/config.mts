@@ -66,8 +66,136 @@ export default defineConfig({
                             link: "/architecture/engine/main/ui/components/UiComponent",
                           },
                           {
+                            text: "UiAnnouncementOverlay",
+                            link: "/architecture/engine/main/ui/components/UiAnnouncementOverlay",
+                          },
+                          {
+                            text: "UiBuffBar",
+                            link: "/architecture/engine/main/ui/components/UiBuffBar",
+                          },
+                          {
+                            text: "UiBuildingOverlay",
+                            link: "/architecture/engine/main/ui/components/UiBuildingOverlay",
+                          },
+                          {
                             text: "UiChat",
                             link: "/architecture/engine/main/ui/components/UiChat",
+                          },
+                          {
+                            text: "UiDayNightOverlay",
+                            link: "/architecture/engine/main/ui/components/UiDayNightOverlay",
+                          },
+                          {
+                            text: "UiDayNightTicker",
+                            link: "/architecture/engine/main/ui/components/UiDayNightTicker",
+                          },
+                          {
+                            text: "UiHealthBar",
+                            link: "/architecture/engine/main/ui/components/UiHealthBar",
+                          },
+                          {
+                            text: "UiIntro",
+                            link: "/architecture/engine/main/ui/components/UiIntro",
+                          },
+                          {
+                            text: "UiLeaderboard",
+                            link: "/architecture/engine/main/ui/components/UiLeaderboard",
+                          },
+                          {
+                            text: "UiMap",
+                            link: "/architecture/engine/main/ui/components/UiMap",
+                          },
+                          {
+                            text: "UiMenuIcons",
+                            link: "/architecture/engine/main/ui/components/UiMenuIcons",
+                          },
+                          {
+                            text: "UiMenuParty",
+                            link: "/architecture/engine/main/ui/components/UiMenuParty",
+                          },
+                          {
+                            text: "UiMenuSettings",
+                            link: "/architecture/engine/main/ui/components/UiMenuSettings",
+                          },
+                          {
+                            text: "UiMenuShop",
+                            link: "/architecture/engine/main/ui/components/UiMenuShop",
+                          },
+                          {
+                            text: "UiPartyIcons",
+                            link: "/architecture/engine/main/ui/components/UiPartyIcons",
+                          },
+                          {
+                            text: "UiPipOverlay",
+                            link: "/architecture/engine/main/ui/components/UiPipOverlay",
+                          },
+                          {
+                            text: "UiPlacementOverlay",
+                            link: "/architecture/engine/main/ui/components/UiPlacementOverlay",
+                          },
+                          {
+                            text: "UiPopupOverlay",
+                            link: "/architecture/engine/main/ui/components/UiPopupOverlay",
+                          },
+                          {
+                            text: "UiPrerollAd",
+                            link: "/architecture/engine/main/ui/components/UiPrerollAd",
+                          },
+                          {
+                            text: "UiReconnect",
+                            link: "/architecture/engine/main/ui/components/UiReconnect",
+                          },
+                          {
+                            text: "UiResources",
+                            link: "/architecture/engine/main/ui/components/UiResources",
+                          },
+                          {
+                            text: "UiRespawn",
+                            link: "/architecture/engine/main/ui/components/UiRespawn",
+                          },
+                          {
+                            text: "UiShieldBar",
+                            link: "/architecture/engine/main/ui/components/UiShieldBar",
+                          },
+                          {
+                            text: "UiShopItem",
+                            link: "/architecture/engine/main/ui/components/UiShopItem",
+                          },
+                          {
+                            text: "UiShopHatItem",
+                            link: "/architecture/engine/main/ui/components/UiShopHatItem",
+                          },
+                          {
+                            text: "UiShopPetItem",
+                            link: "/architecture/engine/main/ui/components/UiShopPetItem",
+                          },
+                          {
+                            text: "UiSpellIcons",
+                            link: "/architecture/engine/main/ui/components/UiSpellIcons",
+                          },
+                          {
+                            text: "UiSpellOverlay",
+                            link: "/architecture/engine/main/ui/components/UiSpellOverlay",
+                          },
+                          {
+                            text: "UiToolbar",
+                            link: "/architecture/engine/main/ui/components/UiToolbar",
+                          },
+                          {
+                            text: "UiToolbarBuilding",
+                            link: "/architecture/engine/main/ui/components/UiToolbarBuilding",
+                          },
+                          {
+                            text: "UiToolbarItem",
+                            link: "/architecture/engine/main/ui/components/UiToolbarItem",
+                          },
+                          {
+                            text: "UiTooltip",
+                            link: "/architecture/engine/main/ui/components/UiTooltip",
+                          },
+                          {
+                            text: "UiWalkthrough",
+                            link: "/architecture/engine/main/ui/components/UiWalkthrough",
                           },
                         ],
                         collapsed: true,

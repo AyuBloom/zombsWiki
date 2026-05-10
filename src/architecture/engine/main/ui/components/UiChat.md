@@ -1,4 +1,4 @@
-<!-- headers are case-sensitive -->
+
 # `UiChat`
 
 The `UiChat` class manages the in-game chat interface. It handles sending, receiving, and displaying chat messages with built-in XSS sanitization (using `xss`) and profanity filtering (using `grawlix` and `grawlix-racism`).

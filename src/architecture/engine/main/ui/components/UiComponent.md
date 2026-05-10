@@ -1,4 +1,4 @@
-<!-- headers are case-sensitive -->
+
 # `UiComponent`
 
 The `UiComponent` class serves as the base class for all UI components in the game engine. It extends `EventEmitter` to support event-driven interactions and provides standard methods for managing the visibility and retrieval of the component's underlying DOM element.
