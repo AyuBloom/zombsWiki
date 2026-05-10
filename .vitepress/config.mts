@@ -60,7 +60,10 @@ export default defineConfig({
                     text: "ui",
                     items: [
                       { text: "ui", link: "/architecture/engine/main/ui/ui" },
-                      { text: "UI Styles", link: "/architecture/engine/main/ui/styles" },
+                      {
+                        text: "UI Styles",
+                        link: "/architecture/engine/main/ui/styles",
+                      },
                       {
                         text: "UI Components",
                         items: [
