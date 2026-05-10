@@ -182,6 +182,7 @@ src/
 │   │   │   │   │   ├── UiToolbarItem.md
 │   │   │   │   │   ├── UiTooltip.md
 │   │   │   │   │   └── UiWalkthrough.md
+│   │   │   │   ├── styles.md
 │   │   │   │   └── ui.md
 │   │   │   ├── world
 │   │   │   │   ├── entityGrid.md
@@ -203,6 +204,7 @@ src/
 │   │   └── schema.md
 │   └── exploit
 │       ├── inactive
+│       │   ├── global_chat.md
 │       │   ├── pet_olympics.md
 │       │   └── skill_point.md
 │       └── overview.md
