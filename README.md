@@ -148,8 +148,40 @@ src/
 │   │   │   │   └── renderer.md
 │   │   │   ├── ui
 │   │   │   │   ├── components
+│   │   │   │   │   ├── UiAnnouncementOverlay.md
+│   │   │   │   │   ├── UiBuffBar.md
+│   │   │   │   │   ├── UiBuildingOverlay.md
 │   │   │   │   │   ├── UiChat.md
-│   │   │   │   │   └── UiComponent.md
+│   │   │   │   │   ├── UiComponent.md
+│   │   │   │   │   ├── UiDayNightOverlay.md
+│   │   │   │   │   ├── UiDayNightTicker.md
+│   │   │   │   │   ├── UiHealthBar.md
+│   │   │   │   │   ├── UiIntro.md
+│   │   │   │   │   ├── UiLeaderboard.md
+│   │   │   │   │   ├── UiMap.md
+│   │   │   │   │   ├── UiMenuIcons.md
+│   │   │   │   │   ├── UiMenuParty.md
+│   │   │   │   │   ├── UiMenuSettings.md
+│   │   │   │   │   ├── UiMenuShop.md
+│   │   │   │   │   ├── UiPartyIcons.md
+│   │   │   │   │   ├── UiPipOverlay.md
+│   │   │   │   │   ├── UiPlacementOverlay.md
+│   │   │   │   │   ├── UiPopupOverlay.md
+│   │   │   │   │   ├── UiPrerollAd.md
+│   │   │   │   │   ├── UiReconnect.md
+│   │   │   │   │   ├── UiResources.md
+│   │   │   │   │   ├── UiRespawn.md
+│   │   │   │   │   ├── UiShieldBar.md
+│   │   │   │   │   ├── UiShopHatItem.md
+│   │   │   │   │   ├── UiShopItem.md
+│   │   │   │   │   ├── UiShopPetItem.md
+│   │   │   │   │   ├── UiSpellIcons.md
+│   │   │   │   │   ├── UiSpellOverlay.md
+│   │   │   │   │   ├── UiToolbar.md
+│   │   │   │   │   ├── UiToolbarBuilding.md
+│   │   │   │   │   ├── UiToolbarItem.md
+│   │   │   │   │   ├── UiTooltip.md
+│   │   │   │   │   └── UiWalkthrough.md
 │   │   │   │   └── ui.md
 │   │   │   ├── world
 │   │   │   │   ├── entityGrid.md
