@@ -28,7 +28,7 @@ Sends a `PACKET_ENTER_WORLD2` packet. No data is passed to this function.
 ```ts
 function sendInput(data: Record<string, number>): void
 ```
-Sends a `PACKET_INPUT` packet containing player inputs. See [`inputPacketCreator`](/engine/main/input/inputPacketCreator) for a list of possible input data.
+Sends a `PACKET_INPUT` packet containing player inputs. See [`inputPacketCreator`](/architecture/engine/main/input/inputPacketCreator) for a list of possible input data.
 
 #### `sendPing()`
 ```ts
@@ -246,7 +246,7 @@ Decodes the occasional blend packet, which calls `decodeBlendInternal` internall
 ```ts
 function decodeBlendInternal(buffer: ByteBuffer): object
 ```
-Solves the PoW challenge that is part of the anti-bot mechanism of the game. The output of this function contains a PoW answer that is 64-byte long. See [`MakeBlendField`](/mbf/overview) for more info.
+Solves the PoW challenge that is part of the anti-bot mechanism of the game. The output of this function contains a PoW answer that is 64-byte long. See [`MakeBlendField`](/architecture/engine/mbf/overview) for more info.
 
 #### `decodeRpcObject()`
 ```ts
@@ -270,7 +270,7 @@ Encodes a blend packet.
 ```ts
 function encodeEnterWorld2(buffer: ByteBuffer): void
 ```
-Encodes the secondary world entry packet. This packet is part of the anti-bot mechanism and in reality is a 17-byte long packet. See [`MakeBlendField`](/mbf/overview) for more info.
+Encodes the secondary world entry packet. This packet is part of the anti-bot mechanism and in reality is a 17-byte long packet. See [`MakeBlendField`](/architecture/engine/mbf/overview) for more info.
 
 #### `encodeEnterWorld()`
 ```ts
@@ -306,7 +306,7 @@ Encodes a ping packet.
 | `PACKET_PRE_ENTER_WORLD` | `5` | Received before entering the world. |
 | `PACKET_ENTER_WORLD2` | `6` | Used by the anti-bot mechanism. Is sent to the server after entering world. |
 | `PACKET_PING` | `7` | Used for latency measurement. |
-| (no name set) | `8` | Supposedly used for skill points. See [Skill Points](/bugs/inactive/skill_point). |
+| (no name set) | `8` | Supposedly used for skill points. See [Skill Points](/architecture/exploit/inactive/skill_point). |
 | `PACKET_RPC` | `9` | Used for Remote Procedure Calls (RPC). |
 | `PACKET_BLEND` | `10` | Used by the anti-bot mechanism. Is received and sent at irregular intervals while in world. |
 

@@ -1,6 +1,6 @@
 # Disconnection Triggers
 
-Related: [`network`](/engine/main/network)
+Related: [`network`](/architecture/engine/main/network)
 
 Below is a list of all wrong actions a player can do that will result in being disconnected from the server.
 
@@ -60,6 +60,6 @@ game.network.sendRpc({name: "EquipItem", item: "PetCARL", tier: 1});
 
 ## Sending opcode `8`
 
-Related: [Skill Points](/exploit/skill_points)
+Related: [Skill Points](/architecture/exploit/inactive/skill_point)
 
 Currenty, sending an opcode `8` packet will disconnect you immediately.

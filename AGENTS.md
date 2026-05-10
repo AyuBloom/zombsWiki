@@ -40,8 +40,7 @@ zombsWiki/
 The following page format is recommended, but not obligated as it does not handle edge cases.
 
 ```md
-<!-- headers are case-sensitive -->
-# `className`
+# `className` <!-- headers are case-sensitive -->
 
 descriptionParagraph
 

@@ -44,7 +44,7 @@ Sends a chat message to the `Local` channel via the `SendChatMessage` RPC. If th
 
 ::: tip Trivia
 
-There used to be a "Global" chat channel but it was removed due to abuse. Check [Inactive / Old Bugs > Global Chat](/bugs/inactive/global_chat) for more info.
+There used to be a "Global" chat channel but it was removed due to abuse. Check [Inactive / Old Bugs > Global Chat](/architecture/exploit/inactive/global_chat) for more info.
 
 :::
 
