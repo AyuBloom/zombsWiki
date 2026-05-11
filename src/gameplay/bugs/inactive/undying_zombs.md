@@ -6,7 +6,7 @@ Zombies have a specific mechanic so when the in game time goes to day, the zombi
 <ImageWithDescription image="/asset/gameplay/bugs/inactive/undying_zombs/nohp.png" description="~0 HP zombies" />
 
 ## Cause
-Overlook in the code. The zombie health loss during day mechanic was implemented wrong. The zombie health loss % was based on the current health, instead of the max health, which lead to an hp that asymptotes to 0.
+Oversight in the code. The zombie health loss during day mechanic was implemented wrong. The zombie health loss % was based on the current health, instead of the max health, which lead to an hp that asymptotes to 0.
 
 As an example you can view some simulations, in the following examples:
 

@@ -4,7 +4,7 @@
 - Date of release: 21-11-2021
 - Link: [GreasyFork](https://greasyfork.org/en/scripts/435632-xeraphinite-zombs-io)
 
-![Intro screen](/asset/gameplay/scripts/popular_scripts/xera/intro.png)
+<ImageWithDescription image="/asset/gameplay/scripts/popular_scripts/xera/intro.png" description="Xeraphinite's intro screen" />
 
 ## Overview
 

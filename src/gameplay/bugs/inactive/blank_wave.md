@@ -6,7 +6,7 @@ When you reached wave 14 while being alone inside your party, no zombie would sp
 Zombies spawned if your party had 2 or more players.
 
 ## Cause
-Unknown. Probably an overlook in the code.
+Unknown. Probably an oversight in the code.
 
 ## Example
 <ImageWithDescription image="/asset/gameplay/bugs/inactive/blank_wave/no_zombs.png" description="Xperience having no zombie spawn at wave 14." />
