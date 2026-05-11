@@ -34,14 +34,11 @@ MBF first appeared with this update, along with a WASM module to solve the new v
 
 Explains a community member, [Apex](https://www.youtube.com/@Apex-ti1dm), about how entering the game works before MBF.
 
-### November 13, 2021 - Minor Update
+### March 6th, 2022 - Minor Update
 ```md{4}
-- Fix invincible pet bug
-- Allow building over dead players and projectiles
-- Add a 10 second pet potting cooldown
-- Reduce bot flooding with challenge / response upgrades
+(no changelog)
 ```
-MBF was upgraded with this update, introducing opcode `6` to the validation process, thus requiring the client to send opcode `6` upon entering the game.
+MBF was upgraded around this time, introducing opcode `6` to the validation process, thus requiring the client to send opcode `6` upon entering the game.
 
 ::: info
 
