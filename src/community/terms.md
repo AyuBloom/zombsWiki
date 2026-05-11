@@ -11,13 +11,13 @@ As a community, people are bound to create terms to refer to familiar concepts. 
 | HSPW | Highest Score Per Wave | The highest score earned across all waves during a session. |
 | Env | Environmental Base | A base that depends on the resources (environment) around it to survive. |
 | Stash | Gold Stash | Self-explanatory. |
-| RSS | Resource | Refers to the resources in the game (wood, stone, gold). |
+| RSS | Resources | Refers to the resources in the game (wood, stone, gold). |
 | Server ID | - | Refers to the 5 character long ID that uniquely identifies a game server. (e.g. v4002, v3001) |
 | PSK | Party Share Key | Refers to a string of characters that can be used to invite players into a party. |
 | 1P / 2P / 3P / 4P | 1 Player / 2 Players / 3 Players / 4 Players | Refers to the number of players in a party. |
 | T1 – T8 | Tier 1 – Tier 8 | Refers to the tier of a building, ranging from Tier 1 (wood) to Tier 8 (emerald). |
 | 1PT / 2PT / 3PT / 4PT | 1 Player Tower / 2 Player Tower / 3 Player Tower / 4 Player Tower | Refers to the limit of towers based on the number of players in a party enforced while building a base, typically used while showcasing the uniqueness of one's base. |
-| 6x / 12x / 18x / 24x | - | Same as Player Tower, but refers the limit of each tower type directly. |
+| 6x / 12x / 18x / 24x | - | Same as Player Tower, but refers to the limit of each tower type directly. |
 
 ## Scripting Terms
 

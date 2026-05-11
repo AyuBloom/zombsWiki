@@ -440,7 +440,16 @@ export default defineConfig({
             text: "Exploits",
             items: [
               { text: "Overview", link: "/architecture/exploit/overview" },
-              { text: "Active Exploits", items: [], collapsed: true },
+              {
+                text: "Active Exploits",
+                items: [
+                  {
+                    text: "Downgrading Items",
+                    link: "/architecture/exploit/active/downgrade",
+                  },
+                ],
+                collapsed: true,
+              },
               {
                 text: "Inactive / Patched Exploits",
                 items: [
