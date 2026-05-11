@@ -74,7 +74,7 @@ This is the full Zombs.io Changelog.
 
 ## 2022
 
-### Septembed 2, 2022 <Badge type="danger" text="Unlisted" />
+### September 2, 2022 <Badge type="danger" text="Unlisted" />
 ```
  - https://zombs.io/capacity was disabled (used to retrieve server player count)
 ```
@@ -82,6 +82,11 @@ This is the full Zombs.io Changelog.
 ### September 2, 2022 - Minor Update <Badge type="tip" text="Official"/>
 ```
 - Fix some implicit casting to float which caused inconsistent score to be gained per wave
+```
+
+### March 7th, 2022 <Badge type="danger" text="Unlisted" />
+```
+- Hardened the game's security against bots once again with an additional check upon entering world
 ```
 
 ### January 18, 2022 - Minor Update <Badge type="tip" text="Official"/>
