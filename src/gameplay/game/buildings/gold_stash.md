@@ -5,12 +5,7 @@ Once you upgrade the Gold Stash, it allows you to upgrade the rest of your tower
 
 The zombies target the gold stash. Be sure to defend it, otherwise you'll regret.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/ui/entities/entities-gold-stash.svg" style="width:192px; display:block; margin:0 auto;">
-    <div>Tier 1 Gold Stash</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/ui/entities/entities-gold-stash.svg" description="Tier 1 Gold Stash" />
 
 ## Overview
 - Description: `"Establishes your base and holds your gold. Protect this!"`

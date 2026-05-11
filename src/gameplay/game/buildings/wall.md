@@ -3,12 +3,7 @@
 
 Compared to its counterpart - Doors - Walls have more health, but do not start to regenerate as quickly as tier 8 Doors.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/entity/wall/wall-t1-base.svg" style="width:96px; display:block; margin:0 auto;">
-    <div>Tier 1 Wall</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/entity/wall/wall-t1-base.svg" description="Tier 1 Wall" />
 
 
 ## Overview

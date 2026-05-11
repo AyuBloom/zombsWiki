@@ -1,12 +1,7 @@
 # Door
 **Doors** are a type of building. They are like walls, but weaker. They also block all types of enemies and players, except the players belonging to the party that placed the doors. The doors appear slightly transparent to the party members, but fully opaque for the players outside the party.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/entity/door/door-t1-base.svg" style="width:96px; display:block; margin:0 auto;">
-    <div>Tier 1 Door</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/entity/door/door-t1-base.svg" description="Tier 1 Door" />
 
 ## Overview
 

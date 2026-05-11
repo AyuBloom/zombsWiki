@@ -14,23 +14,13 @@ The damage multiplier broke when the pet reverted back to level 1, or a lower le
 
 ### Tier 4 C.A.R.L.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/bugs/inactive/carl_healing/healing_carl.png" style="width:400px; display:block; margin:0 auto;">
-    <div>Tier 4 at level 1 C.A.R.L. dealing -240 damage.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/bugs/inactive/carl_healing/healing_carl.png" description="Tier 4 at level 1 C.A.R.L. dealing -240 damage." />
 
 <hr>
     
 ### Tier 5 C.A.R.L.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/bugs/inactive/carl_healing/healing_carl_2.png" style="width:200px; display:block; margin:0 auto;">
-    <div>Tier 5 C.A.R.L. dealing -837 damage.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/bugs/inactive/carl_healing/healing_carl_2.png" description="Tier 5 C.A.R.L. dealing -837 damage." />
 
 ## Changelog
 

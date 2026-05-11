@@ -1,12 +1,7 @@
 # Slow Trap
 **Slow Traps** are a type of building. They do not attack zombies, but they slow them down. They're not immune to damage, so they will get destroyed if zombies keep walking through them.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/entity/slow-trap/slow-trap-t1-base.svg" style="width:96px; display:block; margin:0 auto;">
-    <div>Tier 1 Slow Trap</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/entity/slow-trap/slow-trap-t1-base.svg" description="Tier 1 Slow Trap" />
 
 ## Overview
 - Description: `"Slows enemies from entering your base."`

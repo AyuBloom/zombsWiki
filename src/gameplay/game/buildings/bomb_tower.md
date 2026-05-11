@@ -1,12 +1,7 @@
 # Bomb Tower
 **Bomb Tower** is a type of Tower. This tower doesn't deal any knock back to the zombies, but they deal AOE damage within a pretty large radius. Bomb Tower has a pretty large radius, being useful to damage the zombies and players before they reach your base.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/ui/entities/entities-bomb-tower.svg" style="width:192px; display:block; margin:0 auto;">
-    <div>Tier 1 Bomb Tower</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/ui/entities/entities-bomb-tower.svg" description="Tier 1 Bomb Tower" />
 
 ## Overview
 - Description: `"Large area of effect damage, very slow firing tower."`

@@ -1,12 +1,7 @@
 # Gold Mine
 **Gold mine** is a type of Building. It doesn't deal damage or used to defend your base, but it is used to generate gold for you and your party members, which can allow you to upgrade your items, your base and refuel harvesters.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/ui/entities/entities-gold-mine.svg" style="width:192px; display:block; margin:0 auto;">
-    <div>Tier 1 Gold Mine</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/ui/entities/entities-gold-mine.svg" description="Tier 1 Gold Mine" />
 
 ## Overview
 - Description: `"Generates gold every second for your party."`

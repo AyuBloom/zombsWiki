@@ -1,12 +1,7 @@
 # Harvester
 **Resource Harvester** is a type of building. It doesn't attack or defend the base, but it is used to harvest resources, such as wood and stone for the player. It must be placed next to a tree or rock, or both of them to be able to collect resources. It needs gold as fuel to start the harvesting process. You can collect the resources either by using the in game hud, or simply hit it with your pickaxe/spear.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/ui/entities/entities-harvester.svg" style="width:192px; display:block; margin:0 auto;">
-    <div>Tier 1 Harvester</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/ui/entities/entities-harvester.svg" description="Tier 1 Harvester" />
 
 ## Overview
 - Description: `"Harvests resources automatically, fuelled by gold. Hit with a pickaxe to collect."`

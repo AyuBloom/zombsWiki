@@ -3,12 +3,7 @@
 
 The buildings can be found on the building bar at the bottom of the screen. You can select one of the 11 buildings clicking on them or using the hotkeys `0` - `9`, then click on an empty cell close to your Gold Stash to place it. 
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/game/buildings/building_bar.png" alt="Image" style="width:500px; display:block; margin:0 auto;">
-    <div>The in-game building bar</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/game/buildings/building_bar.png" description="The in-game building bar" />
 
 Buildings can be upgraded by selecting them, then pressing `E` or the upgrade button. Holding `Shift` then clicking Upgrade or  `Shift + E`, upgrades all the buildings of the same tier and type, 1 tier higher.
 

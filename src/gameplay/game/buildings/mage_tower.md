@@ -1,12 +1,7 @@
 # Mage Tower
 **Mage Tower** is a type of Tower. This tower shoots 3 projectiles at once at a distance of 4-5 tiles, dealing very high knockback to zombies. Only Tier 8 Mage can shoot an extra projectile. Mage towers are pretty effective with a couple larger zombies but will struggle against large waves.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/ui/entities/entities-mage-tower.svg" style="width:192px; display:block; margin:0 auto;">
-    <div>Tier 1 Mage Tower</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/ui/entities/entities-mage-tower.svg" description="Tier 1 Mage Tower" />
 
 ## Overview
 
@@ -61,9 +56,4 @@ Mages do not require 100 gold to place.
 Mages require 100 gold to place.
 ```
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/game/buildings/mage.png" alt="Image" style="width:500px; display:block; margin:0 auto;">
-    <div>Mage needing 100 gold.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/game/buildings/mage.png" description="Mage needing 100 gold." />

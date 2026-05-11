@@ -2,12 +2,7 @@
 **Cannon Tower** is a type of Tower. It has a medium range, good firerate and knockback, being able to knockback multiple zombies. It also deals AOE damage.
 
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/ui/entities/entities-cannon-tower.svg" style="width:192px; display:block; margin:0 auto;">
-    <div>Tier 1 Cannon Tower</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/ui/entities/entities-cannon-tower.svg" description="Tier 1 Cannon Tower" />
 
 ## Overview
 - Description: `"Area of effect damage, slow firing tower."`

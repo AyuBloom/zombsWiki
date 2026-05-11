@@ -5,12 +5,7 @@ Around April 3rd, 2020, a bug started to affect a large majority of towers, caus
 
 The issue didnt affect all the servers at once, but it started to spread slowly across all of them, in a couple of weeks.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/bugs/inactive/tower_buff/tower_buff_proj.png" style="width:200px; display:block; margin:0 auto;">
-    <div>10 projectiles per shot</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/bugs/inactive/tower_buff/tower_buff_proj.png" description="10 projectiles per shot" />
 
 ### Affected Towers
 
@@ -42,36 +37,21 @@ I know this isn't a tower, but still.
 ## Examples
 
 ### Bugged towers in an environmental base
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/bugs/inactive/tower_buff/buffed_env.png" style="width:400px; display:block; margin:0 auto;">
-    <div>Erik in his env base, with bugged towers.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/bugs/inactive/tower_buff/buffed_env.png" description="Erik in his env base, with bugged towers." />
 
 [Message Link](https://discord.com/channels/646753645366345779/646759205381996583/699315643601649715)
 
 <hr>
 
 ### Bugged towers in a corner base
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/bugs/inactive/tower_buff/buffed_corner.png" style="width:400px; display:block; margin:0 auto;">
-    <div>Erik in his corner base, with bugged towers.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/bugs/inactive/tower_buff/buffed_corner.png" description="Erik in his corner base, with bugged towers." />
 
 [Message Link](https://discord.com/channels/646753645366345779/646759205381996583/701077112420958338)
 
 <hr>
     
 ### New player looking at the arrow projectiles
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/bugs/inactive/tower_buff/newbie.png" style="width:400px; display:block; margin:0 auto;">
-    <div>New player looking at the projectiles.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/bugs/inactive/tower_buff/newbie.png" description="New player looking at the projectiles." />
 
 [Message Link](https://discord.com/channels/646753645366345779/646753645366345782/695676842652467240)
 
@@ -79,12 +59,7 @@ I know this isn't a tower, but still.
     
 
 ### Woody bug
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/bugs/inactive/tower_buff/woodybuff.png" style="width:150px; display:block; margin:0 auto;">
-    <div>Woody burst hit.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/bugs/inactive/tower_buff/woodybuff.png" description="Woody burst hit." />
 
 [Message Link](https://discord.com/channels/646753645366345779/646753645366345782/699185831125975141)
 
@@ -94,12 +69,7 @@ I know this isn't a tower, but still.
 ### New base shape
 - New score base shape that is still used nowadays, originally made by deathrain. Crescent shaped base usually facing at the bottom or right side, used to funnel in all the zombies.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/bugs/inactive/tower_buff/deathscore.png" style="width:400px; display:block; margin:0 auto;">
-    <div>deathrain's score base concept.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/bugs/inactive/tower_buff/deathscore.png" description="deathrain's score base concept." />
 
 [Video Link](https://youtu.be/QJ6z3i6flvw?t=80)
 
@@ -107,32 +77,17 @@ I know this isn't a tower, but still.
 ### Higher SPW
 - Higher Score-Per-Wave than it was possible before, 30-40m+ SPW.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/bugs/inactive/tower_buff/erokscore.png" style="width:400px; display:block; margin:0 auto;">
-    <div>Erik's corner score base concept using this tower buff.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/bugs/inactive/tower_buff/erokscore.png" description="Erik's corner score base concept using this tower buff." />
 
 ### Lowest SPW
 - Lowest Score-Per-Wave base - 960k SPW. Mages kept pushing back the zombies, not killing them that fast and as a result you'd gain score very slowly, slower than the default 2.2m per wave.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/bugs/inactive/tower_buff/lowspw.png" style="width:400px; display:block; margin:0 auto;">
-    <div>Mage based env base, by randominist & asd.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/bugs/inactive/tower_buff/lowspw.png" description="Mage based env base, by randominist & asd." />
 
 ### High Waves
 - 8133 Waves by deathrain. He used a huge edge base to quickly kill all the nearby zombies. I'm surprised (as the narrator) that nobody bothered in that 10+ day timespan to kill his base.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/bugs/inactive/tower_buff/deathwave.png" style="width:400px; display:block; margin:0 auto;">
-    <div>deathrain afking in his 8000+ waves base.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/bugs/inactive/tower_buff/deathwave.png" description="deathrain afking in his 8000+ waves base." />
 
 [Video Link](https://youtu.be/QJ6z3i6flvw?t=11)
 

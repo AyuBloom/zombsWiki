@@ -73,4 +73,5 @@ Below is a comprehensive table containing all of the World Records for the Wave 
 | 15,001 | Aug 20 2021 | Sirr0m, ARTEMIS, Dark Boss, Emokles, xyxy, ehScripts, Kasap | Removed |
 | 15,000 | Jul 12 2020 | Apex, Xtreme, deathrain | |
 
-Credits: [L O L O L](https://www.youtube.com/@LololXYZ)
+## Credits
+- Data archive: [L O L O L](https://www.youtube.com/@LololXYZ)

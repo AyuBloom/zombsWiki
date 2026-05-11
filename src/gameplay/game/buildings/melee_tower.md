@@ -1,12 +1,7 @@
 # Melee Tower
 **Melee Tower** is a type of Tower. It's different compared to other towers because it can only aim in one direction & has the shortest range. It doesn't shoot projectiles, but it stabs nearby zombies, dealing the highest damage of any tower. To rotate a Melee, click R.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/ui/entities/entities-melee-tower.svg" style="width:192px; display:block; margin:0 auto;">
-    <div>Tier 1 Melee Tower</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/ui/entities/entities-melee-tower.svg" description="Tier 1 Melee Tower" />
 
 ## Overview
 - Description: `"High damage, single target, close-range directional tower."`
@@ -33,18 +28,8 @@
 
 The `melee-tower-t1-middle.svg` is the only asset that contains the original brown colour
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/entity/melee-tower/melee-tower-t1-middle.svg" style="width:150px; display:block; margin:0 auto;">
-    <div>Different brown colour.</div>
-  </div>
-</div>
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/entity/melee-tower/melee-tower-t1-base.svg" style="width:150px; display:block; margin:0 auto;">
-    <div>The base & other buildings have the new brown colour.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/entity/melee-tower/melee-tower-t1-middle.svg" description="Different brown colour." />
+<ImageWithDescription image="/asset/image/entity/melee-tower/melee-tower-t1-base.svg" description="The base & other buildings have the new brown colour." />
 
 ## Changelog
 

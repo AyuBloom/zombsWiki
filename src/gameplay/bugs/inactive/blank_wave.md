@@ -9,12 +9,7 @@ Zombies spawned if your party had 2 or more players.
 Unknown. Probably an overlook in the code.
 
 ## Example
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/gameplay/bugs/inactive/blank_wave/no_zombs.png" style="width:400px; display:block; margin:0 auto;">
-    <div>Xperience having no zombie spawn at wave 14.</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/gameplay/bugs/inactive/blank_wave/no_zombs.png" description="Xperience having no zombie spawn at wave 14." />
 
 Source: [Message Link - Zombs Resort:#bugs](https://discord.com/channels/646753645366345779/799920433415061534/799936243596132352)
 

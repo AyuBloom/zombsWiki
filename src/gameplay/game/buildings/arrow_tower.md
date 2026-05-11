@@ -1,12 +1,7 @@
 # Arrow Tower
 **Arrow Tower** is a type of Tower. It shoots one arrow projectile. It deals a fairly strong knockback to zombies, especially when multiple Arrow Towers are grouped together. It is supposed to hit only entity at a time, since it has no AOE damage or piercing, but sometimes it can hit more due to the fact that the projectile hitbox can interact with at least 2 zombies at once
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/ui/entities/entities-arrow-tower.svg" style="width:192px; display:block; margin:0 auto;">
-    <div>Tier 1 Arrow Tower</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/ui/entities/entities-arrow-tower.svg" description="Tier 1 Arrow Tower" />
 
 ## Overview
 - Description: `"Single target, fast firing tower."`
@@ -29,19 +24,9 @@
 ## Trivia
 The UI Arrow Tower icon uses the wrong `arrow-head` colour.
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/ui/entities/entities-arrow-tower.svg" style="width:150; display:block; margin:0 auto;">
-    <div>Wrong `arrow-head` colour</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/ui/entities/entities-arrow-tower.svg" description="Wrong \`arrow-head\` colour" />
 
-<div style="text-align:center;">
-  <div style="display:inline-block; text-align:center; border:1px solid #666; padding:10px;">
-    <img src="/asset/image/entity/arrow-tower/arrow-tower-t1-head.svg" style="width:150; display:block; margin:0 auto;">
-    <div>Correct colour</div>
-  </div>
-</div>
+<ImageWithDescription image="/asset/image/entity/arrow-tower/arrow-tower-t1-head.svg" description="Correct colour" />
 
 ## Changelog
 ### November 20, 2021 - Minor Update
