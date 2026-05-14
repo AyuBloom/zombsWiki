@@ -250,7 +250,7 @@ src/
 │   │   │   └── player.md
 │   │   ├── changelog.md
 │   │   ├── introduction.md
-│   │   └── zombie_patterns.md
+│   │   └── zombies.md
 │   └── scripts
 │       ├── fundamentals
 │       │   └── dc_triggers.md
