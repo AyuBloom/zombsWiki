@@ -595,6 +595,10 @@ export default defineConfig({
             text: "Scripting",
             items: [
               {
+                text: "Overview",
+                link: "/gameplay/scripts/overview",
+              },
+              {
                 text: "Fundamentals",
                 items: [
                   {

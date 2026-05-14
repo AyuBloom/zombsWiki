@@ -4,7 +4,7 @@
 - Date of release: 21-11-2021
 - Link: [GreasyFork](https://greasyfork.org/en/scripts/435632-xeraphinite-zombs-io)
 
-<ImageWithDescription image="/asset/gameplay/scripts/popular_scripts/xera/intro.png" description="Xeraphinite's intro screen" />
+<ImageWithDescription image="/asset/gameplay/scripts/popular_scripts/xera/intro.png" description="Xeraphinite's intro screen with the default theme" />
 
 ## Overview
 
@@ -29,6 +29,7 @@ A couple of renderer options to toggle on and off to improve performance.
 - AHRC
 - Exact RSS counter - removes the truncation that zombs.io applies to the resource counter
 - Random color names
+- Zoom with buttons
 
 ## Reception
 - Total installs (GreasyFork): 1,997 (8-5-2026)
