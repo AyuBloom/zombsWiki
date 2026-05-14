@@ -526,8 +526,8 @@ export default defineConfig({
                 collapsed: true,
               },
               {
-                text: "Zombie Patterns",
-                link: "/gameplay/game/zombie_patterns",
+                text: "Zombies",
+                link: "/gameplay/game/zombies",
               },
             ],
             collapsed: true,
