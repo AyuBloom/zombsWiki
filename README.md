@@ -253,7 +253,8 @@ src/
 │   │   └── zombies.md
 │   └── scripts
 │       ├── fundamentals
-│       │   └── dc_triggers.md
+│       │   ├── dc_triggers.md
+│       │   └── overview.md
 │       ├── popular_scripts
 │       │   ├── overview.md
 │       │   └── xera.md
