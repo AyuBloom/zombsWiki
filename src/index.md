@@ -6,9 +6,9 @@ Welcome to the [zombs.io](https://zombs.io/) Wiki! Here lies documentation about
 
 Check out the [Engine](/architecture/engine/overview) category for in-depth documentation about the game engine, down to each component. Related categories include [Scripting](/gameplay/scripts/overview) (scripting guides and best practices) and [`_MakeBlendField`](/architecture/engine/mbf/overview) (an advanced anti-bot validation system).
 
-### `robots.txt`
+### For AI Agents
 
-Want to use this to enhance your AI Agent's ability to understand zombs.io's engine? This website provides a [robots.txt](/robots.txt) file that permits AIs to scrape and use.
+Want to use this to enhance your AI Agent's ability to understand zombs.io's engine? This website provides a [robots.txt](/robots.txt) file that permits AIs to scrape and use, and [`llms.txt`](/llms.txt) for a curated list of pages for them to reference.
 
 ## I want to learn more about the game itself.
 

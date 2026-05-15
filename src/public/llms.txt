@@ -1,0 +1,185 @@
+# zombs.io Wiki
+
+> Wiki for everything zombs.io
+
+Documentation about zombs.io, a 2D multiplayer survival game. Covers the game engine architecture, gameplay mechanics, buildings, zombies, exploits, bugs, scripting, and community resources.
+
+## Table of Contents
+
+### Introduction
+
+- [Welcome - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/index.md)
+
+### Architecture
+
+#### Engine
+
+- [Engine Overview - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/overview.md)
+- [game - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/game.md)
+#### Main Components
+
+##### ui
+
+- [ui - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/ui.md)
+- [UI Styles - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/styles.md)
+##### UI Components
+
+- [UiComponent - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiComponent.md)
+- [UiAnnouncementOverlay - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiAnnouncementOverlay.md)
+- [UiBuffBar - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiBuffBar.md)
+- [UiBuildingOverlay - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiBuildingOverlay.md)
+- [UiChat - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiChat.md)
+- [UiDayNightOverlay - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiDayNightOverlay.md)
+- [UiDayNightTicker - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiDayNightTicker.md)
+- [UiHealthBar - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiHealthBar.md)
+- [UiIntro - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiIntro.md)
+- [UiLeaderboard - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiLeaderboard.md)
+- [UiMap - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiMap.md)
+- [UiMenuIcons - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiMenuIcons.md)
+- [UiMenuParty - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiMenuParty.md)
+- [UiMenuSettings - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiMenuSettings.md)
+- [UiMenuShop - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiMenuShop.md)
+- [UiPartyIcons - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiPartyIcons.md)
+- [UiPipOverlay - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiPipOverlay.md)
+- [UiPlacementOverlay - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiPlacementOverlay.md)
+- [UiPopupOverlay - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiPopupOverlay.md)
+- [UiPrerollAd - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiPrerollAd.md)
+- [UiReconnect - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiReconnect.md)
+- [UiResources - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiResources.md)
+- [UiRespawn - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiRespawn.md)
+- [UiShieldBar - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiShieldBar.md)
+- [UiShopItem - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiShopItem.md)
+- [UiShopHatItem - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiShopHatItem.md)
+- [UiShopPetItem - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiShopPetItem.md)
+- [UiSpellIcons - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiSpellIcons.md)
+- [UiSpellOverlay - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiSpellOverlay.md)
+- [UiToolbar - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiToolbar.md)
+- [UiToolbarBuilding - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiToolbarBuilding.md)
+- [UiToolbarItem - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiToolbarItem.md)
+- [UiTooltip - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiTooltip.md)
+- [UiWalkthrough - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/ui/components/UiWalkthrough.md)
+##### world
+
+- [world - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/world/world.md)
+- [entityGrid - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/world/entityGrid.md)
+- [localPlayer - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/world/localPlayer.md)
+- [replicator - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/world/replicator.md)
+- [network - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/network.md)
+##### renderer
+
+- [renderer - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/renderer.md)
+##### Entity Types
+
+- [Entity - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_types/Entity.md)
+- [NetworkEntity - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_types/NetworkEntity.md)
+- [ModelEntity - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_types/ModelEntity.md)
+- [GroundEntity - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_types/GroundEntity.md)
+- [SpriteEntity - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_types/SpriteEntity.md)
+- [DrawEntity - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_types/DrawEntity.md)
+- [TextEntity - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_types/TextEntity.md)
+##### Entity Models
+
+- [TowerModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/TowerModel.md)
+- [WallModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/WallModel.md)
+- [DoorModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/DoorModel.md)
+- [SlowTrapModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/SlowTrapModel.md)
+- [ArrowTowerModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/ArrowTowerModel.md)
+- [CannonTowerModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/CannonTowerModel.md)
+- [MeleeTowerModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/MeleeTowerModel.md)
+- [BombTowerModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/BombTowerModel.md)
+- [MageTowerModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/MageTowerModel.md)
+- [GoldMineModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/GoldMineModel.md)
+- [HarvesterModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/HarvesterModel.md)
+- [GoldStashModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/GoldStashModel.md)
+- [CharacterModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/CharacterModel.md)
+- [PlayerModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/PlayerModel.md)
+- [HealthBar - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/HealthBar.md)
+- [ShieldBar - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/ShieldBar.md)
+- [ExperienceBar - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/ExperienceBar.md)
+- [ZombieModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/ZombieModel.md)
+- [ZombieBossModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/ZombieBossModel.md)
+- [ZombieRangedModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/ZombieRangedModel.md)
+- [HealTowersSpellModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/HealTowersSpellModel.md)
+- [PlacementIndicatorModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/PlacementIndicatorModel.md)
+- [RangeIndicatorModel - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/renderer/entity_models/RangeIndicatorModel.md)
+##### input
+
+- [inputManager - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/input/inputManager.md)
+- [inputPacketCreator - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/input/inputPacketCreator.md)
+- [inputPacketScheduler - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/main/input/inputPacketScheduler.md)
+#### Utility Components
+
+- [assetManager - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/utils/assetManager.md)
+- [debug - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/utils/debug.md)
+- [Metrics - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/utils/metrics.md)
+- [platform - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/utils/platform.md)
+- [util - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/utils/util.md)
+#### _MakeBlendField
+
+- [_MakeBlendField Overview - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/mbf/overview.md)
+- [Schemas - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/schema.md)
+- [Data Interfaces - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/engine/data_interfaces.md)
+#### Exploits
+
+- [Exploits Overview - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/exploit/overview.md)
+#### Active Exploits
+
+- [Downgrading Items - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/exploit/active/downgrade.md)
+#### Inactive / Patched Exploits
+
+- [Skill Points - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/exploit/inactive/skill_point.md)
+- [Speed Pets - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/architecture/exploit/inactive/pet_olympics.md)
+
+### Gameplay
+
+#### Game
+
+- [Introduction - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/introduction.md)
+- [Changelog - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/changelog.md)
+#### Buildings
+
+- [Buildings overview - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/buildings/buildings.md)
+- [Wall  - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/buildings/wall.md)
+- [Door - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/buildings/door.md)
+- [Slow Trap - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/buildings/slow_trap.md)
+- [Arrow Tower - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/buildings/arrow_tower.md)
+- [Cannon Tower - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/buildings/cannon_tower.md)
+- [Melee Tower - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/buildings/melee_tower.md)
+- [Bomb Tower - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/buildings/bomb_tower.md)
+- [Mage Tower - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/buildings/mage_tower.md)
+- [Harvester - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/buildings/harvester.md)
+- [Gold Mine - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/buildings/gold_mine.md)
+- [Gold Stash - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/buildings/gold_stash.md)
+- [Zombies - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/game/zombies.md)
+#### Bugs
+
+- [Bugs Overview - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/bugs/overview.md)
+#### Active Bugs
+
+- [Disappearing Resources - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/bugs/active/rss_go_poof.md)
+- [Weird Zombie Spawning - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/bugs/active/odd_zombie_spawn.md)
+- [Minor Bugs - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/bugs/active/minor_bugs.md)
+#### Inactive / Old Bugs
+
+- [Tower Heal - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/bugs/inactive/tower_heal.md)
+- [Blank Wave - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/bugs/inactive/blank_wave.md)
+- [Carl healing - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/bugs/inactive/carl_healing.md)
+- [Tower Buff - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/bugs/inactive/tower_buff.md)
+- [Tower Nerf - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/bugs/inactive/tower_nerf.md)
+- [Undying Zombies - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/bugs/inactive/undying_zombs.md)
+- [Minor Bugs - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/bugs/inactive/minor_bugs.md)
+#### Scripting
+
+- [Scripting  - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/scripts/overview.md)
+#### Fundamentals
+
+- [Disconnection Triggers - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/scripts/fundamentals/dc_triggers.md)
+#### Popular Scripts
+
+- [Popular Scripts - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/scripts/popular_scripts/overview.md)
+- [Xeraphinite - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/gameplay/scripts/popular_scripts/xera.md)
+
+### Community
+
+- [World Records - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/community/records.md)
+- [Common Terms - zombs.io Wiki](https://ayubloom.github.io/zombsWiki/community/terms.md)

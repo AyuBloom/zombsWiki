@@ -1,11 +1,11 @@
-name: Update Project Layout
+name: Update llms.txt
 
 on:
   push:
     branches: [main]
 
 jobs:
-  manipulate-file:
+  generate-llms-txt:
     runs-on: ubuntu-latest
 
     permissions:
@@ -23,11 +23,11 @@ jobs:
           node-version: 24
           cache: pnpm
 
-      - name: Run generate-structure script
+      - name: Run generate-llms-txt script
         run: |
-          node ./scripts/generate-structure.mjs
+          node ./scripts/generate-llms-txt.mjs
 
-      - name: Commit and Push layout to README.md
+      - name: Commit and Push llms.txt
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: auto-update README.md [skip ci]"
+          commit_message: "chore: auto-update llms.txt [skip ci]"

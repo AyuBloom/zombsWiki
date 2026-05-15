@@ -10,6 +10,10 @@ Each type of zombie is recognized by its color, and within each type there are 1
 
 On wave 9, 17, 25, 33, 41, 49, 57, 65, 73, 81, 89, 97, 105 and 121, bosses will spawn at the start of the wave, replacing the regular zombie waves.
 
+### Party Members
+
+The more members are in a party, the more zombies spawn.
+
 ## Patterns
 
 ### Special Waves
@@ -17,31 +21,49 @@ On wave 9, 17, 25, 33, 41, 49, 57, 65, 73, 81, 89, 97, 105 and 121, bosses will 
 Wave **51** and **98** are special because zombies spawn even during daytime. Especially with wave 51, it will the largest amount of zombies in any wave.
 
 ### Spawning Amount
-<span style="opacity:0.5">[More data & fact-check needed]</span>
 
 After wave 140, zombies spawn with a pattern.
 
-
 #### Wave 140 to 240
 
-Zombies spawn at a **constant amount** every wave. The exact amount is yet to be measured.
+Zombies spawn at a **constant amount** every wave. Only **Orange Tier 1, 9 and 10 zombies** spawn in these waves, with a `50 : 20 : 40` ratio respectively per party member.
 
-#### After wave 240
+#### Wave 240 - 1000
 
-The zombies enter a 5-wave cycle with the amount of zombies.
-On wave `n % 5 === 1`, the amount of zombie spawned is the least in the cycle, increasing gradually each wave until it reaches the maximum on wave `n % 5 === 0`, after which it will repeat the cycle again.
-The maximum amount of zombies on wave `n % 5 === 0` is the same as on waves 140 to 240.
+The zombies enter a 10-wave cycle with the amount of zombies.
+On wave `n % 5 === 1`, the amount of zombie spawned is the least in the cycle, increasing gradually each wave until it reaches the maximum on wave `n % 10 === 0`, after which it will repeat the cycle again.
+The maximum amount of zombies (seen on wave `n % 10 === 0`) is the same as on waves 140 to 240.
+
+Here is a table summarizing the zombie spawn amounts per wave by zombie tier (all of the Orange type) for 1 party member:
+| Wave | Tier 1 | Tier 9 | Tier 10 |
+| :--- | :--- | :--- | :--- |
+| `n % 5 === 1` | 0 | 50 | 10 |
+| `n % 5 === 2` | 50 | 0 | 20 |
+| `n % 5 === 3` | 50 | 0 | 30 |
+| `n % 5 === 4` | 50 | 10 | 30 |
+| `n % 10 === 5` | 50 | 20 | 30 |
+| `n % 10 === 0` | 50 | 20 | 40 |
+
+#### After wave 1000
+
+Zombie spawns stabilizes once again and spawns with the same amount and tier ratio as in wave 140 to 240.
 
 ## Scoring
 ::: warning
 This section is heavily in research. The information provided here may not be accurate in the future, as it is based on the knowledge we (as the community) have so far.
 :::
 
-Based on observation from "meta" score bases, it appears thatzombs.io counts score based on the **number of hits** each zombie gets, whether from towers, players or pets. The more hits a zombie receives, the more score it contributes.
+The table below shows the amount of score each player gets depending on the amount of players in the party, without any intervention from any player or the zombies dying of sunlight:
+| # of players | Score |
+| :--- | :--- |
+| 3 | 2 199 780 |
+| 4 | 2 200 000 |
 
-Score gained from a zombie is greatly increased when the following is achieved:
-- The zombie is "tagged" (hit by) a pet (C.A.R.L or Woody).
-- The player gets the last hit that kills the zombies.
+The scoring system considers multiple different factors to award score:
+- When an orange zombie dies to the base, the score is split between everyone in the base.
+- When an orange zombie is hit by a pet, the score gain goes up by up to ?x.
+- When an orange zombie is killed by a player, then the player gets full score, no one else in the party gets anything.
+- When an orange zombie dies to sunlight, then no score is gained for any player.
 
 ## Pathfinding
 
