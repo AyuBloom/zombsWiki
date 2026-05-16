@@ -6,6 +6,7 @@ This project is a documentation website built for a 2D multiplayer survival game
 
 - **Framework**: [VitePress](https://vitepress.dev/) (with plugins: [vitepress-plugin-llms](https://github.com/okineadev/vitepress-plugin-llms))
 - **Package Manager**: `pnpm`
+- **Other dependencies**: `gray-matter`
 
 ## Project Structure
 ```
@@ -32,7 +33,7 @@ zombsWiki/
 ## Documentation Format
 
 ### Important Formatting Guidelines
-- Do not use `---` to seperate each section.
+- Do not use `---` to separate each section.
 - With every new page you create, add the page to the sidebar in `.vitepress/config.mts` if the user haven't already.
 
 ### Engine Documentation Format
@@ -63,7 +64,7 @@ Extends `ClassName`. <!-- if applicable -->
 
 ```
 
-### When writing methods
+### When Writing Methods
 
 ````md
 
@@ -74,7 +75,7 @@ function methodName(parameter: type): returnValue
 
 ````
 
-### When writing tables
+### When Writing Tables
 
 ```md
 | Head1 | Head2 | ... |
@@ -121,9 +122,9 @@ You may want to use these badges when necessary.
 
 ```
 
-## Embedding content for LLMs only or Humans only
+## Embedding LLMs-only Or Humans-only Content
 
-### LLMs-only content
+### LLMs-only Content
 
 ```md
 
@@ -136,7 +137,7 @@ This content appears only in the generated LLMs files without the `<llm-only>` t
 </llm-only>
 
 ```
-### Humans-only content
+### Humans-only Content
 
 ```md
 Check out the Plugins API Guide for documentation about creating plugins.

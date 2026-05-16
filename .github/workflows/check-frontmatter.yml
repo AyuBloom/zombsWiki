@@ -1,0 +1,25 @@
+name: Check Frontmatter
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  check-frontmatter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      
+      - uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: pnpm
+          
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Check frontmatter standardization
+        run: node ./scripts/check-frontmatter.mjs

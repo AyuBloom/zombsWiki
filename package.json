@@ -8,6 +8,10 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "check:frontmatter": "node ./scripts/check-frontmatter.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
   }
 }

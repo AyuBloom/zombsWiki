@@ -1,10 +1,10 @@
-name: Run Prettier
+name: Update Frontmatter
 on:
   pull_request:
   push:
 permissions: {}
 jobs:
-  prettier:
+  update-seo:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -13,9 +13,10 @@ jobs:
         with:
           node-version: 24
           cache: pnpm
-      - run: |
-          pnpm install prettier
-          pnpm exec prettier . --write
+      - name: Install dependencies
+        run: pnpm install
+      - name: Run update-seo.mjs
+        run: node ./scripts/update-seo.mjs
       - uses: autofix-ci/action@v1
         with:
-          commit-message: "chore: apply Prettier [skip ci]"
+          commit-message: "chore: auto-update frontmatter [skip ci]"
