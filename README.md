@@ -127,6 +127,7 @@ src/
 │   │   │   │   │   ├── HealTowersSpellModel.md
 │   │   │   │   │   ├── MageTowerModel.md
 │   │   │   │   │   ├── MeleeTowerModel.md
+│   │   │   │   │   ├── PathNodeModel.md
 │   │   │   │   │   ├── PlacementIndicatorModel.md
 │   │   │   │   │   ├── PlayerModel.md
 │   │   │   │   │   ├── RangeIndicatorModel.md
