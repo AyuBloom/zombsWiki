@@ -3,7 +3,7 @@ title: PathNodeModel - zombs.io Wiki
 head:
   - - meta
     - property: 'og:title'
-      content: Welcome - zombs.io Wiki
+      content: PathNodeModel - zombs.io Wiki
   - - meta
     - name: description
       content: >-
