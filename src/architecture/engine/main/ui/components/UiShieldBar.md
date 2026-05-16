@@ -2,13 +2,16 @@
 title: UiShieldBar - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiShieldBar - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiShieldBar class renders the zombie shield health bar on the HUD.
         It auto-hides when no shield is active and auto-shows when one is
         present.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiShieldBar class renders the zombie shield health bar on the HUD.
         It auto-hides when no shield is active and auto-shows when one is

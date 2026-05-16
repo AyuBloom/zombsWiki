@@ -2,6 +2,9 @@
 title: UiDayNightOverlay - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiDayNightOverlay - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiDayNightOverlay class renders a screen-wide dark overlay that
@@ -9,7 +12,7 @@ head:
         interpolated based on the current tick's position within the day or
         night phase.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiDayNightOverlay class renders a screen-wide dark overlay that
         fades in and out to simulate the day/night cycle. The overlay opacity is

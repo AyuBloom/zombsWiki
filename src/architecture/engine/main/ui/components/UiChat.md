@@ -2,13 +2,16 @@
 title: UiChat - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiChat - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiChat class manages the in-game chat interface. It handles sending,
         receiving, and displaying chat messages with built-in XSS sanitization
         (using xss) and profanity filtering (using grawlix and grawlix-racism).
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiChat class manages the in-game chat interface. It handles sending,
         receiving, and displaying chat messages with built-in XSS sanitization

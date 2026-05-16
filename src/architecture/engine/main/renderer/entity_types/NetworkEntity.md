@@ -2,6 +2,9 @@
 title: NetworkEntity - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: NetworkEntity - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The NetworkEntity class extends Entity and is the core class
@@ -9,7 +12,7 @@ head:
         entity's UID, interpolation state between server ticks, and dynamic
         model attachment based on data from the network.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The NetworkEntity class extends Entity and is the core class
         representing objects synchronized from the server. It manages the

@@ -2,12 +2,15 @@
 title: Welcome - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: Welcome - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         Welcome to the zombs.io Wiki! Here lies documentation about everything
         related to zombs.io, a 2D multiplayer survival game.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         Welcome to the zombs.io Wiki! Here lies documentation about everything
         related to zombs.io, a 2D multiplayer survival game.

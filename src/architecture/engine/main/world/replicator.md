@@ -2,6 +2,9 @@
 title: replicator - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: replicator - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The Replication class drives client-side entity interpolation and
@@ -11,7 +14,7 @@ head:
         as FPS, frame stutters, extrapolation incidents, and client-server time
         desync.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The Replication class drives client-side entity interpolation and
         extrapolation. It maintains a queue of server ticks, advances a local

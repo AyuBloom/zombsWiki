@@ -2,13 +2,16 @@
 title: UiHealthBar - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiHealthBar - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiHealthBar class renders the player's health bar on the HUD. It
         listens for player tick updates and adjusts the inner bar width to
         reflect the current health percentage.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiHealthBar class renders the player's health bar on the HUD. It
         listens for player tick updates and adjusts the inner bar width to

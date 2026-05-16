@@ -2,13 +2,16 @@
 title: ui - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: ui - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The ui component is the central manager for the game's HUD. It
         orchestrates multiple components, handles user input (keyboard/mouse)
         and synchronizes game state (inventory, buildings, parties).
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The ui component is the central manager for the game's HUD. It
         orchestrates multiple components, handles user input (keyboard/mouse)

@@ -2,13 +2,16 @@
 title: UiWalkthrough - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiWalkthrough - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiWalkthrough class manages the new-player tutorial walkthrough. It
         guides players through 4 sequential steps using hint popups, tracking
         completion and persisting progress via localStorage.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiWalkthrough class manages the new-player tutorial walkthrough. It
         guides players through 4 sequential steps using hint popups, tracking

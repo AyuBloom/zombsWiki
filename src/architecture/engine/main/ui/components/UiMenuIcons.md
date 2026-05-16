@@ -2,6 +2,9 @@
 title: UiMenuIcons - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiMenuIcons - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiMenuIcons class renders the top-right menu icon bar containing
@@ -9,7 +12,7 @@ head:
         the corresponding menu panel while closing the others, and cancels any
         active building/spell overlays.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiMenuIcons class renders the top-right menu icon bar containing
         buttons for Shop (B), Party (P), and Settings. Clicking an icon toggles

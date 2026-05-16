@@ -2,12 +2,15 @@
 title: util - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: util - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The Util class is a private utility class that is used internally to
         provide a collection of static helper methods.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The Util class is a private utility class that is used internally to
         provide a collection of static helper methods.

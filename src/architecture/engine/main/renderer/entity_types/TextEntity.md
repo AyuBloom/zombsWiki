@@ -2,13 +2,16 @@
 title: TextEntity - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: TextEntity - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The TextEntity class extends Entity to render text strings on the
         canvas. It uses an internal PIXITextFix (a subclass of PIXI.Text) to
         handle text rendering correctly across WebGL and Canvas modes.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The TextEntity class extends Entity to render text strings on the
         canvas. It uses an internal PIXITextFix (a subclass of PIXI.Text) to

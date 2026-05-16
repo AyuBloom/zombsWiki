@@ -2,13 +2,16 @@
 title: HealthBar - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: HealthBar - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         Model implementation for the Health Bar entity. It uses dynamically
         drawn shapes to render a health bar above entities like players, towers,
         and zombies.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         Model implementation for the Health Bar entity. It uses dynamically
         drawn shapes to render a health bar above entities like players, towers,

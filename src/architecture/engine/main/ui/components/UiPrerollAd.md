@@ -2,13 +2,16 @@
 title: UiPrerollAd - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiPrerollAd - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiPrerollAd class is a minimal UI component that serves as a
         container for pre-roll advertisements. It has no additional logic beyond
         the base UiComponent.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiPrerollAd class is a minimal UI component that serves as a
         container for pre-roll advertisements. It has no additional logic beyond

@@ -2,13 +2,16 @@
 title: Popular Scripts - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: Popular Scripts - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         In this category, you can find popular scripts that have been shared
         widely by the community, or influential scripts that changed the way we
         interact with the game in meaningful ways.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         In this category, you can find popular scripts that have been shared
         widely by the community, or influential scripts that changed the way we
@@ -20,4 +23,4 @@ In this category, you can find popular scripts that have been shared widely by t
 
 ## Documented scripts
 ### Xeraphinite
-<!--@include: ./xera.md{23,27}-->
+<!--@include: ./xera.md{26,30}-->

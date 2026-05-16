@@ -2,13 +2,16 @@
 title: Xeraphinite - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: Xeraphinite - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         First ever public script by AyuBloom, with 4 themes (accent color +
         intro background). It was intended by the creator to be minimal in
         functions but provide decent Quality of Life improvements.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         First ever public script by AyuBloom, with 4 themes (accent color +
         intro background). It was intended by the creator to be minimal in

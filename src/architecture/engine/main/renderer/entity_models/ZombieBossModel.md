@@ -2,10 +2,13 @@
 title: ZombieBossModel - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: ZombieBossModel - zombs.io Wiki
+  - - meta
     - name: description
       content: Model implementation for the Boss Zombie.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: Model implementation for the Boss Zombie.
 ---
 # `ZombieBossModel`

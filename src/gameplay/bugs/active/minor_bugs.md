@@ -2,12 +2,15 @@
 title: Minor Bugs - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: Minor Bugs - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         This article contains some bugs that are not impactful to the game that
         are still present to this day.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         This article contains some bugs that are not impactful to the game that
         are still present to this day.

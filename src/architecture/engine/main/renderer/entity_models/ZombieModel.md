@@ -2,13 +2,16 @@
 title: ZombieModel - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: ZombieModel - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         Model implementation for the standard melee Zombie. It dynamically
         manages the visual representation of zombies across different colors and
         tiers.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         Model implementation for the standard melee Zombie. It dynamically
         manages the visual representation of zombies across different colors and

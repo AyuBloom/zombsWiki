@@ -2,13 +2,16 @@
 title: renderer - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: renderer - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The renderer component is responsible for all rendering using PIXI.js.
         It manages the render loop, the scene graph layer hierarchy, camera
         tracking, coordinate transformations, and viewport scaling.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The renderer component is responsible for all rendering using PIXI.js.
         It manages the render loop, the scene graph layer hierarchy, camera

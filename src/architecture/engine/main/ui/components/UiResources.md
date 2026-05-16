@@ -2,6 +2,9 @@
 title: UiResources - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiResources - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiResources class renders the top HUD resource bar showing the
@@ -9,7 +12,7 @@ head:
         abbreviated using the number-abbreviate library. It also triggers
         walkthrough step 1 completion when wood and stone both reach ≥ 10.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiResources class renders the top HUD resource bar showing the
         player's current wood, stone, gold, tokens, and wave number. Values are

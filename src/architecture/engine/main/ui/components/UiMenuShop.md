@@ -2,6 +2,9 @@
 title: UiMenuShop - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiMenuShop - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiMenuShop class manages the in-game shop menu. It renders
@@ -10,7 +13,7 @@ head:
         media reward unlocks (Twitter, Facebook, YouTube), and displays in-shop
         advertisements.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiMenuShop class manages the in-game shop menu. It renders
         purchasable items organized by tabs (Weapons, Armor, Hats, Pets,

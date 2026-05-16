@@ -2,13 +2,16 @@
 title: UiMenuSettings - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiMenuSettings - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiMenuSettings class renders the in-game settings menu. It displays
         the controls reference, gameplay essentials/hints, and a button to
         restart the walkthrough tutorial.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiMenuSettings class renders the in-game settings menu. It displays
         the controls reference, gameplay essentials/hints, and a button to

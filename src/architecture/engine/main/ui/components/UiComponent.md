@@ -2,6 +2,9 @@
 title: UiComponent - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiComponent - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiComponent class serves as the base class for all UI components in
@@ -9,7 +12,7 @@ head:
         interactions and provides standard methods for managing the visibility
         and retrieval of the component's underlying DOM element.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiComponent class serves as the base class for all UI components in
         the game engine. It extends EventEmitter to support event-driven

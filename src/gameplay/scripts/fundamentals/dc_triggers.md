@@ -2,10 +2,13 @@
 title: Disconnection Triggers - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: Disconnection Triggers - zombs.io Wiki
+  - - meta
     - name: description
       content: 'Related: network'
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: 'Related: network'
 ---
 # Disconnection Triggers

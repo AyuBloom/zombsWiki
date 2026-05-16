@@ -2,6 +2,9 @@
 title: UiIntro - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiIntro - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiIntro class manages the game's main menu / intro screen. It
@@ -9,7 +12,7 @@ head:
         display, canvas rendering toggle, leaderboard data fetching, and party
         invitation deep linking.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiIntro class manages the game's main menu / intro screen. It
         handles player name input, server selection, connection flow, ad

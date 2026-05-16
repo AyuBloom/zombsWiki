@@ -2,6 +2,9 @@
 title: UI Styles - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UI Styles - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The game's visual presentation is defined in a single app.css file
@@ -9,7 +12,7 @@ head:
         stylesheet with consistent conventions. This page documents the shared
         CSS primitives that are reused across multiple UI components.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The game's visual presentation is defined in a single app.css file
         (~3950 lines). Rather than a CSS framework, it uses a flat, hand-written

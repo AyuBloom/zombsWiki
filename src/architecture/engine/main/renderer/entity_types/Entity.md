@@ -2,6 +2,9 @@
 title: Entity - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: Entity - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The base Entity class provides a wrapper around a PIXI.Container or
@@ -9,7 +12,7 @@ head:
         allowing attachments (child entities) and providing common
         transformation methods like position, scale, rotation, and alpha.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The base Entity class provides a wrapper around a PIXI.Container or
         other PIXI.DisplayObject. It implements a scene graph structure by

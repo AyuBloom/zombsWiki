@@ -2,6 +2,9 @@
 title: TowerModel - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: TowerModel - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         Base model for tower entities. Manages the visual representation of a
@@ -9,7 +12,7 @@ head:
         bar. The model dynamically swaps its sprites when the tower's tier
         changes.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         Base model for tower entities. Manages the visual representation of a
         tower by composing a base sprite, a rotatable head sprite, and a health

@@ -2,6 +2,9 @@
 title: UiPlacementOverlay - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiPlacementOverlay - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiPlacementOverlay class manages the building placement preview
@@ -9,7 +12,7 @@ head:
         indicators (green/red for valid/occupied), border exclusion zones, and a
         "Press R to rotate" text prompt for rotatable buildings.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiPlacementOverlay class manages the building placement preview
         system. It renders a ghost model of the building being placed, grid cell

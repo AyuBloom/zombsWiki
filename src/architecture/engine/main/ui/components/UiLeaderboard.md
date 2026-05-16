@@ -2,6 +2,9 @@
 title: UiLeaderboard - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiLeaderboard - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiLeaderboard class renders the in-game leaderboard showing player
@@ -9,7 +12,7 @@ head:
         with xss and grawlix (with grawlix-racism plugin) and highlights the
         local player's entry.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiLeaderboard class renders the in-game leaderboard showing player
         rankings with their name, score, and wave. It sanitizes display names

@@ -2,12 +2,15 @@
 title: ZombieRangedModel - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: ZombieRangedModel - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         Model implementation for Ranged Zombies, a type of zombie that was never
         implemented.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         Model implementation for Ranged Zombies, a type of zombie that was never
         implemented.

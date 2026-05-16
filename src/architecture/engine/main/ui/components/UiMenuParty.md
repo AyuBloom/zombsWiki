@@ -2,6 +2,9 @@
 title: UiMenuParty - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiMenuParty - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiMenuParty class manages the party management menu. It displays the
@@ -10,7 +13,7 @@ head:
         joining, kicking members, toggling sell permissions, and applicant
         approval flows.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiMenuParty class manages the party management menu. It displays the
         player's current party members, open parties available to join, party

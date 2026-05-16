@@ -2,6 +2,9 @@
 title: Scripting - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: Scripting - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         Scripting has been a core part withing the zombs.io community ever since
@@ -9,7 +12,7 @@ head:
         been discovered by the community, giving way to new script functions
         that, for many, have fundamentally changed how the game is played.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         Scripting has been a core part withing the zombs.io community ever since
         the absence of new game updates. Over the years, many new exploits have

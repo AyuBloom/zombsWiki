@@ -25,59 +25,59 @@ There are 3 types of things inside the `game` object:
 
 ### `ui`
 Class: `Ui` <Badge type="tip" text="public" />
-<!--@include: ./main/ui/ui.md{18,20}-->
+<!--@include: ./main/ui/ui.md{21,23}-->
 
 > See also: [UI Styles](/architecture/engine/main/ui/styles) for the shared CSS design system (buttons, tooltips, layout grid, state classes, and asset selectors).
 
 ### `world`
 Class: `World` <Badge type="tip" text="public" />
-<!--@include: ./main/world/world.md{20,22}-->
+<!--@include: ./main/world/world.md{23,25}-->
 
 ### `network`
 Class: Game/`Network` <Badge type="danger" text="private" />
-<!--@include: ./main/network.md{18,20}-->
+<!--@include: ./main/network.md{21,23}-->
 
 > See also: [_MakeBlendField](/architecture/engine/mbf/overview) for the anti-bot mechanism.
 
 ### `renderer`
 Class: Game/`Renderer` <Badge type="danger" text="private" />
-<!--@include: ./main/renderer/renderer.md{18,20}-->
+<!--@include: ./main/renderer/renderer.md{21,23}-->
 
 ### Input
 
 #### `inputManager`
 Class: `InputManager` <Badge type="tip" text="public" />
-<!--@include: ./main/input/inputManager.md{22,24}-->
+<!--@include: ./main/input/inputManager.md{25,27}-->
 
 #### `inputPacketCreator`
 Class: `InputPacketCreator` <Badge type="tip" text="public" />
-<!--@include: ./main/input/inputPacketCreator.md{20,22}-->
+<!--@include: ./main/input/inputPacketCreator.md{23,25}-->
 
 #### `inputPacketScheduler`
 Class: `InputPacketScheduler` <Badge type="tip" text="public" />
-<!--@include: ./main/input/inputPacketScheduler.md{22,24}-->
+<!--@include: ./main/input/inputPacketScheduler.md{25,27}-->
 
 ## Utility Components
 
 ### `assetManager`
 Class: `AssetManager` <Badge type="tip" text="public" />
-<!--@include: ./utils/assetManager.md{16,18}-->
+<!--@include: ./utils/assetManager.md{19,21}-->
 
 ### `debug`
 Class: `Debug` <Badge type="tip" text="public" />
-<!--@include: ./utils/debug.md{20,22}-->
+<!--@include: ./utils/debug.md{23,25}-->
 
 ### `metrics`
 Class: `Metrics` <Badge type="tip" text="public" />
-<!--@include: ./utils/metrics.md{18,20}-->
+<!--@include: ./utils/metrics.md{21,23}-->
 
 ### `platform`
 Class: `Platform` <Badge type="tip" text="public" />
-<!--@include: ./utils/platform.md{12,14}-->
+<!--@include: ./utils/platform.md{15,17}-->
 
 ### `util`
 Class: `util` <Badge type="danger" text="private" /> (not accessible)
-<!--@include: ./utils/util.md{16,18}-->
+<!--@include: ./utils/util.md{19,21}-->
 
 ## Schemas
 

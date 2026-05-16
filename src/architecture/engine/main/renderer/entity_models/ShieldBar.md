@@ -2,13 +2,16 @@
 title: ShieldBar - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: ShieldBar - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         Model implementation for the Shield Bar entity. It uses dynamically
         drawn shapes to render a shield bar and only used by the player
         character.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         Model implementation for the Shield Bar entity. It uses dynamically
         drawn shapes to render a shield bar and only used by the player

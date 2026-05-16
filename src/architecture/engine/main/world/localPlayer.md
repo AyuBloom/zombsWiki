@@ -2,12 +2,15 @@
 title: localPlayer - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: localPlayer - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The LocalPlayer class represents the client's own player within the
         world. It holds a reference to the player's NetworkEntity.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The LocalPlayer class represents the client's own player within the
         world. It holds a reference to the player's NetworkEntity.

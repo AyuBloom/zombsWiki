@@ -2,6 +2,9 @@
 title: UiToolbarBuilding - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiToolbarBuilding - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiToolbarBuilding class represents a single building button in the
@@ -9,7 +12,7 @@ head:
         shows a tooltip with the building's name, description, cost, and
         built/limit count.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiToolbarBuilding class represents a single building button in the
         toolbar. It supports click-to-place and drag-to-place interactions,

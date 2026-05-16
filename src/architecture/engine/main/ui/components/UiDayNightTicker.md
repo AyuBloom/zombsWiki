@@ -2,13 +2,16 @@
 title: UiDayNightTicker - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiDayNightTicker - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiDayNightTicker class renders a small progress bar indicating the
         current position in the day/night cycle. It also triggers an
         announcement warning when nightfall is approaching.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiDayNightTicker class renders a small progress bar indicating the
         current position in the day/night cycle. It also triggers an

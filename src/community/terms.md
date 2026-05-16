@@ -2,12 +2,15 @@
 title: Common Terms - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: Common Terms - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         As a community, people are bound to create terms to refer to familiar
         concepts. This article contains tables of well known terms / slangs.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         As a community, people are bound to create terms to refer to familiar
         concepts. This article contains tables of well known terms / slangs.

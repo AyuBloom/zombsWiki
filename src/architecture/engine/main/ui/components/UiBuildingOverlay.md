@@ -2,6 +2,9 @@
 title: UiBuildingOverlay - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiBuildingOverlay - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiBuildingOverlay class renders a tooltip overlay on top of a
@@ -11,7 +14,7 @@ head:
         RangeIndicatorModel for buildings with range stats or for the Gold Stash
         build radius.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiBuildingOverlay class renders a tooltip overlay on top of a
         selected building, showing its tier, health bar, stats (current vs. next

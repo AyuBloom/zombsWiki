@@ -2,6 +2,9 @@
 title: inputPacketScheduler - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: inputPacketScheduler - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The InputPacketScheduler class manages the timing and delivery of input
@@ -10,7 +13,7 @@ head:
         the server's tick rate (50ms+), providing a more consistent and
         synchronized input stream.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The InputPacketScheduler class manages the timing and delivery of input
         packets to the server by acting as a buffer between InputPacketCreator

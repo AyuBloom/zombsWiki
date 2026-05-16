@@ -2,6 +2,9 @@
 title: UiShopPetItem - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: UiShopPetItem - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The UiShopPetItem class extends UiShopItem to handle pet-type shop
@@ -10,7 +13,7 @@ head:
         flows (Twitter share + Facebook share for PetCARL, YouTube subscribe for
         PetMiner), and a "Coming Soon" placeholder.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The UiShopPetItem class extends UiShopItem to handle pet-type shop
         items. It adds pet-specific features: equip/revive/evolve actions,

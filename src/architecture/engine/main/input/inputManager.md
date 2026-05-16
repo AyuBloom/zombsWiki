@@ -2,6 +2,9 @@
 title: inputManager - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: inputManager - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         The InputManager class is responsible for handling raw DOM input events
@@ -10,7 +13,7 @@ head:
         keys and mouse buttons and is integrated with the game's network
         lifecycle.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         The InputManager class is responsible for handling raw DOM input events
         (keyboard and mouse) and emitting them as internal engine events used by

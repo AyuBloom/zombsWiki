@@ -2,13 +2,16 @@
 title: CharacterModel - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: CharacterModel - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         Base model implementation for character entities, such as players and
         zombies. It handles common animations including damage tinting and
         various weapon attack motions.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
         Base model implementation for character entities, such as players and
         zombies. It handles common animations including damage tinting and
