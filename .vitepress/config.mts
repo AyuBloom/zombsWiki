@@ -1,5 +1,7 @@
 import { defineConfig } from "vitepress";
-import llmstxt, { copyOrDownloadAsMarkdownButtons } from 'vitepress-plugin-llms';
+import llmstxt, {
+  copyOrDownloadAsMarkdownButtons,
+} from "vitepress-plugin-llms";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -32,7 +34,7 @@ export default defineConfig({
 
   markdown: {
     config(md) {
-      md.use(copyOrDownloadAsMarkdownButtons)
+      md.use(copyOrDownloadAsMarkdownButtons);
     },
   },
 
