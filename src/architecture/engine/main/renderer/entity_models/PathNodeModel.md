@@ -50,7 +50,7 @@ Initializes the path node model and creates `text` and `text2`. Defaults `lastCo
 function update(dt: number, user: any): void
 ```
 
-Updates the model every frame. If `tick.pathCost` or `tick.direction` is different from `lastCost` or `lastDirection`, it updates `text` and `lastCost` from `tick.pathCost`, and `text2` and `lastDirection` from `tick.direction`.  
+Updates the model every frame. If `tick.pathCost` or `tick.direction` is different from `lastCost` or `lastDirection`, it updates `text` and `lastCost` from `tick.pathCost`, and `text2` and `lastDirection` from `tick.direction`.
 Conversion between `tick.direction` and text displayed in `text2` is shown as follows:
 | `tick.direction` | Displayed Text |
 | :--- | :--- |
