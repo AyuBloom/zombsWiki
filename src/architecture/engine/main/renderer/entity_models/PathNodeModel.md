@@ -2,6 +2,9 @@
 title: PathNodeModel - zombs.io Wiki
 head:
   - - meta
+    - property: 'og:title'
+      content: Welcome - zombs.io Wiki
+  - - meta
     - name: description
       content: >-
         An unused model entity that visualizes zombie pathfinding by displaying path cost and movement direction at a fixed position, presumably for internal testing uses.
