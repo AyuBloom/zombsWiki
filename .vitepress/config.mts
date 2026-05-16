@@ -455,6 +455,10 @@ export default defineConfig({
                             text: "RangeIndicatorModel",
                             link: "/architecture/engine/main/renderer/entity_models/RangeIndicatorModel",
                           },
+                          {
+                            text: "PathNodeModel",
+                            link: "/architecture/engine/main/renderer/entity_models/PathNodeModel",
+                          },
                         ],
                         collapsed: true,
                       },
