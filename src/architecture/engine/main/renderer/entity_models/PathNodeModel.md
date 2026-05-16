@@ -7,11 +7,15 @@ head:
   - - meta
     - name: description
       content: >-
-        An unused model entity that visualizes zombie pathfinding by displaying path cost and movement direction at a fixed position, presumably for internal testing uses.
+        An unused model entity that visualizes zombie pathfinding by displaying
+        path cost and movement direction at a fixed position, presumably for
+        internal testing uses.
   - - meta
-    - name: 'og:description'
+    - property: 'og:description'
       content: >-
-        An unused model entity that visualizes zombie pathfinding by displaying path cost and movement direction at a fixed position, presumably for internal testing uses.
+        An unused model entity that visualizes zombie pathfinding by displaying
+        path cost and movement direction at a fixed position, presumably for
+        internal testing uses.
 ---
 # `PathNodeModel`
 
