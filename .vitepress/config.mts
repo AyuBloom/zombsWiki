@@ -28,75 +28,75 @@ export default defineConfig({
 
     // seo stuff
     [
-			'meta',
-			{
-				name: 'viewport',
-				content: 'width=device-width,initial-scale=1,user-scalable=no'
-			}
+      "meta",
+      {
+        name: "viewport",
+        content: "width=device-width,initial-scale=1,user-scalable=no",
+      },
     ],
     [
-      'link',
+      "link",
       {
         rel: "icon",
-        href: "/zombsWiki/logo.svg"
-      }
+        href: "/zombsWiki/logo.svg",
+      },
     ],
-		[
-			'meta',
-			{
-				property: 'og:image',
-				content: '/zombsWiki/cover.png'
-			}
-		],
-		[
-			'meta',
-			{
-				property: 'og:image:width',
-				content: '800'
-			}
-		],
-		[
-			'meta',
-			{
-				property: 'og:image:height',
-				content: '384'
-			}
-		],
-		[
-			'meta',
-			{
-				property: 'twitter:card',
-				content: 'summary_large_image'
-			}
-		],
-		[
-			'meta',
-			{
-				property: 'twitter:image',
-				content: '/zombsWiki/cover.png'
-			}
-		],
-		[
-			'meta',
-			{
-				property: 'og:title',
-				content: 'zombs.io Wiki'
-			}
-		],
-		[
-			'meta',
-			{
-				property: 'og:description',
-				content: "Wiki for everything zombs.io"
-			}
-		],
-		[
-			'link',
-			{
-				rel: 'canonical',
-				href: 'https://ayubloom.github.io/zombsWiki/'
-			}
-		]
+    [
+      "meta",
+      {
+        property: "og:image",
+        content: "/zombsWiki/cover.png",
+      },
+    ],
+    [
+      "meta",
+      {
+        property: "og:image:width",
+        content: "800",
+      },
+    ],
+    [
+      "meta",
+      {
+        property: "og:image:height",
+        content: "384",
+      },
+    ],
+    [
+      "meta",
+      {
+        property: "twitter:card",
+        content: "summary_large_image",
+      },
+    ],
+    [
+      "meta",
+      {
+        property: "twitter:image",
+        content: "/zombsWiki/cover.png",
+      },
+    ],
+    [
+      "meta",
+      {
+        property: "og:title",
+        content: "zombs.io Wiki",
+      },
+    ],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content: "Wiki for everything zombs.io",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "canonical",
+        href: "https://ayubloom.github.io/zombsWiki/",
+      },
+    ],
   ],
 
   vite: {
