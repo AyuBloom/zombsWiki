@@ -4,7 +4,7 @@ This project is a documentation website built for a 2D multiplayer survival game
 
 ## Technology Stack
 
-- **Framework**: [VitePress](https://vitepress.dev/)
+- **Framework**: [VitePress](https://vitepress.dev/) (with plugins: [vitepress-plugin-llms](https://github.com/okineadev/vitepress-plugin-llms))
 - **Package Manager**: `pnpm`
 
 ## Project Structure
@@ -119,4 +119,27 @@ You may want to use these badges when necessary.
 ### Title <Badge type="warning" text="warning" />
 ### Title <Badge type="danger" text="danger" />
 
+```
+
+## Embedding content for LLMs only or Humans only
+
+### LLMs-only content
+
+```md
+
+<llm-only>
+
+## Section for LLMs
+
+This content appears only in the generated LLMs files without the `<llm-only>` tag
+
+</llm-only>
+
+```
+### Humans-only content
+
+```md
+Check out the Plugins API Guide for documentation about creating plugins.
+
+<llm-exclude> Note only for humans </llm-exclude>
 ```
