@@ -11,7 +11,6 @@ export default defineConfig({
   base: "/zombsWiki/",
   srcDir: "src",
   head: [
-    ["link", { rel: "icon", href: "/zombsWiki/logo.svg" }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     [
       "link",
@@ -24,6 +23,78 @@ export default defineConfig({
         href: "https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap",
       },
     ],
+
+    // seo stuff
+    [
+			'meta',
+			{
+				name: 'viewport',
+				content: 'width=device-width,initial-scale=1,user-scalable=no'
+			}
+    ],
+    [
+      'link',
+      {
+        rel: "icon",
+        href: "/zombsWiki/logo.svg"
+      }
+    ],
+		[
+			'meta',
+			{
+				property: 'og:image',
+				content: '/zombsWiki/cover.png'
+			}
+		],
+		[
+			'meta',
+			{
+				property: 'og:image:width',
+				content: '800'
+			}
+		],
+		[
+			'meta',
+			{
+				property: 'og:image:height',
+				content: '384'
+			}
+		],
+		[
+			'meta',
+			{
+				property: 'twitter:card',
+				content: 'summary_large_image'
+			}
+		],
+		[
+			'meta',
+			{
+				property: 'twitter:image',
+				content: '/zombsWiki/cover.png'
+			}
+		],
+		[
+			'meta',
+			{
+				property: 'og:title',
+				content: 'zombs.io Wiki'
+			}
+		],
+		[
+			'meta',
+			{
+				property: 'og:description',
+				content: "Wiki for everything zombs.io"
+			}
+		],
+		[
+			'link',
+			{
+				rel: 'canonical',
+				href: 'https://ayubloom.github.io/zombsWiki/'
+			}
+		]
   ],
 
   vite: {
