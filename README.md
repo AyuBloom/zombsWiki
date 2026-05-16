@@ -343,6 +343,7 @@ src/public/
 │           └── popular_scripts
 │               └── xera
 │                   └── intro.png
+├── cover.png
 ├── logo.svg
 └── robots.txt
 ```
