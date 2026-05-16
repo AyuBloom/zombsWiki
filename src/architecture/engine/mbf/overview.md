@@ -1,5 +1,15 @@
 ---
 title: _MakeBlendField Overview - zombs.io Wiki
+head:
+  - - meta
+    - property: 'og:title'
+      content: _MakeBlendField Overview - zombs.io Wiki
+  - - meta
+    - name: description
+      content: Zombs.io employs an original method to validate players via [Proof of Work](https://en.wikipedia.org/wiki/Proof_of_work) (PoW) challenges that the client has to solve in order to enter a server and maintain a connection. It is a measure to occupy RAM and CPU resources of the client and, therefore, increase multiboxing costs.
+  - - meta
+    - property: 'og:description'
+      content: Zombs.io employs an original method to validate players via [Proof of Work](https://en.wikipedia.org/wiki/Proof_of_work) (PoW) challenges that the client has to solve in order to enter a server and maintain a connection. It is a measure to occupy RAM and CPU resources of the client and, therefore, increase multiboxing costs.
 ---
 # `_MakeBlendField` Overview
 
