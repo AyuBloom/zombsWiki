@@ -1,3 +1,6 @@
+---
+title: Mage Tower - zombs.io Wiki
+---
 # Mage Tower
 **Mage Tower** is a type of Tower. This tower shoots 3 projectiles at once at a distance of 4-5 tiles, dealing very high knockback to zombies. Only Tier 8 Mage can shoot an extra projectile. Mage towers are pretty effective with a couple larger zombies but will struggle against large waves.
 

@@ -1,3 +1,23 @@
+---
+title: UiMenuShop - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiMenuShop class manages the in-game shop menu. It renders
+        purchasable items organized by tabs (Weapons, Armor, Hats, Pets,
+        Utility), handles item purchases and equipment via RPCs, manages social
+        media reward unlocks (Twitter, Facebook, YouTube), and displays in-shop
+        advertisements.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiMenuShop class manages the in-game shop menu. It renders
+        purchasable items organized by tabs (Weapons, Armor, Hats, Pets,
+        Utility), handles item purchases and equipment via RPCs, manages social
+        media reward unlocks (Twitter, Facebook, YouTube), and displays in-shop
+        advertisements.
+---
 
 # `UiMenuShop`
 

@@ -1,3 +1,21 @@
+---
+title: inputPacketCreator - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The InputPacketCreator class handles the conversion of user input events
+        (keyboard and mouse) into network packets that are sent to the server.
+        It listens to events from the InputManager and communicates with the
+        Network module.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The InputPacketCreator class handles the conversion of user input events
+        (keyboard and mouse) into network packets that are sent to the server.
+        It listens to events from the InputManager and communicates with the
+        Network module.
+---
 # `inputPacketCreator`
 
 The `InputPacketCreator` class handles the conversion of user input events (keyboard and mouse) into network packets that are sent to the server. It listens to events from the `InputManager` and communicates with the `Network` module.

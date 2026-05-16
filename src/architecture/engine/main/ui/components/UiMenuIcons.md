@@ -1,3 +1,21 @@
+---
+title: UiMenuIcons - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiMenuIcons class renders the top-right menu icon bar containing
+        buttons for Shop (B), Party (P), and Settings. Clicking an icon toggles
+        the corresponding menu panel while closing the others, and cancels any
+        active building/spell overlays.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiMenuIcons class renders the top-right menu icon bar containing
+        buttons for Shop (B), Party (P), and Settings. Clicking an icon toggles
+        the corresponding menu panel while closing the others, and cancels any
+        active building/spell overlays.
+---
 
 # `UiMenuIcons`
 

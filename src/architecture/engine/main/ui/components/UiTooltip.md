@@ -1,3 +1,21 @@
+---
+title: UiTooltip - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiTooltip class provides a reusable tooltip system. It attaches to a
+        target element and displays a dynamically-generated HTML tooltip on
+        mouseenter, positioned relative to the target using a configurable
+        anchor direction.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiTooltip class provides a reusable tooltip system. It attaches to a
+        target element and displays a dynamically-generated HTML tooltip on
+        mouseenter, positioned relative to the target using a configurable
+        anchor direction.
+---
 
 # `UiTooltip`
 

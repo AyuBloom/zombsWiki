@@ -1,3 +1,6 @@
+---
+title: Arrow Tower - zombs.io Wiki
+---
 # Arrow Tower
 **Arrow Tower** is a type of Tower. It shoots one arrow projectile. It deals a fairly strong knockback to zombies, especially when multiple Arrow Towers are grouped together. It is supposed to hit only entity at a time, since it has no AOE damage or piercing, but sometimes it can hit more due to the fact that the projectile hitbox can interact with at least 2 zombies at once
 

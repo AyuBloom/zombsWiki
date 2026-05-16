@@ -1,3 +1,6 @@
+---
+title: HarvesterModel - zombs.io Wiki
+---
 # `HarvesterModel`
 
 <img src="/asset/image/ui/entities/entities-harvester.svg" style="float: right; width: 128px; margin-top: -50px;" />

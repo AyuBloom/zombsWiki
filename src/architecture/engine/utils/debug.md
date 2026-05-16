@@ -1,3 +1,21 @@
+---
+title: debug - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The debug utility provides a fixed on-screen display for monitoring
+        real-time game performance (FPS/millisecond), engine metrics and network
+        synchronization. This HUD is hidden from the user, and can be toggled
+        on/off with the F6 key.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The debug utility provides a fixed on-screen display for monitoring
+        real-time game performance (FPS/millisecond), engine metrics and network
+        synchronization. This HUD is hidden from the user, and can be toggled
+        on/off with the F6 key.
+---
 # `debug`
 
 The `debug` utility provides a fixed on-screen display for monitoring real-time game performance (FPS/millisecond), engine metrics and network synchronization. This HUD is hidden from the user, and can be toggled on/off with the `F6` key.

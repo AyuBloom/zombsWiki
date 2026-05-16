@@ -1,3 +1,21 @@
+---
+title: UiPlacementOverlay - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiPlacementOverlay class manages the building placement preview
+        system. It renders a ghost model of the building being placed, grid cell
+        indicators (green/red for valid/occupied), border exclusion zones, and a
+        "Press R to rotate" text prompt for rotatable buildings.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiPlacementOverlay class manages the building placement preview
+        system. It renders a ghost model of the building being placed, grid cell
+        indicators (green/red for valid/occupied), border exclusion zones, and a
+        "Press R to rotate" text prompt for rotatable buildings.
+---
 
 # `UiPlacementOverlay`
 

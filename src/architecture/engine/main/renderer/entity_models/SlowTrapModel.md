@@ -1,3 +1,6 @@
+---
+title: SlowTrapModel - zombs.io Wiki
+---
 # `SlowTrapModel`
 
 <img src="/asset/image/ui/entities/entities-slow-trap.svg" style="float: right; width: 128px; margin-top: -50px;" />

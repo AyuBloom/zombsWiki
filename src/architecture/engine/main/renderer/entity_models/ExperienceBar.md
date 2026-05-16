@@ -1,3 +1,19 @@
+---
+title: ExperienceBar - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        Model implementation for the Experience Bar entity. It uses dynamically
+        drawn shapes to render an experience bar and level indicator, and used
+        by pets.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        Model implementation for the Experience Bar entity. It uses dynamically
+        drawn shapes to render an experience bar and level indicator, and used
+        by pets.
+---
 # `ExperienceBar`
 
 Model implementation for the Experience Bar entity. It uses dynamically drawn shapes to render an experience bar and level indicator, and used by pets.

@@ -1,3 +1,19 @@
+---
+title: GroundEntity - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The GroundEntity class is a minimal extension of Entity specifically
+        used for representing the game's ground layer and holding the map's
+        terrain textures.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The GroundEntity class is a minimal extension of Entity specifically
+        used for representing the game's ground layer and holding the map's
+        terrain textures.
+---
 # `GroundEntity`
 
 The `GroundEntity` class is a minimal extension of `Entity` specifically used for representing the game's ground layer and holding the map's terrain textures.

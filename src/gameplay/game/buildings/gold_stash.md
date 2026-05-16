@@ -1,3 +1,6 @@
+---
+title: Gold Stash - zombs.io Wiki
+---
 # Gold Stash
 **Gold Stash** is a type of Building. This building is the heart of every base and defines the area where you can place towers. The area where you can place towers is 36x36, or even 38x38 for towers, since the game allows you to partially place towers outside that area.
 

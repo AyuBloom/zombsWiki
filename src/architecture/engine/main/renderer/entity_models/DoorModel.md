@@ -1,3 +1,6 @@
+---
+title: DoorModel - zombs.io Wiki
+---
 # `DoorModel`
 
 <img src="/asset/image/ui/entities/entities-door.svg" style="float: right; width: 128px; margin-top: -50px;" />

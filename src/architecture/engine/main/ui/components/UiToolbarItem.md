@@ -1,3 +1,21 @@
+---
+title: UiToolbarItem - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiToolbarItem class represents a single inventory item button in the
+        toolbar. It displays the item's current tier via data-tier and toggles
+        an is-empty state when the item is not owned. Clicking equips or uses
+        the item.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiToolbarItem class represents a single inventory item button in the
+        toolbar. It displays the item's current tier via data-tier and toggles
+        an is-empty state when the item is not owned. Clicking equips or uses
+        the item.
+---
 
 # `UiToolbarItem`
 

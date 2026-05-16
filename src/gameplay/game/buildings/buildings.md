@@ -1,3 +1,6 @@
+---
+title: Buildings overview - zombs.io Wiki
+---
 # Buildings overview
 **Buildings** are structures that can be constructed by players, close to their Gold Stash. These buildings require a specific amount of resources to place them. Buildings can be destroyed by enemy entities, such as other players, demons, bosses and zombies.
 

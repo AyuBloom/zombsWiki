@@ -1,3 +1,19 @@
+---
+title: entityGrid - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The EntityGrid class acts as a spatial partitioning grid to efficiently
+        keep track of entity locations in the world. It maps entities into grid
+        cells based on their positions and bounding sizes.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The EntityGrid class acts as a spatial partitioning grid to efficiently
+        keep track of entity locations in the world. It maps entities into grid
+        cells based on their positions and bounding sizes.
+---
 # `entityGrid`
 
 The `EntityGrid` class acts as a spatial partitioning grid to efficiently keep track of entity locations in the world. It maps entities into grid cells based on their positions and bounding sizes.

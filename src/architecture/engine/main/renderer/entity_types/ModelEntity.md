@@ -1,3 +1,17 @@
+---
+title: ModelEntity - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The ModelEntity class is a lightweight wrapper around Entity designed
+        specifically to handle preloaded assets and game models.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The ModelEntity class is a lightweight wrapper around Entity designed
+        specifically to handle preloaded assets and game models.
+---
 # `ModelEntity`
 
 The `ModelEntity` class is a lightweight wrapper around `Entity` designed specifically to handle preloaded assets and game models.

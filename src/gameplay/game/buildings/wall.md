@@ -1,3 +1,6 @@
+---
+title: Wall - zombs.io Wiki
+---
 # Wall 
 **Walls** are a type of building. They provide protection against zombies and players, as nothing can pass through them. It is important to place walls around your base for an extra layer of protection, or to influencec the way the zombies move (if you have an open entrance type of base).
 

@@ -1,3 +1,6 @@
+---
+title: MageTowerModel - zombs.io Wiki
+---
 # `MageTowerModel`
 
 <img src="/asset/image/ui/entities/entities-mage-tower.svg" style="float: right; width: 128px; margin-top: -50px;" />

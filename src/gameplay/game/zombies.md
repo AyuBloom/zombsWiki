@@ -1,3 +1,6 @@
+---
+title: Zombies - zombs.io Wiki
+---
 # Zombies
 
 ## Basics

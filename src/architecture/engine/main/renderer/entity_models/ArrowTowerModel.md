@@ -1,3 +1,6 @@
+---
+title: ArrowTowerModel - zombs.io Wiki
+---
 # `ArrowTowerModel`
 
 <img src="/asset/image/ui/entities/entities-arrow-tower.svg" style="float: right; width: 128px; margin-top: -50px;" />

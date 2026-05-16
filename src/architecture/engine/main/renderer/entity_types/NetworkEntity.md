@@ -1,3 +1,21 @@
+---
+title: NetworkEntity - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The NetworkEntity class extends Entity and is the core class
+        representing objects synchronized from the server. It manages the
+        entity's UID, interpolation state between server ticks, and dynamic
+        model attachment based on data from the network.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The NetworkEntity class extends Entity and is the core class
+        representing objects synchronized from the server. It manages the
+        entity's UID, interpolation state between server ticks, and dynamic
+        model attachment based on data from the network.
+---
 # `NetworkEntity`
 
 The `NetworkEntity` class extends `Entity` and is the core class representing objects synchronized from the server. It manages the entity's UID, interpolation state between server ticks, and dynamic model attachment based on data from the network.

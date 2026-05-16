@@ -1,3 +1,6 @@
+---
+title: MeleeTowerModel - zombs.io Wiki
+---
 # `MeleeTowerModel`
 
 <img src="/asset/image/ui/entities/entities-melee-tower.svg" style="float: right; width: 128px; margin-top: -50px;" />

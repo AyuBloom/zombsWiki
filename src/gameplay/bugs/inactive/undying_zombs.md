@@ -1,3 +1,6 @@
+---
+title: Undying Zombies - zombs.io Wiki
+---
 # Undying Zombies
 
 ## Phenomenon

@@ -1,3 +1,19 @@
+---
+title: network - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The network component handles all communication between the client and
+        the server. It includes low-level socket management, binary
+        encoding/decoding via ByteBuffer and a novel anti-bot mechanism.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The network component handles all communication between the client and
+        the server. It includes low-level socket management, binary
+        encoding/decoding via ByteBuffer and a novel anti-bot mechanism.
+---
 # `network`
 
 The `network` component handles all communication between the client and the server. It includes low-level socket management, binary encoding/decoding via `ByteBuffer` and a novel anti-bot mechanism.

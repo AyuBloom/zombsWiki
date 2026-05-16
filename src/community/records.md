@@ -1,3 +1,6 @@
+---
+title: World Records - zombs.io Wiki
+---
 # World Records
 
 ## Wave Records

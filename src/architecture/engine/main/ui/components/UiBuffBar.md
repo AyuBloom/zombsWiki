@@ -1,3 +1,19 @@
+---
+title: UiBuffBar - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiBuffBar class manages the buff bar HUD element, which displays
+        active buff items the player currently has in their inventory. Each buff
+        icon includes a UiTooltip showing the item name, tier, and description.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiBuffBar class manages the buff bar HUD element, which displays
+        active buff items the player currently has in their inventory. Each buff
+        icon includes a UiTooltip showing the item name, tier, and description.
+---
 
 # `UiBuffBar`
 

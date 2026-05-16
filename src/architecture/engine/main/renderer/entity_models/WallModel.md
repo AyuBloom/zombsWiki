@@ -1,3 +1,6 @@
+---
+title: WallModel - zombs.io Wiki
+---
 # `WallModel`
 
 <img src="/asset/image/ui/entities/entities-wall.svg" style="float: right; width: 128px; margin-top: -50px;" />

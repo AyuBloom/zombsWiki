@@ -1,3 +1,6 @@
+---
+title: Bomb Tower - zombs.io Wiki
+---
 # Bomb Tower
 **Bomb Tower** is a type of Tower. This tower doesn't deal any knock back to the zombies, but they deal AOE damage within a pretty large radius. Bomb Tower has a pretty large radius, being useful to damage the zombies and players before they reach your base.
 

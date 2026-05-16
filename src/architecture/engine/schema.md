@@ -1,3 +1,17 @@
+---
+title: Schemas - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        There are hard-coded schemas for buildings, spells, entities and items
+        in the client.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        There are hard-coded schemas for buildings, spells, entities and items
+        in the client.
+---
 # Schemas
 
 There are hard-coded schemas for buildings, spells, entities and items in the client.
@@ -107,4 +121,4 @@ Raw schema: [spells.json](/asset/architecture/engine/schema/spells.json)
 
 ## Server-served Schemas
 
-<!--@include: ./main/network.md{485,516}-->
+<!--@include: ./main/network.md{501,532}-->

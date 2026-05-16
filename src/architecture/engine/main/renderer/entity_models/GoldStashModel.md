@@ -1,3 +1,6 @@
+---
+title: GoldStashModel - zombs.io Wiki
+---
 # `GoldStashModel`
 
 <img src="/asset/image/ui/entities/entities-gold-stash.svg" style="float: right; width: 128px; margin-top: -50px;" />

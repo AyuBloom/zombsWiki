@@ -1,3 +1,19 @@
+---
+title: UiReconnect - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiReconnect class displays a reconnection overlay when the player
+        loses connection to the server. It shows a loading spinner and a message
+        indicating that reconnection is being attempted.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiReconnect class displays a reconnection overlay when the player
+        loses connection to the server. It shows a loading spinner and a message
+        indicating that reconnection is being attempted.
+---
 
 # `UiReconnect`
 

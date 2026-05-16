@@ -1,3 +1,17 @@
+---
+title: Common Terms - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        As a community, people are bound to create terms to refer to familiar
+        concepts. This article contains tables of well known terms / slangs.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        As a community, people are bound to create terms to refer to familiar
+        concepts. This article contains tables of well known terms / slangs.
+---
 # Common Terms
 
 As a community, people are bound to create terms to refer to familiar concepts. This article contains tables of well known terms / slangs.

@@ -1,3 +1,19 @@
+---
+title: UiAnnouncementOverlay - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiAnnouncementOverlay class displays temporary announcement messages
+        on the HUD. Announcements are shown for 8 seconds before being
+        automatically removed.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiAnnouncementOverlay class displays temporary announcement messages
+        on the HUD. Announcements are shown for 8 seconds before being
+        automatically removed.
+---
 
 # `UiAnnouncementOverlay`
 

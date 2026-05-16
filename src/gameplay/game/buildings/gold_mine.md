@@ -1,3 +1,6 @@
+---
+title: Gold Mine - zombs.io Wiki
+---
 # Gold Mine
 **Gold mine** is a type of Building. It doesn't deal damage or used to defend your base, but it is used to generate gold for you and your party members, which can allow you to upgrade your items, your base and refuel harvesters.
 

@@ -1,3 +1,6 @@
+---
+title: GoldMineModel - zombs.io Wiki
+---
 # `GoldMineModel`
 
 <img src="/asset/image/ui/entities/entities-gold-mine.svg" style="float: right; width: 128px; margin-top: -50px;" />

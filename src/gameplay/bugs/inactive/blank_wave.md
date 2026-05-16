@@ -1,3 +1,6 @@
+---
+title: Blank Wave - zombs.io Wiki
+---
 # Blank Wave
 
 ## Phenomenon

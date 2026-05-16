@@ -1,3 +1,21 @@
+---
+title: UiSpellIcons - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiSpellIcons class renders the spell/utility icon bar containing the
+        "Heal Towers" spell and the "Timeout" utility item. It handles casting
+        spells, buying the Pause item, animated cooldown overlays, and tooltip
+        display with resource costs.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiSpellIcons class renders the spell/utility icon bar containing the
+        "Heal Towers" spell and the "Timeout" utility item. It handles casting
+        spells, buying the Pause item, animated cooldown overlays, and tooltip
+        display with resource costs.
+---
 
 # `UiSpellIcons`
 

@@ -1,3 +1,21 @@
+---
+title: UiSpellOverlay - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiSpellOverlay class manages the spell casting preview. When a spell
+        is being cast, it renders a SpellIndicatorModel (circular range
+        indicator) that follows the mouse cursor, and handles the actual spell
+        casting via RPC.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiSpellOverlay class manages the spell casting preview. When a spell
+        is being cast, it renders a SpellIndicatorModel (circular range
+        indicator) that follows the mouse cursor, and handles the actual spell
+        casting via RPC.
+---
 
 # `UiSpellOverlay`
 

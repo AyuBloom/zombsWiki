@@ -1,3 +1,23 @@
+---
+title: inputManager - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The InputManager class is responsible for handling raw DOM input events
+        (keyboard and mouse) and emitting them as internal engine events used by
+        other components, such as InputPacketCreator. It tracks the state of
+        keys and mouse buttons and is integrated with the game's network
+        lifecycle.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The InputManager class is responsible for handling raw DOM input events
+        (keyboard and mouse) and emitting them as internal engine events used by
+        other components, such as InputPacketCreator. It tracks the state of
+        keys and mouse buttons and is integrated with the game's network
+        lifecycle.
+---
 # `inputManager`
 
 The `InputManager` class is responsible for handling raw DOM input events (keyboard and mouse) and emitting them as internal engine events used by other components, such as `InputPacketCreator`. It tracks the state of keys and mouse buttons and is integrated with the game's network lifecycle.

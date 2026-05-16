@@ -1,3 +1,13 @@
+---
+title: Disconnection Triggers - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: 'Related: network'
+  - - meta
+    - name: 'og:description'
+      content: 'Related: network'
+---
 # Disconnection Triggers
 
 Related: [`network`](/architecture/engine/main/network)

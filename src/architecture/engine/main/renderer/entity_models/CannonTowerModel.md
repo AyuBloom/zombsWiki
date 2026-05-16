@@ -1,3 +1,6 @@
+---
+title: CannonTowerModel - zombs.io Wiki
+---
 # `CannonTowerModel`
 
 <img src="/asset/image/ui/entities/entities-cannon-tower.svg" style="float: right; width: 128px; margin-top: -50px;" />

@@ -1,3 +1,6 @@
+---
+title: Harvester - zombs.io Wiki
+---
 # Harvester
 **Resource Harvester** is a type of building. It doesn't attack or defend the base, but it is used to harvest resources, such as wood and stone for the player. It must be placed next to a tree or rock, or both of them to be able to collect resources. It needs gold as fuel to start the harvesting process. You can collect the resources either by using the in game hud, or simply hit it with your pickaxe/spear.
 

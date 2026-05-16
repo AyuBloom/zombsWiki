@@ -1,3 +1,6 @@
+---
+title: Carl healing - zombs.io Wiki
+---
 # Carl healing
 
 ## Phenomenon

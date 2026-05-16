@@ -1,3 +1,19 @@
+---
+title: UiPopupOverlay - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiPopupOverlay class manages popup notifications and confirmation
+        dialogs. Popups are stacked vertically, automatically dismissed after a
+        timeout, and support optional icons.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiPopupOverlay class manages popup notifications and confirmation
+        dialogs. Popups are stacked vertically, automatically dismissed after a
+        timeout, and support optional icons.
+---
 
 # `UiPopupOverlay`
 

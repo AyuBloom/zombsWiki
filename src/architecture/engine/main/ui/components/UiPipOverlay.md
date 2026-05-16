@@ -1,3 +1,19 @@
+---
+title: UiPipOverlay - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiPipOverlay class renders floating "pip" indicators above entities
+        — resource gain/loss numbers and damage numbers. Pips briefly appear at
+        the entity's screen position and auto-remove after 500ms.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiPipOverlay class renders floating "pip" indicators above entities
+        — resource gain/loss numbers and damage numbers. Pips briefly appear at
+        the entity's screen position and auto-remove after 500ms.
+---
 
 # `UiPipOverlay`
 

@@ -1,3 +1,6 @@
+---
+title: Tower Heal - zombs.io Wiki
+---
 # Tower Heal
 
 ## Phenomenon

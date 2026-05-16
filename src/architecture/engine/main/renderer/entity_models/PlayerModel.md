@@ -1,3 +1,6 @@
+---
+title: PlayerModel - zombs.io Wiki
+---
 # `PlayerModel`
 
 <img src="/asset/image/ui/entities/lilbowtie.svg" style="float: right; width: 192px; height: 136px;margin-top: -25px;" />

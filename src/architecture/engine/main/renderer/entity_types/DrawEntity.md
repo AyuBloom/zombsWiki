@@ -1,3 +1,19 @@
+---
+title: DrawEntity - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The DrawEntity class extends the base Entity class and uses a
+        PIXI.Graphics object to provide primitive shape rendering capabilities,
+        such as drawing triangles, circles, rectangles, and ellipses.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The DrawEntity class extends the base Entity class and uses a
+        PIXI.Graphics object to provide primitive shape rendering capabilities,
+        such as drawing triangles, circles, rectangles, and ellipses.
+---
 # `DrawEntity`
 
 The `DrawEntity` class extends the base `Entity` class and uses a `PIXI.Graphics` object to provide primitive shape rendering capabilities, such as drawing triangles, circles, rectangles, and ellipses.

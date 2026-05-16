@@ -1,3 +1,21 @@
+---
+title: UiPartyIcons - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiPartyIcons class renders the party member icons on the HUD — four
+        slots showing the first two characters of each member's name, with
+        leader highlighting. Clicking any icon opens the Party menu to the
+        Members tab. Tooltips show the member's full (sanitized) name and role.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiPartyIcons class renders the party member icons on the HUD — four
+        slots showing the first two characters of each member's name, with
+        leader highlighting. Clicking any icon opens the Party menu to the
+        Members tab. Tooltips show the member's full (sanitized) name and role.
+---
 
 # `UiPartyIcons`
 

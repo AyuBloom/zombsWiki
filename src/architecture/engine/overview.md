@@ -1,3 +1,6 @@
+---
+title: Engine Overview - zombs.io Wiki
+---
 # Engine Overview
 
 ::: tip Quick Navigation
@@ -22,59 +25,59 @@ There are 3 types of things inside the `game` object:
 
 ### `ui`
 Class: `Ui` <Badge type="tip" text="public" />
-<!--@include: ./main/ui/ui.md{2,4}-->
+<!--@include: ./main/ui/ui.md{18,20}-->
 
 > See also: [UI Styles](/architecture/engine/main/ui/styles) for the shared CSS design system (buttons, tooltips, layout grid, state classes, and asset selectors).
 
 ### `world`
 Class: `World` <Badge type="tip" text="public" />
-<!--@include: ./main/world/world.md{2,4}-->
+<!--@include: ./main/world/world.md{20,22}-->
 
 ### `network`
 Class: Game/`Network` <Badge type="danger" text="private" />
-<!--@include: ./main/network.md{2,4}-->
+<!--@include: ./main/network.md{18,20}-->
 
 > See also: [_MakeBlendField](/architecture/engine/mbf/overview) for the anti-bot mechanism.
 
 ### `renderer`
 Class: Game/`Renderer` <Badge type="danger" text="private" />
-<!--@include: ./main/renderer/renderer.md{2,4}-->
+<!--@include: ./main/renderer/renderer.md{18,20}-->
 
 ### Input
 
 #### `inputManager`
 Class: `InputManager` <Badge type="tip" text="public" />
-<!--@include: ./main/input/inputManager.md{2,4}-->
+<!--@include: ./main/input/inputManager.md{22,24}-->
 
 #### `inputPacketCreator`
 Class: `InputPacketCreator` <Badge type="tip" text="public" />
-<!--@include: ./main/input/inputPacketCreator.md{2,4}-->
+<!--@include: ./main/input/inputPacketCreator.md{20,22}-->
 
 #### `inputPacketScheduler`
 Class: `InputPacketScheduler` <Badge type="tip" text="public" />
-<!--@include: ./main/input/inputPacketScheduler.md{2,4}-->
+<!--@include: ./main/input/inputPacketScheduler.md{22,24}-->
 
 ## Utility Components
 
 ### `assetManager`
 Class: `AssetManager` <Badge type="tip" text="public" />
-<!--@include: ./utils/assetManager.md{2,4}-->
+<!--@include: ./utils/assetManager.md{16,18}-->
 
 ### `debug`
 Class: `Debug` <Badge type="tip" text="public" />
-<!--@include: ./utils/debug.md{2,4}-->
+<!--@include: ./utils/debug.md{20,22}-->
 
 ### `metrics`
 Class: `Metrics` <Badge type="tip" text="public" />
-<!--@include: ./utils/metrics.md{2,4}-->
+<!--@include: ./utils/metrics.md{18,20}-->
 
 ### `platform`
 Class: `Platform` <Badge type="tip" text="public" />
-<!--@include: ./utils/platform.md{2,4}-->
+<!--@include: ./utils/platform.md{12,14}-->
 
 ### `util`
 Class: `util` <Badge type="danger" text="private" /> (not accessible)
-<!--@include: ./utils/util.md{2,4}-->
+<!--@include: ./utils/util.md{16,18}-->
 
 ## Schemas
 

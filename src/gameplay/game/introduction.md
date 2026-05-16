@@ -1,3 +1,6 @@
+---
+title: Introduction - zombs.io Wiki
+---
 # Introduction
 
 ::: warning

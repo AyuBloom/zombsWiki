@@ -1,3 +1,23 @@
+---
+title: UiShopPetItem - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiShopPetItem class extends UiShopItem to handle pet-type shop
+        items. It adds pet-specific features: equip/revive/evolve actions,
+        XP/level tracking, evolution level requirements, social media unlock
+        flows (Twitter share + Facebook share for PetCARL, YouTube subscribe for
+        PetMiner), and a "Coming Soon" placeholder.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiShopPetItem class extends UiShopItem to handle pet-type shop
+        items. It adds pet-specific features: equip/revive/evolve actions,
+        XP/level tracking, evolution level requirements, social media unlock
+        flows (Twitter share + Facebook share for PetCARL, YouTube subscribe for
+        PetMiner), and a "Coming Soon" placeholder.
+---
 
 # `UiShopPetItem`
 

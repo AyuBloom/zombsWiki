@@ -1,3 +1,6 @@
+---
+title: Slow Trap - zombs.io Wiki
+---
 # Slow Trap
 **Slow Traps** are a type of building. They do not attack zombies, but they slow them down. They're not immune to damage, so they will get destroyed if zombies keep walking through them.
 

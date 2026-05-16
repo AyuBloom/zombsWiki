@@ -1,3 +1,19 @@
+---
+title: PlacementIndicatorModel - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        A model entity used to visually indicate whether a building can be
+        placed at a specific location, typically displaying a red square when
+        the location is occupied or invalid.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        A model entity used to visually indicate whether a building can be
+        placed at a specific location, typically displaying a red square when
+        the location is occupied or invalid.
+---
 # `PlacementIndicatorModel`
 
 A model entity used to visually indicate whether a building can be placed at a specific location, typically displaying a red square when the location is occupied or invalid.

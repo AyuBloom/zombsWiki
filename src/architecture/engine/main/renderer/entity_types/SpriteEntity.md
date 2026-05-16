@@ -1,3 +1,19 @@
+---
+title: SpriteEntity - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The SpriteEntity class extends Entity to render 2D images. It wraps a
+        standard PIXI.Sprite or a PIXI.extras.TilingSprite for repeating
+        patterns.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The SpriteEntity class extends Entity to render 2D images. It wraps a
+        standard PIXI.Sprite or a PIXI.extras.TilingSprite for repeating
+        patterns.
+---
 # `SpriteEntity`
 
 The `SpriteEntity` class extends `Entity` to render 2D images. It wraps a standard `PIXI.Sprite` or a `PIXI.extras.TilingSprite` for repeating patterns.

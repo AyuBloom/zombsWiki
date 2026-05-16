@@ -1,3 +1,17 @@
+---
+title: assetManager - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The assetManager class is simple: it is an abstraction over pixi.js's
+        asset loader and provides preloaded models.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The assetManager class is simple: it is an abstraction over pixi.js's
+        asset loader and provides preloaded models.
+---
 # `assetManager`
 
 The `assetManager` class is simple: it is an abstraction over `pixi.js`'s asset loader and provides preloaded models.

@@ -1,3 +1,6 @@
+---
+title: Tower Buff - zombs.io Wiki
+---
 # Tower Buff
 
 ## Phenomenon

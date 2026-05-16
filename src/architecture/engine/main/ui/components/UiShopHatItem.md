@@ -1,3 +1,21 @@
+---
+title: UiShopHatItem - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiShopHatItem class extends UiShopItem to handle hat-type shop
+        items. It adds equip functionality, social media unlock flows (Twitter
+        follow + Facebook like for HatHorns), and a "Coming Soon" placeholder
+        state.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiShopHatItem class extends UiShopItem to handle hat-type shop
+        items. It adds equip functionality, social media unlock flows (Twitter
+        follow + Facebook like for HatHorns), and a "Coming Soon" placeholder
+        state.
+---
 
 # `UiShopHatItem`
 

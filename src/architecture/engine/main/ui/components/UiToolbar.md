@@ -1,3 +1,21 @@
+---
+title: UiToolbar - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiToolbar class renders the bottom HUD toolbar containing inventory
+        items (weapons/utilities) and building placement buttons. It delegates
+        to UiToolbarItem for inventory items and UiToolbarBuilding for
+        buildings.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiToolbar class renders the bottom HUD toolbar containing inventory
+        items (weapons/utilities) and building placement buttons. It delegates
+        to UiToolbarItem for inventory items and UiToolbarBuilding for
+        buildings.
+---
 
 # `UiToolbar`
 

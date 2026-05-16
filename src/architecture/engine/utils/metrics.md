@@ -1,3 +1,19 @@
+---
+title: Metrics - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The Metrics class is responsible for collecting and reporting
+        performance data to the server. It tracks various indicators such as
+        FPS, ping, and client-side lag.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The Metrics class is responsible for collecting and reporting
+        performance data to the server. It tracks various indicators such as
+        FPS, ping, and client-side lag.
+---
 # Metrics
 
 The `Metrics` class is responsible for collecting and reporting performance data to the server. It tracks various indicators such as FPS, ping, and client-side lag.

@@ -1,3 +1,21 @@
+---
+title: world - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The world component is responsible for managing the game world state,
+        including all networked entities, the local player, and the replication
+        system. It handles entity creation, updates, and removal through object
+        pooling, and synchronizes world state with the renderer each tick.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The world component is responsible for managing the game world state,
+        including all networked entities, the local player, and the replication
+        system. It handles entity creation, updates, and removal through object
+        pooling, and synchronizes world state with the renderer each tick.
+---
 # `world`
 
 The `world` component is responsible for managing the game world state, including all networked entities, the local player, and the replication system. It handles entity creation, updates, and removal through object pooling, and synchronizes world state with the renderer each tick.

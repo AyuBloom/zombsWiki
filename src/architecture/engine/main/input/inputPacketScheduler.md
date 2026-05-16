@@ -1,3 +1,23 @@
+---
+title: inputPacketScheduler - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The InputPacketScheduler class manages the timing and delivery of input
+        packets to the server by acting as a buffer between InputPacketCreator
+        and NetworkAdapter. It ensures that input data is not sent faster than
+        the server's tick rate (50ms+), providing a more consistent and
+        synchronized input stream.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The InputPacketScheduler class manages the timing and delivery of input
+        packets to the server by acting as a buffer between InputPacketCreator
+        and NetworkAdapter. It ensures that input data is not sent faster than
+        the server's tick rate (50ms+), providing a more consistent and
+        synchronized input stream.
+---
 # `inputPacketScheduler`
 
 The `InputPacketScheduler` class manages the timing and delivery of input packets to the server by acting as a buffer between `InputPacketCreator` and `NetworkAdapter`. It ensures that input data is not sent faster than the server's tick rate (50ms+), providing a more consistent and synchronized input stream.

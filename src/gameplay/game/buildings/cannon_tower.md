@@ -1,3 +1,6 @@
+---
+title: Cannon Tower - zombs.io Wiki
+---
 # Cannon Tower
 **Cannon Tower** is a type of Tower. It has a medium range, good firerate and knockback, being able to knockback multiple zombies. It also deals AOE damage.
 

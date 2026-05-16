@@ -1,3 +1,21 @@
+---
+title: UiRespawn - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiRespawn class manages the death/respawn screen. It is shown when
+        the player or their Gold Stash dies, displaying the cause, final
+        wave/score, social share buttons (Twitter/Facebook), and a respawn
+        button. It also manages a medrec ad unit.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiRespawn class manages the death/respawn screen. It is shown when
+        the player or their Gold Stash dies, displaying the cause, final
+        wave/score, social share buttons (Twitter/Facebook), and a respawn
+        button. It also manages a medrec ad unit.
+---
 
 # `UiRespawn`
 

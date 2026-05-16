@@ -1,3 +1,17 @@
+---
+title: UiMap - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiMap class renders a minimap showing the positions of party member
+        players and player-owned buildings relative to the world dimensions.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiMap class renders a minimap showing the positions of party member
+        players and player-owned buildings relative to the world dimensions.
+---
 
 # `UiMap`
 

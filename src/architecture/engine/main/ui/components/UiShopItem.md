@@ -1,3 +1,21 @@
+---
+title: UiShopItem - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiShopItem class is the base shop item component used for Weapon,
+        Armor, and Utility items. It displays the item's name, current/next tier
+        stats, cost, and handles purchase clicks. It serves as the parent class
+        for UiShopHatItem and UiShopPetItem.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiShopItem class is the base shop item component used for Weapon,
+        Armor, and Utility items. It displays the item's name, current/next tier
+        stats, cost, and handles purchase clicks. It serves as the parent class
+        for UiShopHatItem and UiShopPetItem.
+---
 
 # `UiShopItem`
 

@@ -1,3 +1,6 @@
+---
+title: Door - zombs.io Wiki
+---
 # Door
 **Doors** are a type of building. They are like walls, but weaker. They also block all types of enemies and players, except the players belonging to the party that placed the doors. The doors appear slightly transparent to the party members, but fully opaque for the players outside the party.
 

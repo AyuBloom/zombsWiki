@@ -1,3 +1,6 @@
+---
+title: game - zombs.io Wiki
+---
 # `game`
 
 ## `Game` <Badge type="danger" text="private" />

@@ -1,3 +1,19 @@
+---
+title: RangeIndicatorModel - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        A model entity that visualizes the range of a tower or building,
+        displaying either a circular or rectangular gold region based on its
+        configuration.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        A model entity that visualizes the range of a tower or building,
+        displaying either a circular or rectangular gold region based on its
+        configuration.
+---
 # `RangeIndicatorModel`
 
 A model entity that visualizes the range of a tower or building, displaying either a circular or rectangular gold region based on its configuration.

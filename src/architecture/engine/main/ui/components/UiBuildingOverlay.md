@@ -1,3 +1,25 @@
+---
+title: UiBuildingOverlay - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The UiBuildingOverlay class renders a tooltip overlay on top of a
+        selected building, showing its tier, health bar, stats (current vs. next
+        tier), and action buttons for upgrading, selling, depositing, and
+        collecting. It supports an "Upgrade All" mode and attaches a
+        RangeIndicatorModel for buildings with range stats or for the Gold Stash
+        build radius.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The UiBuildingOverlay class renders a tooltip overlay on top of a
+        selected building, showing its tier, health bar, stats (current vs. next
+        tier), and action buttons for upgrading, selling, depositing, and
+        collecting. It supports an "Upgrade All" mode and attaches a
+        RangeIndicatorModel for buildings with range stats or for the Gold Stash
+        build radius.
+---
 
 # `UiBuildingOverlay`
 

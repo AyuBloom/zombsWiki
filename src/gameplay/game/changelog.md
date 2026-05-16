@@ -1,3 +1,6 @@
+---
+title: Changelog - zombs.io Wiki
+---
 # Changelog
 
 ::: warning

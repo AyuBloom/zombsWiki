@@ -1,3 +1,19 @@
+---
+title: Minor Bugs - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        This article contains some bugs that are not too impactful to the game,
+        but enough to cause some annoyance. These bugs were present at some
+        point in the game.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        This article contains some bugs that are not too impactful to the game,
+        but enough to cause some annoyance. These bugs were present at some
+        point in the game.
+---
 # Minor Bugs
 
 This article contains some bugs that are not too impactful to the game, but enough to cause some annoyance. These bugs were present at some point in the game.

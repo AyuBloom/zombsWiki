@@ -1,3 +1,17 @@
+---
+title: HealTowersSpellModel - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        A model entity representing the visual effects of the "Heal Towers"
+        spell, including the pulsing circle and floating heart particles.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        A model entity representing the visual effects of the "Heal Towers"
+        spell, including the pulsing circle and floating heart particles.
+---
 # `HealTowersSpellModel`
 
 A model entity representing the visual effects of the "Heal Towers" spell, including the pulsing circle and floating heart particles.

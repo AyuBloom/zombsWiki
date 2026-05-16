@@ -1,3 +1,21 @@
+---
+title: TowerModel - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        Base model for tower entities. Manages the visual representation of a
+        tower by composing a base sprite, a rotatable head sprite, and a health
+        bar. The model dynamically swaps its sprites when the tower's tier
+        changes.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        Base model for tower entities. Manages the visual representation of a
+        tower by composing a base sprite, a rotatable head sprite, and a health
+        bar. The model dynamically swaps its sprites when the tower's tier
+        changes.
+---
 # `TowerModel`
 
 Base model for tower entities. Manages the visual representation of a tower by composing a base sprite, a rotatable head sprite, and a health bar. The model dynamically swaps its sprites when the tower's tier changes.

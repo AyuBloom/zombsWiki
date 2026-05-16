@@ -1,3 +1,6 @@
+---
+title: Weird Zombie Spawning - zombs.io Wiki
+---
 # Weird Zombie Spawning
 
 ## Phenomenon

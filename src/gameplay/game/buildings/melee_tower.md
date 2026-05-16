@@ -1,3 +1,6 @@
+---
+title: Melee Tower - zombs.io Wiki
+---
 # Melee Tower
 **Melee Tower** is a type of Tower. It's different compared to other towers because it can only aim in one direction & has the shortest range. It doesn't shoot projectiles, but it stabs nearby zombies, dealing the highest damage of any tower. To rotate a Melee, click R.
 

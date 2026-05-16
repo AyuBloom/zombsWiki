@@ -1,3 +1,6 @@
+---
+title: Bugs Overview - zombs.io Wiki
+---
 # Bugs Overview
 
 ## Active Bugs

@@ -1,3 +1,6 @@
+---
+title: Disappearing Resources - zombs.io Wiki
+---
 
 # Disappearing Resources
 

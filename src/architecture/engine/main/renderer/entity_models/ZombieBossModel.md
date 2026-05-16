@@ -1,3 +1,13 @@
+---
+title: ZombieBossModel - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: Model implementation for the Boss Zombie.
+  - - meta
+    - name: 'og:description'
+      content: Model implementation for the Boss Zombie.
+---
 # `ZombieBossModel`
 
 Model implementation for the Boss Zombie.

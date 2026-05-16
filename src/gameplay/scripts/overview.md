@@ -1,3 +1,21 @@
+---
+title: Scripting - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        Scripting has been a core part withing the zombs.io community ever since
+        the absence of new game updates. Over the years, many new exploits have
+        been discovered by the community, giving way to new script functions
+        that, for many, have fundamentally changed how the game is played.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        Scripting has been a core part withing the zombs.io community ever since
+        the absence of new game updates. Over the years, many new exploits have
+        been discovered by the community, giving way to new script functions
+        that, for many, have fundamentally changed how the game is played.
+---
 # Scripting 
 
 Scripting has been a core part withing the zombs.io community ever since the absence of new game updates. Over the years, many new exploits have been discovered by the community, giving way to new script functions that, for many, have fundamentally changed how the game is played.

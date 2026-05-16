@@ -1,3 +1,25 @@
+---
+title: replicator - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        The Replication class drives client-side entity interpolation and
+        extrapolation. It maintains a queue of server ticks, advances a local
+        clock (shiftedGameTime) each renderer frame, and fires callbacks when
+        the client time crosses a tick boundary. It also tracks diagnostics such
+        as FPS, frame stutters, extrapolation incidents, and client-server time
+        desync.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        The Replication class drives client-side entity interpolation and
+        extrapolation. It maintains a queue of server ticks, advances a local
+        clock (shiftedGameTime) each renderer frame, and fires callbacks when
+        the client time crosses a tick boundary. It also tracks diagnostics such
+        as FPS, frame stutters, extrapolation incidents, and client-server time
+        desync.
+---
 # `replicator`
 
 The `Replication` class drives client-side entity interpolation and extrapolation. It maintains a queue of server ticks, advances a local clock (`shiftedGameTime`) each renderer frame, and fires callbacks when the client time crosses a tick boundary. It also tracks diagnostics such as FPS, frame stutters, extrapolation incidents, and client-server time desync.

@@ -1,14 +1,30 @@
+---
+title: Xeraphinite - zombs.io Wiki
+head:
+  - - meta
+    - name: description
+      content: >-
+        First ever public script by AyuBloom, with 4 themes (accent color +
+        intro background). It was intended by the creator to be minimal in
+        functions but provide decent Quality of Life improvements.
+  - - meta
+    - name: 'og:description'
+      content: >-
+        First ever public script by AyuBloom, with 4 themes (accent color +
+        intro background). It was intended by the creator to be minimal in
+        functions but provide decent Quality of Life improvements.
+---
 # Xeraphinite
+
+First ever public script by AyuBloom, with 4 themes (accent color + intro background). It was intended by the creator to be minimal in functions but provide decent Quality of Life improvements. The author has released a supposed sequel to the script, though its reception was not as good as the original, therefore it's not worth mentioning.
+
+## Overview
 
 - Author: AyuBloom / rdm
 - Date of release: 21-11-2021
 - Link: [GreasyFork](https://greasyfork.org/en/scripts/435632-xeraphinite-zombs-io)
 
 <ImageWithDescription image="/asset/gameplay/scripts/popular_scripts/xera/intro.png" description="Xeraphinite's intro screen with the default theme" />
-
-## Overview
-
-First ever public script by AyuBloom, with 4 themes (accent color + intro background). It was intended by the creator to be minimal in functions but provide decent Quality of Life improvements. The author has released a supposed sequel to the script, though its reception was not as good as the original, therefore it's not worth mentioning.
 
 ## Features
 
