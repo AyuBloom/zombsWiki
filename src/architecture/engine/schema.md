@@ -124,4 +124,4 @@ Raw schema: [spells.json](/asset/architecture/engine/schema/spells.json)
 
 ## Server-served Schemas
 
-<!--@include: ./main/network.md{504,535}-->
+<!--@include: ./main/network/BinCodec.md{208,239}-->

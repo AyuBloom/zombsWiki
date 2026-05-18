@@ -317,7 +317,27 @@ export default defineConfig({
                   },
                   {
                     text: "network",
-                    link: "/architecture/engine/main/network",
+                    items: [
+                      {
+                        text: "network",
+                        link: "/architecture/engine/main/network/network",
+                      },
+                      {
+                        text: "BinCodec",
+                        link: "/architecture/engine/main/network/BinCodec",
+                      },
+                      {
+                        text: "_MakeBlendField",
+                        items: [
+                          {
+                            text: "Overview",
+                            link: "/architecture/engine/main/network/mbf/overview",
+                          },
+                        ],
+                        collapsed: true,
+                      },
+                    ],
+                    collapsed: true,
                   },
                   {
                     text: "renderer",
@@ -503,16 +523,6 @@ export default defineConfig({
                     link: "/architecture/engine/utils/platform",
                   },
                   { text: "util", link: "/architecture/engine/utils/util" },
-                ],
-                collapsed: true,
-              },
-              {
-                text: "_MakeBlendField",
-                items: [
-                  {
-                    text: "Overview",
-                    link: "/architecture/engine/mbf/overview",
-                  },
                 ],
                 collapsed: true,
               },

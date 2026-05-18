@@ -44,6 +44,6 @@ As a community, people are bound to create terms to refer to familiar concepts. 
 | AITO | Auto Infinite TimeOut | Refers to a script function that allows the Timeout spell to be used every wave, making it possible to avoid zombies indefinitely. |
 | UTH | Upgrade Tower Health | Refers to a script function that automatically upgrades low health (usually below 15% health) tower(s) to the next tier. |
 | AB / ARB | Auto ReBuilder | Refers to a script function that automatically rebuilds dead towers in its old position. |
-| WASM | WebAssembly | Refers to the WebAssembly module that is a part of [`_MakeBlendField`](/architecture/engine/mbf/overview). |
+| WASM | WebAssembly | Refers to the WebAssembly module that is a part of [`_MakeBlendField`](/architecture/engine/main/network/mbf/overview). |
 | PT | Player Trick | Refers to a script that temporarily removes alts from the party before zombies spawn, then rejoins them later, increasing score gain for the remaining player. |
 | RPT | Reverse Player Trick | Refers to a script that does the opposite timing, causing alts to leave before zombies spawn and rejoin later, which reduces zombie spawns instead of boosting score. |

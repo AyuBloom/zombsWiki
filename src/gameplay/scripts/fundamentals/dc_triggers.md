@@ -6,14 +6,14 @@ head:
       content: Disconnection Triggers - zombs.io Wiki
   - - meta
     - name: description
-      content: 'Related: network'
+      content: List of all wrong actions a player can do that will result in being disconnected from the server.
   - - meta
     - property: 'og:description'
-      content: 'Related: network'
+      content: List of all wrong actions a player can do that will result in being disconnected from the server.
 ---
 # Disconnection Triggers
 
-Related: [`network`](/architecture/engine/main/network)
+Related: [`network`](/architecture/engine/main/network/network)
 
 Below is a list of all wrong actions a player can do that will result in being disconnected from the server.
 

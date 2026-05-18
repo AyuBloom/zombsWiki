@@ -24,7 +24,8 @@ A comprehensive list of data structures used in the engine.
 
 ## `network`
 
-<!--@include: ./main/network.md{368,500}-->
+<!--@include: ./main/network/network.md{214,303}-->
+<!--@include: ./main/network/BinCodec.md{162,204}-->
 
 ## `renderer`
 

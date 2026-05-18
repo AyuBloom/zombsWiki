@@ -35,9 +35,9 @@ Class: `World` <Badge type="tip" text="public" />
 
 ### `network`
 Class: Game/`Network` <Badge type="danger" text="private" />
-<!--@include: ./main/network.md{21,23}-->
+<!--@include: ./main/network/network.md{21,23}-->
 
-> See also: [_MakeBlendField](/architecture/engine/mbf/overview) for the anti-bot mechanism.
+> See also: [_MakeBlendField](/architecture/engine/main/network/mbf/overview) for the anti-bot mechanism.
 
 ### `renderer`
 Class: Game/`Renderer` <Badge type="danger" text="private" />
@@ -81,8 +81,8 @@ Class: `util` <Badge type="danger" text="private" /> (not accessible)
 
 ## Schemas
 
-See [Schemas](/architecture/engine/schema.md) for every schema documentation.
+See [Schemas](/architecture/engine/schema) for every schema documentation.
 
 ## Data Interfaces
 
-See [Data Interfaces](/architecture/engine/data_interfaces.md) for special data interfaces used in the engine.
+See [Data Interfaces](/architecture/engine/data_interfaces) for special data interfaces used in the engine.
