@@ -1,5 +1,15 @@
 ---
 title: BinCodec - zombs.io Wiki
+head:
+  - - meta
+    - property: 'og:title'
+      content: BinCodec - zombs.io Wiki
+  - - meta
+    - name: description
+      content: The BinCodec class handles the serialization and deserialization of game data into a compact binary format using ByteBuffer.
+  - - meta
+    - property: 'og:description'
+      content: The BinCodec class handles the serialization and deserialization of game data into a compact binary format using ByteBuffer.
 ---
 # `BinCodec`
 
