@@ -333,6 +333,10 @@ export default defineConfig({
                             text: "Overview",
                             link: "/architecture/engine/main/network/mbf/overview",
                           },
+                          {
+                            text: "Module",
+                            link: "/architecture/engine/main/network/mbf/Module",
+                          },
                         ],
                         collapsed: true,
                       },
