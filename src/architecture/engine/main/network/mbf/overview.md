@@ -27,7 +27,7 @@ The version of `zombs_wasm.wasm` this overview analyzes is from late 2024, which
 
 Zombs.io employs an original method to validate players via [Proof of Work](https://en.wikipedia.org/wiki/Proof_of_work) (PoW) challenges that the client has to solve in order to enter a server and maintain a connection. It is a measure to occupy RAM and CPU resources of the client and, therefore, increase multiboxing costs.
 
-The main algorithm of the PoW process is written in C++ and compiled into `zombs_wasm.wasm` with Emscripten. Reversing is very difficult due to the low-level nature of the [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly) (WASM) language it uses.  
+The main algorithm of the PoW process is written in C++ and compiled into `zombs_wasm.wasm` with [Emscripten](https://emscripten.org/). Reversing is very difficult due to the low-level nature of the [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly) (WASM) language it uses.  
 
 The core function `zombs_wasm.wasm` exposes is called `_MakeBlendField`. From now on, for convenience, `_MakeBlendField` will be referred to as MBF, and `PACKET_PRE_ENTER_WORLD`, `PACKET_ENTER_WORLD`, `PACKET_ENTER_WORLD2` and `PACKET_BLEND` will be accordingly referred to as opcode `5`, `4`, `6` and `10`.
 
@@ -82,7 +82,7 @@ An opcode `5` / `10` packet contains a 132-byte message, which can be represente
 
 This message can further be split into 3 parts: a 32-bit integer (4 bytes) and two 64-byte segments. 
 
-The first byte of the first 64-byte segment is used to determine the logic branch used for the challenge (`byte % <number of branches>`, 0-indexed), where each branch adopts a unique set of constants in various parts of the algorithm. After deobfuscating the integer with a specific formula, two important parameters of the challenge can be inferred: the last byte of the integer (`integer & 255`) is the difficulty of the challenge, which determines the rarity of the solution and the time it takes to find such solution; the first 2 bytes (`integer >>> 16`) is the size of the [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)-generated pool (in megabytes), which will later be filled using [Xorshift](https://en.wikipedia.org/wiki/Xorshift)-generated numbers and be used to retrieve a random byte value in later steps of the algorithm while actually occupying memory with its sheer size. For comparison, the difficulty is generally 17 for opcode `5` and 9-13 for opcode `10`, while the pool size is usually 128 megabytes.
+The first byte of the first 64-byte segment is used to determine the logic branch used for the challenge (`byte % <number of branches>`, 0-indexed), where each branch adopts a unique set of constants in various parts of the algorithm. After deobfuscating the integer with a specific formula, two important parameters of the challenge can be inferred: the first 2 bytes (in big-endian order) is the size of the [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)-generated pool (in megabytes), which will later be filled using [Xorshift](https://en.wikipedia.org/wiki/Xorshift)-generated numbers and be used to retrieve a random byte value in later steps of the algorithm while actually occupying memory with its sheer size; the last byte of the integer is the difficulty of the challenge, which determines the rarity of the solution and the time it takes to find such solution. For comparison, the pool size is usually 128 megabytes, while the difficulty is generally 17 for opcode `5` and 9-13 for opcode `10`. The third byte of the deobfuscated integer acts as a flag byte whose lowest bit is usually 0, but if it is 1, a heavy penalty of 100 will be added to the difficulty, causing the challenge to become virtually unsolvable.
 
 ::: info
 
@@ -115,13 +115,15 @@ The steps are described below (every array is a 0-indexed byte array):
 
 1. Randomly choose 2 bytes in the random pool and swap them.
 2. Pick another byte in the pool randomly and insert it into a random position of `random_buffer`.
-3. Set `random_buffer[10/11/12/13]` to `random_buffer[0/40/51/4] + random_buffer[23/25/50/45] + uid[0/1/2/3]` (`uid` is the player's uid expressed in a 32-bit integer) and `random_buffer[14/15/16/17]` to `random_buffer[41/22/35/39] ^ blend_field[0/1/2/3]`.
+3. Set `random_buffer[10/11/12/13]` to `random_buffer[0/40/51/4] + random_buffer[23/25/50/45] + uid[0/1/2/3]` (`uid` is the player's uid expressed in a 32-bit integer) and `random_buffer[14/15/16/17]` to `random_buffer[41/22/35/39] ^ blend_field[0/1/2/3]` (Here, `blend_field[0/1/2/3]` is from the `blend_field` of the first challenge the decoder has solved, usually from an opcode `5` packet).
 4. Hash the payload to generate a digest and validate it to check if it matches the criteria. The check is implemented as a leading-zero-bit test: the first `<difficulty>` bits of the digest must all be zero.
 5. If the digest meets the criteria, "mask" `random_buffer` by setting `random_buffer[i]` to `random_buffer[i] ^ mask[i % 20]` for every integer `i` in `[0, 64)`; otherwise repeat step 1. The masked array is the result sent by the client in the opcode 5/10 packet, such as this one shown below:
 
 ```js
 [212,153,0,149,244,56,73,26,178,35,28,213,168,24,168,171,98,149,44,184,17,8,186,240,133,97,240,60,19,240,248,28,116,101,177,105,164,25,88,23,107,205,198,51,106,126,26,249,169,143,150,119,251,252,183,90,184,78,110,34,190,129,82,87]
 ```
+
+The server's IPv4 address and `uid` is obtained from evaluating JavaScript-side runtime values through Emscripten features. The decoder also performs environment checks through this kind of runtime evaluation as a part of the anti-bot mechanism - if the responses fail to match the expected browser context and game state, difficulty might be increased. There is even a final page-state guard before the MBF response is sent: the module checks whether the in-game HUD element has been populated. On the normal zombs.io web client, this merely serves as a sanity check, but in an alternate or non-web environment, the produced response can be invalidated by extra shuffling before it is copied out. This makes MBF depend not only on the mathematical PoW loop, but also on enough surrounding client state to resemble the real game runtime.
 
 ## Bugs
 
@@ -131,6 +133,7 @@ When the zombs.io website client tries to connect to a server whose IPv4 address
 
 ## Trivia
 
+- The abbreviation "MBF" can be inferred from the first 3 bytes of the instantiated WASM memory.
 - When the client tries to decode an opcode `5` / `10` packet using an outdated `zombs_wasm.wasm` file, the client may freeze or throw an error because using the wrong deobfuscation formula might yield an unreasonably high difficulty or random pool size, and thus trigger an indefinite loop or a memory overflow.  
 - The term "0MB Wasm", often used by the zombs.io community, refers to custom MBF algorithms that significantly reduce RAM usage by limiting the size of the random pool. This can be achieved through either analyzing the logic and rebuilding the whole algorithm or directly manipulating `zombs_wasm.wasm` by editing its text format (`.wat`). However, the mathematical nature of PoW challenges causes a significant reduction in CPU usage and computing time to be highly unlikely. (Otherwise ez cryptocurrency mining :P)
 
