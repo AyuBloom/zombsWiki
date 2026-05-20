@@ -1,3 +1,6 @@
+---
+title: BinCodec - zombs.io Wiki
+---
 # `BinCodec`
 
 ## `BinCodec` <Badge type="danger" text="private" />
