@@ -28,10 +28,57 @@ The game's visual presentation is defined in a single `app.css` file (~3950 line
 | Property | Value |
 | :--- | :--- |
 | Font Family | `'Open Sans', sans-serif` |
-| Heading Font | `'Hammersmith One', sans-serif` |
 | Background | `#111` |
 | Box Sizing | `border-box` (all elements) |
 | User Select | Disabled globally |
+
+
+## Design Principles
+
+The visual identity of zombs.io is built around a distinct "arcade survival" aesthetic. Rather than using modern flat designs or heavy skeuomorphism, it implements a hybrid visual system combining high-contrast geometric typography, nested semi-transparent dark panels, and vibrant, bright gameplay indicators.
+
+### Typography & Readability
+Typography is split into two functional tracks: **HUD Game Interface Overlay** (for scores, hotkeys, status bars, and values) and **Text Content** (for settings, chat lists, inputs, and descriptions).
+- **Header/HUD Font**: `'Hammersmith One', sans-serif` is used exclusively for headers, HUD overlays (health values, resources, waves, leaderboard ranks), button labels, and keyboard key indicators. Its blocky, geometric form provides excellent readability at small sizes.
+- **Body/Content Font**: `'Open Sans', sans-serif` is used for descriptions, forms, inputs, settings labels, and general paragraphs.
+- **Readability Overlays**: Because the UI sits directly on top of a dynamic canvas containing active game entities, all text elements utilize high-contrast shadows to separate them from the map:
+- **Standard Text Shadow**: `text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4)` or `0 1px 0 rgba(0, 0, 0, 0.4)` is applied to white and semi-transparent text blocks.
+- **Simulated Text Borders**: Critical game-state numbers (such as building hotkeys `1-9` and floating damage/resource pips) use a full 4-direction stroke to ensure 100% legibility over any background color:
+```css
+text-shadow: 1px 1px #111, -1px 1px #111, 1px -1px #111, -1px -1px #111;
+```
+
+### Visual Containers & Hierarchy
+The interface establishes visual hierarchy by nesting transparent dark panels. This creates depth while maintaining situational awareness of the background game canvas.
+| Container Layer | Background Style | Usage / Components |
+| :--- | :--- | :--- |
+**HUD Overlays & Panels** | `rgba(0, 0, 0, 0.4)` | Map card, status bars, resource cards, tooltips, loading indicators. |
+**Modal Overlays & Screens** | `rgba(0, 0, 0, 0.6)` | Intro page overlay, reconnect panels, respawn screen, menu screens. |
+**Inner Grids & Lists** | `rgba(0, 0, 0, 0.2)` | Inner scrolling lists (settings grid, shop items, party members). |
+**Interactive Grid Slots** | `rgba(255, 255, 255, 0.1)` | Hoverable grid slots, building selection boxes, inventory items. |
+
+### Corner Rounding
+Rounded corners are strictly defined to keep the interface structured.
+- **Primary Panels & Controls (`4px`)**: The standard corner radius is `4px`. This is applied to all main panels, buttons (`.btn`), tooltips (`.hud-tooltip`), resource cards, status bars, and popup blocks.
+- **Nested Sub-components (`3px`)**: Inner bars, tab elements, and inner item slots use `3px` to fit neatly inside parent containers (e.g. `.hud-ticker-bar`, `.hud-health-bar-inner`, shop grid items, tab anchors).
+- **Circular Elements (`50%`)**: Pure circular radius is reserved for avatars (party index colors), minimap coordinate trackers, currency dots (gold/token circles), and the [loading spinner](#loading-spinner).
+
+### Interactivity & Transitions
+Tactile feedback is maintained through consistent transitions and shadows:
+- **Transitions**: All interactive elements (buttons, menu tabs, building slots, inventory slots) use a quick transition:
+```css
+transition: all 0.15s ease-in-out;
+```
+- **Shadow Depth (Elevation)**: Active inputs, buttons, and party tags utilize a subtle drop-shadow to lift them above the 2D grid:
+```css
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+```
+
+- **Disabled States**: Toggled by the locally-scoped `.is-disabled` classes, disabled interactions drop element opacity to 0.4 and override pointer events:
+```css
+opacity: 0.4 !important;
+cursor: not-allowed !important;
+```
 
 ## Layouts
 
@@ -98,16 +145,23 @@ The `.btn` class provides the base button styling. Color variants are applied as
 }
 ```
 
+::: info
+Buttons in zombs.io always use `.btn` as the base class, with color variants applied as modifier classes, eg. `btn btn-green`, `btn btn-blue`, ... 
+:::
+
+::: tip
+`.btn` can also be used as a secondary button when no color variant is applied.
+:::
+
 #### Color Variants
 
 | Class | Background | Hover | Usage |
 | :--- | :--- | :--- | :--- |
-| `.btn` | `#444` | `#555` | Default / generic actions |
-| `.btn-green` | `#47950d` | `#64b820` | Play, Upgrade, Equip |
-| `.btn-red` | `#b3353c` | `#cb575b` | Sell, Kick, Delete |
-| `.btn-blue` | `#1d8dee` | `#4fa7ee` | General actions |
-| `.btn-purple` | `#7237e4` | `#8259e4` | Deposit Harvester |
-| `.btn-gold` | `#bf6509` | `#bf7b3c` | Collect Harvester |
+| `.btn-green` | `#47950d` | `#64b820` | Primary (CTA) |
+| `.btn-red` | `#b3353c` | `#cb575b` | Destructive |
+| `.btn-blue` | `#1d8dee` | `#4fa7ee` | Tertiary variant #1 |
+| `.btn-purple` | `#7237e4` | `#8259e4` | Tertiary variant #2 |
+| `.btn-gold` | `#bf6509` | `#bf7b3c` | Tertiary variant #3 |
 
 #### Social Buttons
 
