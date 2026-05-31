@@ -339,6 +339,10 @@ export default defineConfig({
                             text: "Module",
                             link: "/architecture/engine/main/network/mbf/Module",
                           },
+                          {
+                            text: "In Depth Analysis",
+                            link: "/architecture/engine/main/network/mbf/in_depth",
+                          },
                         ],
                         collapsed: true,
                       },

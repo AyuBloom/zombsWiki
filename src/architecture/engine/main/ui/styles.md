@@ -32,7 +32,6 @@ The game's visual presentation is defined in a single `app.css` file (~3950 line
 | Box Sizing | `border-box` (all elements) |
 | User Select | Disabled globally |
 
-
 ## Design Principles
 
 The visual identity of zombs.io is built around a distinct "arcade survival" aesthetic. Rather than using modern flat designs or heavy skeuomorphism, it implements a hybrid visual system combining high-contrast geometric typography, nested semi-transparent dark panels, and vibrant, bright gameplay indicators.
