@@ -724,8 +724,52 @@ export default defineConfig({
                 text: "Fundamentals",
                 items: [
                   {
-                    text: "Disconnection Triggers",
+                    text: "Overview",
+                    link: "/gameplay/scripts/fundamentals/overview",
+                  },
+                  {
+                    text: "Script Setup",
+                    link: "/gameplay/scripts/fundamentals/script_setup",
+                  },
+                  {
+                    text: "The game Object",
+                    link: "/gameplay/scripts/fundamentals/game_object",
+                  },
+                  {
+                    text: "Network Basics",
+                    link: "/gameplay/scripts/fundamentals/network_basics",
+                  },
+                  {
+                    text: "RPC Reference",
+                    link: "/gameplay/scripts/fundamentals/rpc_reference",
+                  },
+                  {
+                    text: "Entity and World State",
+                    link: "/gameplay/scripts/fundamentals/entity_world_state",
+                  },
+                  {
+                    text: "Timing, Ticks, and Intervals",
+                    link: "/gameplay/scripts/fundamentals/timing",
+                  },
+                  {
+                    text: "Input and UI Automation",
+                    link: "/gameplay/scripts/fundamentals/input_ui",
+                  },
+                  {
+                    text: "Safety and Anti-Disconnect",
                     link: "/gameplay/scripts/fundamentals/dc_triggers",
+                  },
+                  {
+                    text: "Debugging Scripts",
+                    link: "/gameplay/scripts/fundamentals/debugging",
+                  },
+                  {
+                    text: "Script Structure and Best Practices",
+                    link: "/gameplay/scripts/fundamentals/best_practices",
+                  },
+                  {
+                    text: "Common Script Features",
+                    link: "/gameplay/scripts/fundamentals/common_features",
                   },
                 ],
                 collapsed: true,
